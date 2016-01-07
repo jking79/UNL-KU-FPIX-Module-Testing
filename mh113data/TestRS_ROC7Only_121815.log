@@ -1,0 +1,844 @@
+[14:02:54.781]     INFO: *** Welcome to pxar ***
+[14:02:54.781]     INFO: *** Today: 2015/12/18
+[14:02:54.794]     INFO: *** Version: prod-12
+[14:02:54.794]     INFO: readRocDacs: data/mh113//dacParameters35_C0.dat .. data/mh113//dacParameters35_C15.dat
+[14:02:54.795]     INFO: readTbmDacs: data/mh113//tbmParameters_C0a.dat .. data/mh113//tbmParameters_C0b.dat
+[14:02:54.795]     INFO: readMaskFile: data/mh113//defaultMaskFile.dat
+[14:02:54.795]     INFO: readTrimFile: data/mh113//trimParameters35_C0.dat .. data/mh113//trimParameters35_C15.dat
+[14:02:54.953]     INFO:         clk: 4
+[14:02:54.953]     INFO:         ctr: 4
+[14:02:54.953]     INFO:         sda: 19
+[14:02:54.953]     INFO:         tin: 9
+[14:02:54.953]     INFO:         level: 15
+[14:02:54.953]     INFO:         triggerdelay: 0
+[14:02:54.953]    QUIET: Instanciating API for pxar prod-12
+[14:02:54.953]     INFO: Log level: DEBUG
+[14:02:54.964]    QUIET: Connection to board DTB_WRPRHI opened.
+[14:02:54.967]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[14:02:54.970]     INFO: RPC call hashes of host and DTB match: 398089610
+[14:02:56.572]     INFO: DUT info: 
+[14:02:56.572]     INFO: The DUT currently contains the following objects:
+[14:02:56.572]     INFO:  2 TBM Cores tbm08c (2 ON)
+[14:02:56.572]     INFO: 	TBM Core alpha (0): 7 registers set
+[14:02:56.572]     INFO: 	TBM Core beta  (1): 7 registers set
+[14:02:56.572]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[14:02:56.572]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[14:02:56.573]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB3<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB4<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   savecaldelscan: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 100
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   cals: 1
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   caldello: 80
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelhi: 200
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelstep: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomplo: 70
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomphi: 130
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompstep: 5
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   noisypixels: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 255
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   cut: 0.5
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Cmd<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DAQ<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   trgnumber: 5
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqtrg: button
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   daqseconds: 5
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqseconds: button
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   vcalstep: 10
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[14:02:56.574]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixels: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixelthr: 200
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   runsecondshotpixels: 10
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   savetrimbits: checkbox(1)
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   maskuntrimmable: checkbox(1)
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 5
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/ttyS0
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   findtiming: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[14:02:56.575]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpoutputfile: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: Vcal
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 05
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 75
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: -1
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig/step: -1
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10000
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   notokenpass: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ignorereadback: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 8
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 240
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[14:02:56.576]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 33439744
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0xe58760
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0xe0bc40
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7fa3b5393010
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7fa3bb5fe510
+[14:02:56.579]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 33447936 fPxarMemory = 0x7fa3b5393010
+[14:02:56.580]    DEBUG: <pXar.cc/main:L223> Initial Analog Current: 377.8mA
+[14:02:56.581]    DEBUG: <pXar.cc/main:L224> Initial Digital Current: 742.8mA
+[14:02:56.581]    DEBUG: <pXar.cc/main:L225> Initial Module Temperature: 18.8 C
+[14:02:57.078]    DEBUG: <PixGui.cc/hvOn:L460> HV set On: 0x14543c0
+[14:02:57.143]    DEBUG: <PixTestFactory.cc/PixTestFactory:L53> PixTestFactory::PixTestFactory()
+[14:02:57.143]    DEBUG: <PixTestBBMap.cc/init:L79> PixTestBBMap::init()
+[14:02:57.143]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L27> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[14:02:57.149]    DEBUG: <PixTestBB2Map.cc/setParameter:L58> setting fTargetIa    = 24 mA/ROC
+[14:02:57.149]    DEBUG: <PixTestBB2Map.cc/init:L97> PixTestBB2Map::init()
+[14:02:57.149]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L29> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[14:02:57.165]    DEBUG: <PixTestBB3Map.cc/init:L81> PixTestBB3Map::init()
+[14:02:57.165]    DEBUG: <PixTestBB3Map.cc/PixTestBB3Map:L29> PixTestBB3Map ctor(PixSetup &a, string, TGTab *)
+[14:02:57.180]    DEBUG: <PixTestBB4Map.cc/init:L93> PixTestBB4Map::init()
+[14:02:57.180]    DEBUG: <PixTestBB4Map.cc/PixTestBB4Map:L26> PixTestMapeff ctor(PixSetup &a, string, TGTab *)
+[14:02:57.201]     INFO: PixTestCmd::init()
+[14:02:57.216]    DEBUG: <PixTestDaq.cc/init:L44> PixTestDaq::init()
+[14:02:57.216]    DEBUG: <PixTestDaq.cc/PixTestDaq:L22> PixTestDaq ctor(PixSetup &a, string, TGTab *)
+[14:02:57.217]     INFO: readGainPedestalParameters data/mh113//phCalibrationFitErr35_C0.dat .. data/mh113//phCalibrationFitErr35_C15.dat
+[14:02:57.459]    DEBUG: <PixTestDacDacScan.cc/init:L103> PixTestDacDacScan::init()
+[14:02:57.459]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L22> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[14:02:57.474]    DEBUG: <PixTestGainPedestal.cc/setParameter:L83> PixTestGainPedestal::PixTest() fVcalStep = 10
+[14:02:57.482]    DEBUG: <PixTestHighRate.cc/setParameter:L68>   setting fParTriggerFrequency -> 20
+[14:02:57.482]    DEBUG: <PixTestHighRate.cc/init:L198> PixTestHighRate::init()
+[14:02:57.482]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L31> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[14:02:57.508]    DEBUG: <PixTest.cc/setTestParameter:L637>  setting  ntrig to new value 10
+[14:02:57.509]    DEBUG: <PixTestPhOptimization.cc/setParameter:L37>   setting fParNtrig  ->10<- from sval = 10
+[14:02:57.509]    DEBUG: <PixTestPhOptimization.cc/setParameter:L42>   setting fSafetyMarginLow  ->20<- from sval = 20
+[14:02:57.509]    DEBUG: <PixTestPhOptimization.cc/setParameter:L48>   setting fVcalMax  ->100<- from sval = 100
+[14:02:57.509]    DEBUG: <PixTestPhOptimization.cc/setParameter:L53>   setting fQuantMax  ->0.98<- from sval = 0.98
+[14:02:57.515]    DEBUG: <PixTestAlive.cc/init:L77> PixTestAlive::init()
+[14:02:57.515]    DEBUG: <PixTestAlive.cc/PixTestAlive:L21> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[14:02:57.538]    DEBUG: <PixTestReadback.cc/setParameter:L172> fCalwVd set to 1
+[14:02:57.538]    DEBUG: <PixTestReadback.cc/init:L95> PixTestReadback::init()
+[14:02:57.538]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[14:02:57.538]     INFO: readReadbackCal: data/mh113//readbackCal_C0.dat .. data/mh113//readbackCal_C15.dat
+[14:02:57.548]    DEBUG: <PixTestScurves.cc/setParameter:L93> set fOutputFilename = 
+[14:02:57.556]    DEBUG: <PixTestTiming.cc/setParameter:L60> PixTestTiming::PixTest() targetclk = 4
+[14:02:57.556]    DEBUG: <PixTestTiming.cc/setParameter:L64> PixTestTiming::PixTest() ntrig = 10000
+[14:02:57.556]    DEBUG: <PixTestTiming.cc/setParameter:L48> fNoTokenPass: 0
+[14:02:57.556]    DEBUG: <PixTestTiming.cc/setParameter:L55> fIgnoreReadBack: 0
+[14:02:57.556]    DEBUG: <PixTestTiming.cc/init:L74> PixTestTiming::init()
+[14:02:57.575]    DEBUG: <PixTestXray.cc/init:L134> PixTestXray::init()
+[14:02:57.575]    DEBUG: <PixTestXray.cc/PixTestXray:L28> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[14:03:00.093]    DEBUG: <PixParTab.cc/updateParameters:L646> PixParTab::updateParameters: 
+[14:03:02.277]    DEBUG: <PixParTab.cc/handleButtons:L419> DESELECT ALL
+[14:03:03.749]    DEBUG: <PixParTab.cc/selectRoc:L681> selectRoc: ROC 8 selected
+[14:03:04.341]    DEBUG: <PixParTab.cc/selectRoc:L681> selectRoc: ROC 8 deselected
+[14:03:05.037]    DEBUG: <PixParTab.cc/selectRoc:L681> selectRoc: ROC 7 selected
+[14:03:57.430]     INFO: ######################################################################
+[14:03:57.430]     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[14:03:57.430]     INFO: ######################################################################
+[14:03:57.433]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[14:03:57.585]     INFO: Expecting 41600 events.
+[14:03:59.643]     INFO: 41600 events read in total (1340ms).
+[14:03:59.821]     INFO: Test took 2388ms.
+[14:03:59.821]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:03:59.821]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 4160
+[14:03:59.821]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists PixelAlive_C7 .. PixelAlive_C7
+[14:03:59.822]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L239> Number of bad pixels found: 0
+[14:03:59.822]    DEBUG: <PixTestPhOptimization.cc/doTest:L124> **********Ph range will be optimised on the whole ROC***********
+[14:03:59.822]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L276> ROC type is newer than digv2
+[14:03:59.823]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L277> ROC type is psi46digv21respin
+[14:03:59.823]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:00.146]     INFO: Expecting 41600 events.
+[14:04:02.208]     INFO: 41600 events read in total (1347ms).
+[14:04:02.209]     INFO: Test took 2386ms.
+[14:04:02.210]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:02.210]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4160
+[14:04:02.210]    DEBUG: <PixTest.cc/phMaps:L349> Create hists maxphmap_C7 .. maxphmap_C7
+[14:04:02.210]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 51.0091
+[14:04:02.210]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [20 ,6] phvalue 51
+[14:04:02.210]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L427> ROC type is newer than digv2
+[14:04:02.210]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L428> ROC type is psi46digv21respin
+[14:04:02.211]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=150, flag_minPh = 0, minph = 0
+[14:04:02.211]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:02.703]     INFO: Expecting 41600 events.
+[14:04:04.767]     INFO: 41600 events read in total (1349ms).
+[14:04:04.769]     INFO: Test took 2558ms.
+[14:04:04.769]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:04.769]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:04.769]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:04.770]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:04.770]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=155, flag_minPh = 1, minph = 0
+[14:04:04.770]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:05.263]     INFO: Expecting 41600 events.
+[14:04:07.328]     INFO: 41600 events read in total (1349ms).
+[14:04:07.329]     INFO: Test took 2559ms.
+[14:04:07.330]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:07.330]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:07.330]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:07.330]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:07.330]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=160, flag_minPh = 2, minph = 0
+[14:04:07.331]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:07.824]     INFO: Expecting 41600 events.
+[14:04:09.887]     INFO: 41600 events read in total (1348ms).
+[14:04:09.888]     INFO: Test took 2557ms.
+[14:04:09.889]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:09.889]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:09.889]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:09.889]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:09.889]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=165, flag_minPh = 3, minph = 0
+[14:04:09.890]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:10.382]     INFO: Expecting 41600 events.
+[14:04:12.448]     INFO: 41600 events read in total (1350ms).
+[14:04:12.449]     INFO: Test took 2559ms.
+[14:04:12.450]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:12.450]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:12.450]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:12.450]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:12.450]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=170, flag_minPh = 4, minph = 0
+[14:04:12.451]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:12.944]     INFO: Expecting 41600 events.
+[14:04:15.008]     INFO: 41600 events read in total (1349ms).
+[14:04:15.009]     INFO: Test took 2558ms.
+[14:04:15.010]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:15.010]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:15.010]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:15.010]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:15.010]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=175, flag_minPh = 5, minph = 0
+[14:04:15.011]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:15.503]     INFO: Expecting 41600 events.
+[14:04:17.568]     INFO: 41600 events read in total (1350ms).
+[14:04:17.569]     INFO: Test took 2558ms.
+[14:04:17.570]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:17.570]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:17.570]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:17.570]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:17.570]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=180, flag_minPh = 6, minph = 0
+[14:04:17.571]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:18.064]     INFO: Expecting 41600 events.
+[14:04:20.128]     INFO: 41600 events read in total (1349ms).
+[14:04:20.129]     INFO: Test took 2558ms.
+[14:04:20.130]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:20.130]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:20.130]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:20.130]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:20.130]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=185, flag_minPh = 7, minph = 0
+[14:04:20.131]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:20.623]     INFO: Expecting 41600 events.
+[14:04:22.686]     INFO: 41600 events read in total (1347ms).
+[14:04:22.687]     INFO: Test took 2556ms.
+[14:04:22.688]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:22.688]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:22.688]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:22.688]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:22.688]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=190, flag_minPh = 8, minph = 0
+[14:04:22.689]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:23.181]     INFO: Expecting 41600 events.
+[14:04:25.247]     INFO: 41600 events read in total (1351ms).
+[14:04:25.249]     INFO: Test took 2560ms.
+[14:04:25.249]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:25.249]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:25.249]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:25.250]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:25.250]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=195, flag_minPh = 9, minph = 0
+[14:04:25.250]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:25.741]     INFO: Expecting 41600 events.
+[14:04:27.805]     INFO: 41600 events read in total (1349ms).
+[14:04:27.807]     INFO: Test took 2557ms.
+[14:04:27.807]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:27.807]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:27.807]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:27.808]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:27.808]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=200, flag_minPh = 10, minph = 0
+[14:04:27.808]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:28.300]     INFO: Expecting 41600 events.
+[14:04:30.365]     INFO: 41600 events read in total (1350ms).
+[14:04:30.367]     INFO: Test took 2559ms.
+[14:04:30.367]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:30.367]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:30.367]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:30.368]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:30.368]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=205, flag_minPh = 11, minph = 0
+[14:04:30.368]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:30.861]     INFO: Expecting 41600 events.
+[14:04:32.927]     INFO: 41600 events read in total (1351ms).
+[14:04:32.929]     INFO: Test took 2561ms.
+[14:04:32.929]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:32.929]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:32.929]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:32.930]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:32.930]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=210, flag_minPh = 12, minph = 0
+[14:04:32.930]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:33.423]     INFO: Expecting 41600 events.
+[14:04:35.487]     INFO: 41600 events read in total (1349ms).
+[14:04:35.488]     INFO: Test took 2558ms.
+[14:04:35.489]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:35.489]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:35.489]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:35.489]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:35.489]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=215, flag_minPh = 13, minph = 0
+[14:04:35.490]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:35.984]     INFO: Expecting 41600 events.
+[14:04:38.050]     INFO: 41600 events read in total (1351ms).
+[14:04:38.051]     INFO: Test took 2561ms.
+[14:04:38.052]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:38.052]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:38.052]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:38.052]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:38.052]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=220, flag_minPh = 14, minph = 0
+[14:04:38.053]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:38.543]     INFO: Expecting 41600 events.
+[14:04:40.606]     INFO: 41600 events read in total (1348ms).
+[14:04:40.608]     INFO: Test took 2555ms.
+[14:04:40.609]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:40.609]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:40.609]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:40.610]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:40.610]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=225, flag_minPh = 15, minph = 0
+[14:04:40.610]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:41.102]     INFO: Expecting 41600 events.
+[14:04:43.168]     INFO: 41600 events read in total (1351ms).
+[14:04:43.169]     INFO: Test took 2559ms.
+[14:04:43.169]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:43.169]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:43.169]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:43.170]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:43.170]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=230, flag_minPh = 16, minph = 0
+[14:04:43.170]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:43.664]     INFO: Expecting 41600 events.
+[14:04:45.725]     INFO: 41600 events read in total (1346ms).
+[14:04:45.727]     INFO: Test took 2557ms.
+[14:04:45.727]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:45.727]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:45.727]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:45.728]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:45.728]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=235, flag_minPh = 17, minph = 0
+[14:04:45.728]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:46.220]     INFO: Expecting 41600 events.
+[14:04:48.285]     INFO: 41600 events read in total (1349ms).
+[14:04:48.286]     INFO: Test took 2558ms.
+[14:04:48.287]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:48.287]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:48.287]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:48.287]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:48.287]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=240, flag_minPh = 18, minph = 0
+[14:04:48.288]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:48.780]     INFO: Expecting 41600 events.
+[14:04:50.852]     INFO: 41600 events read in total (1357ms).
+[14:04:50.854]     INFO: Test took 2566ms.
+[14:04:50.854]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:50.854]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:50.854]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:50.855]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:50.855]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=245, flag_minPh = 19, minph = 0
+[14:04:50.855]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:51.347]     INFO: Expecting 41600 events.
+[14:04:53.412]     INFO: 41600 events read in total (1350ms).
+[14:04:53.413]     INFO: Test took 2558ms.
+[14:04:53.414]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:53.414]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:53.414]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:53.414]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:53.414]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=250, flag_minPh = 20, minph = 0
+[14:04:53.415]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:53.906]     INFO: Expecting 41600 events.
+[14:04:55.978]     INFO: 41600 events read in total (1357ms).
+[14:04:55.979]     INFO: Test took 2564ms.
+[14:04:55.980]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:55.980]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:04:55.980]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:55.980]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:55.980]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=255, flag_minPh = 21, minph = 0
+[14:04:55.981]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:56.474]     INFO: Expecting 41600 events.
+[14:04:58.539]     INFO: 41600 events read in total (1350ms).
+[14:04:58.540]     INFO: Test took 2559ms.
+[14:04:58.541]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:04:58.541]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4079
+[14:04:58.541]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:04:58.541]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:04:58.541]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=260, flag_minPh = 22, minph = 0
+[14:04:58.542]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:04:59.031]     INFO: Expecting 41600 events.
+[14:05:01.095]     INFO: 41600 events read in total (1348ms).
+[14:05:01.097]     INFO: Test took 2555ms.
+[14:05:01.097]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:01.097]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:01.097]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:01.097]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:01.098]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=265, flag_minPh = 23, minph = 0
+[14:05:01.098]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:01.590]     INFO: Expecting 41600 events.
+[14:05:03.670]     INFO: 41600 events read in total (1365ms).
+[14:05:03.672]     INFO: Test took 2574ms.
+[14:05:03.672]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:03.672]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:03.672]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:03.673]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:03.673]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=270, flag_minPh = 24, minph = 0
+[14:05:03.673]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:04.164]     INFO: Expecting 41600 events.
+[14:05:06.226]     INFO: 41600 events read in total (1347ms).
+[14:05:06.228]     INFO: Test took 2555ms.
+[14:05:06.228]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:06.228]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:06.228]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:06.229]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:06.229]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=275, flag_minPh = 25, minph = 0
+[14:05:06.229]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:06.721]     INFO: Expecting 41600 events.
+[14:05:08.786]     INFO: 41600 events read in total (1350ms).
+[14:05:08.787]     INFO: Test took 2558ms.
+[14:05:08.788]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:08.788]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:08.788]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:08.788]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:08.788]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=280, flag_minPh = 26, minph = 0
+[14:05:08.789]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:09.281]     INFO: Expecting 41600 events.
+[14:05:11.351]     INFO: 41600 events read in total (1355ms).
+[14:05:11.353]     INFO: Test took 2564ms.
+[14:05:11.353]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:11.353]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:11.353]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:11.354]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:11.354]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=285, flag_minPh = 27, minph = 0
+[14:05:11.354]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:11.845]     INFO: Expecting 41600 events.
+[14:05:13.905]     INFO: 41600 events read in total (1345ms).
+[14:05:13.906]     INFO: Test took 2552ms.
+[14:05:13.907]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:13.907]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:13.907]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:13.907]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:13.907]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=290, flag_minPh = 28, minph = 0
+[14:05:13.908]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:14.400]     INFO: Expecting 41600 events.
+[14:05:16.456]     INFO: 41600 events read in total (1341ms).
+[14:05:16.457]     INFO: Test took 2549ms.
+[14:05:16.458]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:16.458]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4079
+[14:05:16.458]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:16.458]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:16.458]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=295, flag_minPh = 29, minph = 0
+[14:05:16.459]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:16.951]     INFO: Expecting 41600 events.
+[14:05:19.019]     INFO: 41600 events read in total (1352ms).
+[14:05:19.021]     INFO: Test took 2562ms.
+[14:05:19.022]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:19.022]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:19.022]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:19.022]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:19.022]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=300, flag_minPh = 30, minph = 0
+[14:05:19.023]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:19.515]     INFO: Expecting 41600 events.
+[14:05:21.581]     INFO: 41600 events read in total (1351ms).
+[14:05:21.583]     INFO: Test took 2560ms.
+[14:05:21.583]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:21.583]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:21.583]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:21.584]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:21.584]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=305, flag_minPh = 31, minph = 0
+[14:05:21.584]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:22.075]     INFO: Expecting 41600 events.
+[14:05:24.130]     INFO: 41600 events read in total (1340ms).
+[14:05:24.131]     INFO: Test took 2547ms.
+[14:05:24.132]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:24.132]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:24.132]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:24.132]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:24.132]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=310, flag_minPh = 32, minph = 0
+[14:05:24.133]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:24.622]     INFO: Expecting 41600 events.
+[14:05:26.693]     INFO: 41600 events read in total (1355ms).
+[14:05:26.694]     INFO: Test took 2562ms.
+[14:05:26.695]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:26.695]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:26.695]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:26.695]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:26.695]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=315, flag_minPh = 33, minph = 0
+[14:05:26.696]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:27.187]     INFO: Expecting 41600 events.
+[14:05:29.256]     INFO: 41600 events read in total (1354ms).
+[14:05:29.258]     INFO: Test took 2562ms.
+[14:05:29.258]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:29.258]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:29.258]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:29.258]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:29.259]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=320, flag_minPh = 34, minph = 0
+[14:05:29.259]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:29.751]     INFO: Expecting 41600 events.
+[14:05:31.808]     INFO: 41600 events read in total (1341ms).
+[14:05:31.810]     INFO: Test took 2551ms.
+[14:05:31.810]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:31.810]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:31.810]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:31.811]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:31.811]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=325, flag_minPh = 35, minph = 0
+[14:05:31.811]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:32.304]     INFO: Expecting 41600 events.
+[14:05:34.376]     INFO: 41600 events read in total (1356ms).
+[14:05:34.377]     INFO: Test took 2566ms.
+[14:05:34.378]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:34.378]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:34.378]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:34.378]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:34.378]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=330, flag_minPh = 36, minph = 0
+[14:05:34.379]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:34.871]     INFO: Expecting 41600 events.
+[14:05:36.938]     INFO: 41600 events read in total (1351ms).
+[14:05:36.939]     INFO: Test took 2560ms.
+[14:05:36.940]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:36.940]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:36.940]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:36.940]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:36.940]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=335, flag_minPh = 37, minph = 0
+[14:05:36.941]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:37.433]     INFO: Expecting 41600 events.
+[14:05:39.498]     INFO: 41600 events read in total (1349ms).
+[14:05:39.499]     INFO: Test took 2558ms.
+[14:05:39.500]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:39.500]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:39.500]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:39.500]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:39.500]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=340, flag_minPh = 38, minph = 0
+[14:05:39.501]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:39.993]     INFO: Expecting 41600 events.
+[14:05:42.067]     INFO: 41600 events read in total (1358ms).
+[14:05:42.069]     INFO: Test took 2568ms.
+[14:05:42.069]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:42.069]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:42.069]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:42.070]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:42.070]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=345, flag_minPh = 39, minph = 0
+[14:05:42.070]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:42.557]     INFO: Expecting 41600 events.
+[14:05:44.617]     INFO: 41600 events read in total (1345ms).
+[14:05:44.619]     INFO: Test took 2549ms.
+[14:05:44.619]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:44.619]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:44.619]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:44.620]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:44.620]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=350, flag_minPh = 40, minph = 0
+[14:05:44.620]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:45.113]     INFO: Expecting 41600 events.
+[14:05:47.178]     INFO: 41600 events read in total (1350ms).
+[14:05:47.179]     INFO: Test took 2559ms.
+[14:05:47.180]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:47.180]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:47.180]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:47.180]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:47.180]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=355, flag_minPh = 41, minph = 0
+[14:05:47.181]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:47.674]     INFO: Expecting 41600 events.
+[14:05:49.738]     INFO: 41600 events read in total (1349ms).
+[14:05:49.741]     INFO: Test took 2560ms.
+[14:05:49.741]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:49.741]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:49.741]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:49.742]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:49.742]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=360, flag_minPh = 42, minph = 0
+[14:05:49.742]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:50.234]     INFO: Expecting 41600 events.
+[14:05:52.285]     INFO: 41600 events read in total (1337ms).
+[14:05:52.287]     INFO: Test took 2545ms.
+[14:05:52.287]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:52.287]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:52.288]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:52.288]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:52.288]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=365, flag_minPh = 43, minph = 0
+[14:05:52.289]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:52.781]     INFO: Expecting 41600 events.
+[14:05:54.837]     INFO: 41600 events read in total (1341ms).
+[14:05:54.838]     INFO: Test took 2549ms.
+[14:05:54.839]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:54.839]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:54.839]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:54.839]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:54.839]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=370, flag_minPh = 44, minph = 0
+[14:05:54.840]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:55.332]     INFO: Expecting 41600 events.
+[14:05:57.396]     INFO: 41600 events read in total (1348ms).
+[14:05:57.398]     INFO: Test took 2558ms.
+[14:05:57.398]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:57.398]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:57.398]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:57.398]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:57.399]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=375, flag_minPh = 45, minph = 0
+[14:05:57.399]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:05:57.892]     INFO: Expecting 41600 events.
+[14:05:59.928]     INFO: 41600 events read in total (1321ms).
+[14:05:59.929]     INFO: Test took 2530ms.
+[14:05:59.930]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:05:59.930]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:05:59.930]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:05:59.930]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:05:59.930]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=380, flag_minPh = 46, minph = 0
+[14:05:59.931]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:00.424]     INFO: Expecting 41600 events.
+[14:06:02.487]     INFO: 41600 events read in total (1348ms).
+[14:06:02.488]     INFO: Test took 2557ms.
+[14:06:02.489]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:02.489]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:02.489]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:02.489]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:02.489]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=385, flag_minPh = 47, minph = 0
+[14:06:02.490]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:02.982]     INFO: Expecting 41600 events.
+[14:06:05.046]     INFO: 41600 events read in total (1349ms).
+[14:06:05.047]     INFO: Test took 2557ms.
+[14:06:05.048]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:05.048]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:05.048]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:05.048]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:05.048]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=390, flag_minPh = 48, minph = 0
+[14:06:05.049]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:05.541]     INFO: Expecting 41600 events.
+[14:06:07.605]     INFO: 41600 events read in total (1349ms).
+[14:06:07.606]     INFO: Test took 2557ms.
+[14:06:07.607]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:07.607]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:07.607]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:07.607]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:07.607]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=395, flag_minPh = 49, minph = 0
+[14:06:07.608]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:08.100]     INFO: Expecting 41600 events.
+[14:06:10.163]     INFO: 41600 events read in total (1348ms).
+[14:06:10.164]     INFO: Test took 2556ms.
+[14:06:10.164]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:10.164]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:10.164]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:10.165]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:10.165]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=400, flag_minPh = 50, minph = 0
+[14:06:10.166]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:10.657]     INFO: Expecting 41600 events.
+[14:06:12.722]     INFO: 41600 events read in total (1350ms).
+[14:06:12.724]     INFO: Test took 2558ms.
+[14:06:12.724]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:12.724]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:12.724]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:12.725]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:12.725]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=405, flag_minPh = 51, minph = 0
+[14:06:12.725]    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[14:06:13.216]     INFO: Expecting 41600 events.
+[14:06:15.278]     INFO: 41600 events read in total (1346ms).
+[14:06:15.279]     INFO: Test took 2554ms.
+[14:06:15.280]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:06:15.280]    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 4080
+[14:06:15.280]    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C7 .. minphmap_C7
+[14:06:15.280]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[14:06:15.280]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L484> done. init_phScale=410, flag_minPh = 52, minph = 0minph_roc = 0
+[14:06:15.280]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 10.0351
+[14:06:15.280]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [3 ,12] phvalue 10
+[14:06:15.281]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 0, 0, 0 0
+[14:06:15.773]     INFO: Expecting 2560 events.
+[14:06:16.752]     INFO: 2560 events read in total (264ms).
+[14:06:16.752]     INFO: Test took 1471ms.
+[14:06:16.753]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[14:06:16.753]    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 32 on ROC7
+[14:06:16.754]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[14:06:17.261]     INFO: Expecting 655360 events.
+[14:06:30.043]     INFO: 655360 events read in total (12067ms).
+[14:06:30.064]     INFO: Test took 13310ms.
+[14:06:30.096]    ERROR: <api.cc/setDAC:L699> ROC@I2C 255 does not exist in the DUT!
+[14:06:30.096]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[14:06:30.401]     INFO: Expecting 655360 events.
+[14:06:43.158]     INFO: 655360 events read in total (12042ms).
+[14:06:43.184]     INFO: Test took 13088ms.

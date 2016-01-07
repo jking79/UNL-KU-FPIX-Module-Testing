@@ -1,0 +1,2090 @@
+[11:09:57.352] <TB0>     INFO: *** Welcome to pxar ***
+[11:09:57.353] <TB0>     INFO: *** Today: 2016/01/05
+[11:09:57.359] <TB0>     INFO: *** Version: c861-dirty
+[11:09:57.359] <TB0>     INFO: readRocDacs: /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C0.dat .. /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C15.dat
+[11:09:57.360] <TB0>     INFO: readTbmDacs: /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//tbmParameters_C0a.dat .. /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//tbmParameters_C0b.dat
+[11:09:57.360] <TB0>     INFO: readMaskFile: /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//defaultMaskFile.dat
+[11:09:57.360] <TB0>     INFO: readTrimFile: /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters_C0.dat .. /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters_C15.dat
+[11:09:57.435] <TB0>     INFO:         clk: 4
+[11:09:57.435] <TB0>     INFO:         ctr: 4
+[11:09:57.435] <TB0>     INFO:         sda: 19
+[11:09:57.435] <TB0>     INFO:         tin: 9
+[11:09:57.435] <TB0>     INFO:         level: 15
+[11:09:57.435] <TB0>     INFO:         triggerdelay: 0
+[11:09:57.435] <TB0>    QUIET: Instanciating API for pxar v2.6.1+43~g6e62df2
+[11:09:57.435] <TB0>     INFO: Log level: DEBUG
+[11:09:57.443] <TB0>     INFO: Found DTB DTB_WWXGRB
+[11:09:57.454] <TB0>    QUIET: Connection to board DTB_WWXGRB opened.
+[11:09:57.457] <TB0>     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    133
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WWXGRB
+MAC address: 40D855118085
+Hostname:    pixelDTB133
+Comment:     
+------------------------------------------------------
+[11:09:57.459] <TB0>     INFO: RPC call hashes of host and DTB match: 398089610
+[11:09:59.011] <TB0>     INFO: DUT info: 
+[11:09:59.011] <TB0>     INFO: The DUT currently contains the following objects:
+[11:09:59.011] <TB0>     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:09:59.011] <TB0>     INFO: 	TBM Core alpha (0): 7 registers set
+[11:09:59.011] <TB0>     INFO: 	TBM Core beta  (1): 7 registers set
+[11:09:59.011] <TB0>     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:09:59.011] <TB0>     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.011] <TB0>     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.012] <TB0>     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.012] <TB0>     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.012] <TB0>     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB3<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB4<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savecaldelscan: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 100
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   cals: 1
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldello: 80
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelhi: 200
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelstep: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomplo: 70
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomphi: 130
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompstep: 5
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   noisypixels: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 255
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   cut: 0.5
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Cmd<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcalstep: 10
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[11:09:59.012] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixels: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixelthr: 200
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runsecondshotpixels: 10
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savetrimbits: checkbox(1)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskuntrimmable: checkbox(1)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 2
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   findtiming: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpoutputfile: checkbox(0)
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac: Vcal
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: -1
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig/step: -1
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[11:09:59.013] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   notokenpass: checkbox(0)
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 8
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[11:09:59.014] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 32985088
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x1a143d0
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x198a770
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7f79cdd94010
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7f79d3fff510
+[11:09:59.018] <TB0>    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 33050624 fPxarMemory = 0x7f79cdd94010
+[11:09:59.019] <TB0>    DEBUG: <pXar.cc/main:L223> Initial Analog Current: 355.3mA
+[11:09:59.020] <TB0>    DEBUG: <pXar.cc/main:L224> Initial Digital Current: 467.1mA
+[11:09:59.020] <TB0>    DEBUG: <pXar.cc/main:L225> Initial Module Temperature: 14.7 C
+[11:09:59.020] <TB0>    DEBUG: <PixTestFactory.cc/PixTestFactory:L53> PixTestFactory::PixTestFactory()
+[11:09:59.421] <TB0>     INFO: enter 'restricted' command line mode
+[11:09:59.421] <TB0>     INFO: enter test to run
+[11:09:59.421] <TB0>     INFO:   test: FPIXTest no parameter change
+[11:09:59.421] <TB0>     INFO:   running: fpixtest
+[11:09:59.421] <TB0>    DEBUG: <PixTestFPIXTest.cc/init:L49> PixTestFPIXTest::init()
+[11:09:59.424] <TB0>    DEBUG: <PixTestFPIXTest.cc/PixTestFPIXTest:L20> PixTestFPIXTest ctor(PixSetup &a, string, TGTab *)
+[11:09:59.424] <TB0>     INFO: ######################################################################
+[11:09:59.424] <TB0>     INFO: PixTestFPIXTest::doTest()
+[11:09:59.424] <TB0>     INFO: ######################################################################
+[11:09:59.427] <TB0>     INFO: ######################################################################
+[11:09:59.427] <TB0>     INFO: PixTestPretest::doTest()
+[11:09:59.427] <TB0>     INFO: ######################################################################
+[11:09:59.430] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:09:59.430] <TB0>     INFO:    PixTestPretest::programROC() 
+[11:09:59.430] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:10:17.447] <TB0>     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[11:10:17.447] <TB0>     INFO: IA differences per ROC:  16.9 15.3 18.5 18.5 19.3 16.9 16.9 16.9 20.1 17.7 16.9 18.5 17.7 19.3 17.7 17.7
+[11:10:17.513] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:10:17.513] <TB0>     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[11:10:17.513] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:10:17.615] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L283> offset current from other 15 ROCs is 64.0312 mA
+[11:10:17.717] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 0 iter 0 Vana 78 Ia 21.9688 mA
+[11:10:17.818] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  1 Vana  90 Ia 24.3688 mA
+[11:10:17.919] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  2 Vana  89 Ia 24.3688 mA
+[11:10:18.020] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  3 Vana  88 Ia 24.3688 mA
+[11:10:18.120] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  4 Vana  87 Ia 24.3688 mA
+[11:10:18.221] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  5 Vana  86 Ia 24.3688 mA
+[11:10:18.321] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  6 Vana  85 Ia 23.5687 mA
+[11:10:18.422] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  7 Vana  88 Ia 24.3688 mA
+[11:10:18.523] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  8 Vana  87 Ia 24.3688 mA
+[11:10:18.624] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter  9 Vana  86 Ia 24.3688 mA
+[11:10:18.725] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter 10 Vana  85 Ia 23.5687 mA
+[11:10:18.826] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  0 iter 11 Vana  88 Ia 24.3688 mA
+[11:10:18.927] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 1 iter 0 Vana 78 Ia 21.1688 mA
+[11:10:19.028] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  1 Vana  95 Ia 24.3688 mA
+[11:10:19.129] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  2 Vana  94 Ia 24.3688 mA
+[11:10:19.229] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  3 Vana  93 Ia 23.5687 mA
+[11:10:19.330] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  4 Vana  96 Ia 24.3688 mA
+[11:10:19.430] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  5 Vana  95 Ia 24.3688 mA
+[11:10:19.531] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  6 Vana  94 Ia 24.3688 mA
+[11:10:19.632] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  7 Vana  93 Ia 24.3688 mA
+[11:10:19.732] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  8 Vana  92 Ia 23.5687 mA
+[11:10:19.833] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter  9 Vana  95 Ia 24.3688 mA
+[11:10:19.934] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter 10 Vana  94 Ia 23.5687 mA
+[11:10:20.035] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  1 iter 11 Vana  97 Ia 24.3688 mA
+[11:10:20.136] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 2 iter 0 Vana 78 Ia 24.3688 mA
+[11:10:20.238] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  1 Vana  77 Ia 23.5687 mA
+[11:10:20.338] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  2 Vana  80 Ia 24.3688 mA
+[11:10:20.439] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  3 Vana  79 Ia 23.5687 mA
+[11:10:20.540] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  4 Vana  82 Ia 25.1688 mA
+[11:10:20.640] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  5 Vana  76 Ia 22.7687 mA
+[11:10:20.741] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  6 Vana  83 Ia 24.3688 mA
+[11:10:20.842] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  7 Vana  82 Ia 25.1688 mA
+[11:10:20.943] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  8 Vana  76 Ia 22.7687 mA
+[11:10:21.043] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter  9 Vana  83 Ia 25.1688 mA
+[11:10:21.144] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter 10 Vana  77 Ia 23.5687 mA
+[11:10:21.245] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  2 iter 11 Vana  80 Ia 24.3688 mA
+[11:10:21.346] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 3 iter 0 Vana 78 Ia 23.5687 mA
+[11:10:21.447] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  1 Vana  81 Ia 25.1688 mA
+[11:10:21.548] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  2 Vana  75 Ia 22.7687 mA
+[11:10:21.649] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  3 Vana  82 Ia 24.3688 mA
+[11:10:21.749] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  4 Vana  81 Ia 25.1688 mA
+[11:10:21.851] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  5 Vana  75 Ia 22.7687 mA
+[11:10:21.951] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  6 Vana  82 Ia 24.3688 mA
+[11:10:22.052] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  7 Vana  81 Ia 24.3688 mA
+[11:10:22.153] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  8 Vana  80 Ia 24.3688 mA
+[11:10:22.254] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter  9 Vana  79 Ia 23.5687 mA
+[11:10:22.354] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter 10 Vana  82 Ia 25.1688 mA
+[11:10:22.455] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  3 iter 11 Vana  76 Ia 23.5687 mA
+[11:10:22.557] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 4 iter 0 Vana 78 Ia 24.3688 mA
+[11:10:22.657] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  1 Vana  77 Ia 23.5687 mA
+[11:10:22.758] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  2 Vana  80 Ia 24.3688 mA
+[11:10:22.859] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  3 Vana  79 Ia 24.3688 mA
+[11:10:22.959] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  4 Vana  78 Ia 23.5687 mA
+[11:10:23.060] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  5 Vana  81 Ia 25.1688 mA
+[11:10:23.161] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  6 Vana  75 Ia 23.5687 mA
+[11:10:23.261] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  7 Vana  78 Ia 23.5687 mA
+[11:10:23.362] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  8 Vana  81 Ia 25.1688 mA
+[11:10:23.463] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter  9 Vana  75 Ia 22.7687 mA
+[11:10:23.563] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter 10 Vana  82 Ia 25.1688 mA
+[11:10:23.664] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  4 iter 11 Vana  76 Ia 23.5687 mA
+[11:10:23.766] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 5 iter 0 Vana 78 Ia 21.9688 mA
+[11:10:23.866] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  1 Vana  90 Ia 24.3688 mA
+[11:10:23.967] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  2 Vana  89 Ia 24.3688 mA
+[11:10:24.068] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  3 Vana  88 Ia 24.3688 mA
+[11:10:24.168] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  4 Vana  87 Ia 24.3688 mA
+[11:10:24.269] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  5 Vana  86 Ia 23.5687 mA
+[11:10:24.370] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  6 Vana  89 Ia 24.3688 mA
+[11:10:24.470] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  7 Vana  88 Ia 24.3688 mA
+[11:10:24.571] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  8 Vana  87 Ia 24.3688 mA
+[11:10:24.671] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter  9 Vana  86 Ia 23.5687 mA
+[11:10:24.773] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter 10 Vana  89 Ia 24.3688 mA
+[11:10:24.873] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  5 iter 11 Vana  88 Ia 23.5687 mA
+[11:10:24.975] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 6 iter 0 Vana 78 Ia 21.9688 mA
+[11:10:25.075] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  1 Vana  90 Ia 24.3688 mA
+[11:10:25.176] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  2 Vana  89 Ia 23.5687 mA
+[11:10:25.277] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  3 Vana  92 Ia 24.3688 mA
+[11:10:25.378] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  4 Vana  91 Ia 24.3688 mA
+[11:10:25.479] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  5 Vana  90 Ia 24.3688 mA
+[11:10:25.579] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  6 Vana  89 Ia 24.3688 mA
+[11:10:25.680] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  7 Vana  88 Ia 23.5687 mA
+[11:10:25.781] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  8 Vana  91 Ia 24.3688 mA
+[11:10:25.881] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter  9 Vana  90 Ia 24.3688 mA
+[11:10:25.982] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter 10 Vana  89 Ia 23.5687 mA
+[11:10:26.084] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  6 iter 11 Vana  92 Ia 24.3688 mA
+[11:10:26.186] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 7 iter 0 Vana 78 Ia 21.9688 mA
+[11:10:26.286] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  1 Vana  90 Ia 24.3688 mA
+[11:10:26.388] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  2 Vana  89 Ia 24.3688 mA
+[11:10:26.488] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  3 Vana  88 Ia 24.3688 mA
+[11:10:26.589] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  4 Vana  87 Ia 24.3688 mA
+[11:10:26.690] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  5 Vana  86 Ia 24.3688 mA
+[11:10:26.791] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  6 Vana  85 Ia 24.3688 mA
+[11:10:26.891] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  7 Vana  84 Ia 23.5687 mA
+[11:10:26.992] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  8 Vana  87 Ia 24.3688 mA
+[11:10:27.093] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter  9 Vana  86 Ia 24.3688 mA
+[11:10:27.194] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter 10 Vana  85 Ia 23.5687 mA
+[11:10:27.295] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  7 iter 11 Vana  88 Ia 24.3688 mA
+[11:10:27.397] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 8 iter 0 Vana 78 Ia 25.1688 mA
+[11:10:27.498] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  1 Vana  72 Ia 23.5687 mA
+[11:10:27.599] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  2 Vana  75 Ia 24.3688 mA
+[11:10:27.700] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  3 Vana  74 Ia 24.3688 mA
+[11:10:27.800] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  4 Vana  73 Ia 23.5687 mA
+[11:10:27.901] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  5 Vana  76 Ia 24.3688 mA
+[11:10:27.002] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  6 Vana  75 Ia 24.3688 mA
+[11:10:28.103] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  7 Vana  74 Ia 24.3688 mA
+[11:10:28.203] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  8 Vana  73 Ia 23.5687 mA
+[11:10:28.305] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter  9 Vana  76 Ia 24.3688 mA
+[11:10:28.405] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter 10 Vana  75 Ia 24.3688 mA
+[11:10:28.506] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  8 iter 11 Vana  74 Ia 24.3688 mA
+[11:10:28.607] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 9 iter 0 Vana 78 Ia 22.7687 mA
+[11:10:28.708] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  1 Vana  85 Ia 24.3688 mA
+[11:10:28.809] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  2 Vana  84 Ia 23.5687 mA
+[11:10:28.909] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  3 Vana  87 Ia 25.1688 mA
+[11:10:29.010] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  4 Vana  81 Ia 23.5687 mA
+[11:10:29.111] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  5 Vana  84 Ia 24.3688 mA
+[11:10:29.212] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  6 Vana  83 Ia 24.3688 mA
+[11:10:29.314] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  7 Vana  82 Ia 23.5687 mA
+[11:10:29.414] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  8 Vana  85 Ia 25.1688 mA
+[11:10:29.515] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter  9 Vana  79 Ia 22.7687 mA
+[11:10:29.616] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter 10 Vana  86 Ia 24.3688 mA
+[11:10:29.716] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC  9 iter 11 Vana  85 Ia 24.3688 mA
+[11:10:29.818] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 10 iter 0 Vana 78 Ia 22.7687 mA
+[11:10:29.918] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  1 Vana  85 Ia 24.3688 mA
+[11:10:30.019] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  2 Vana  84 Ia 24.3688 mA
+[11:10:30.120] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  3 Vana  83 Ia 23.5687 mA
+[11:10:30.220] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  4 Vana  86 Ia 25.1688 mA
+[11:10:30.321] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  5 Vana  80 Ia 23.5687 mA
+[11:10:30.422] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  6 Vana  83 Ia 23.5687 mA
+[11:10:30.523] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  7 Vana  86 Ia 24.3688 mA
+[11:10:30.624] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  8 Vana  85 Ia 24.3688 mA
+[11:10:30.725] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter  9 Vana  84 Ia 24.3688 mA
+[11:10:30.826] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter 10 Vana  83 Ia 23.5687 mA
+[11:10:30.927] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 10 iter 11 Vana  86 Ia 24.3688 mA
+[11:10:31.028] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 11 iter 0 Vana 78 Ia 23.5687 mA
+[11:10:31.129] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  1 Vana  81 Ia 24.3688 mA
+[11:10:31.229] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  2 Vana  80 Ia 24.3688 mA
+[11:10:31.329] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  3 Vana  79 Ia 23.5687 mA
+[11:10:31.430] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  4 Vana  82 Ia 25.1688 mA
+[11:10:31.531] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  5 Vana  76 Ia 23.5687 mA
+[11:10:31.632] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  6 Vana  79 Ia 24.3688 mA
+[11:10:31.734] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  7 Vana  78 Ia 23.5687 mA
+[11:10:31.834] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  8 Vana  81 Ia 25.1688 mA
+[11:10:31.935] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter  9 Vana  75 Ia 23.5687 mA
+[11:10:32.036] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter 10 Vana  78 Ia 23.5687 mA
+[11:10:32.137] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 11 iter 11 Vana  81 Ia 25.1688 mA
+[11:10:32.239] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 12 iter 0 Vana 78 Ia 22.7687 mA
+[11:10:32.340] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  1 Vana  85 Ia 24.3688 mA
+[11:10:32.441] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  2 Vana  84 Ia 24.3688 mA
+[11:10:32.541] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  3 Vana  83 Ia 24.3688 mA
+[11:10:32.642] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  4 Vana  82 Ia 23.5687 mA
+[11:10:32.743] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  5 Vana  85 Ia 24.3688 mA
+[11:10:32.843] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  6 Vana  84 Ia 24.3688 mA
+[11:10:32.944] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  7 Vana  83 Ia 24.3688 mA
+[11:10:33.045] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  8 Vana  82 Ia 23.5687 mA
+[11:10:33.145] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter  9 Vana  85 Ia 25.1688 mA
+[11:10:33.246] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter 10 Vana  79 Ia 22.7687 mA
+[11:10:33.346] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 12 iter 11 Vana  86 Ia 25.1688 mA
+[11:10:33.448] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 13 iter 0 Vana 78 Ia 24.3688 mA
+[11:10:33.549] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  1 Vana  77 Ia 24.3688 mA
+[11:10:33.649] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  2 Vana  76 Ia 23.5687 mA
+[11:10:33.750] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  3 Vana  79 Ia 24.3688 mA
+[11:10:33.851] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  4 Vana  78 Ia 24.3688 mA
+[11:10:33.952] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  5 Vana  77 Ia 24.3688 mA
+[11:10:34.053] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  6 Vana  76 Ia 23.5687 mA
+[11:10:34.154] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  7 Vana  79 Ia 24.3688 mA
+[11:10:34.255] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  8 Vana  78 Ia 24.3688 mA
+[11:10:34.356] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter  9 Vana  77 Ia 23.5687 mA
+[11:10:34.457] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter 10 Vana  80 Ia 25.1688 mA
+[11:10:34.557] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 13 iter 11 Vana  74 Ia 23.5687 mA
+[11:10:34.659] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 14 iter 0 Vana 78 Ia 21.9688 mA
+[11:10:34.760] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  1 Vana  90 Ia 25.1688 mA
+[11:10:34.861] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  2 Vana  84 Ia 23.5687 mA
+[11:10:34.961] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  3 Vana  87 Ia 24.3688 mA
+[11:10:35.062] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  4 Vana  86 Ia 24.3688 mA
+[11:10:35.163] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  5 Vana  85 Ia 24.3688 mA
+[11:10:35.263] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  6 Vana  84 Ia 23.5687 mA
+[11:10:35.364] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  7 Vana  87 Ia 25.1688 mA
+[11:10:35.465] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  8 Vana  81 Ia 23.5687 mA
+[11:10:35.565] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter  9 Vana  84 Ia 24.3688 mA
+[11:10:35.666] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter 10 Vana  83 Ia 24.3688 mA
+[11:10:35.767] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 14 iter 11 Vana  82 Ia 23.5687 mA
+[11:10:35.869] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L313> ROC 15 iter 0 Vana 78 Ia 23.5687 mA
+[11:10:35.970] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  1 Vana  81 Ia 24.3688 mA
+[11:10:36.071] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  2 Vana  80 Ia 24.3688 mA
+[11:10:36.172] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  3 Vana  79 Ia 23.5687 mA
+[11:10:36.272] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  4 Vana  82 Ia 24.3688 mA
+[11:10:36.373] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  5 Vana  81 Ia 24.3688 mA
+[11:10:36.474] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  6 Vana  80 Ia 23.5687 mA
+[11:10:36.574] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  7 Vana  83 Ia 24.3688 mA
+[11:10:36.675] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  8 Vana  82 Ia 24.3688 mA
+[11:10:36.776] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter  9 Vana  81 Ia 24.3688 mA
+[11:10:36.876] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter 10 Vana  80 Ia 24.3688 mA
+[11:10:36.978] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L345> ROC 15 iter 11 Vana  79 Ia 23.5687 mA
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  0 Vana  88
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  1 Vana  97
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  2 Vana  80
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  3 Vana  76
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  4 Vana  76
+[11:10:37.011] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  5 Vana  88
+[11:10:37.012] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  6 Vana  92
+[11:10:37.012] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  7 Vana  88
+[11:10:37.012] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  8 Vana  74
+[11:10:37.013] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC  9 Vana  85
+[11:10:37.014] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 10 Vana  86
+[11:10:37.014] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 11 Vana  81
+[11:10:37.014] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 12 Vana  86
+[11:10:37.014] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 13 Vana  74
+[11:10:37.014] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 14 Vana  82
+[11:10:37.015] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L376> ROC 15 Vana  79
+[11:10:38.840] <TB0>     INFO: PixTestPretest::setVana() done, Module Ia 377.8 mA = 23.6125 mA/ROC
+[11:10:38.840] <TB0>     INFO: i(loss) [mA/ROC]:     20.1  20.1  20.1  19.3  18.5  19.3  20.1  19.3  20.1  19.3  20.1  20.9  20.9  18.5  19.3  19.3
+[11:10:38.873] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:10:38.873] <TB0>     INFO:    PixTestPretest::findTiming() 
+[11:10:38.873] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:10:38.873] <TB0>     INFO: PixTestCmd::init()
+[11:10:38.873] <TB0>    DEBUG: <PixTestCmd.cc/runCommand:L3838> running command: timing
+[11:10:39.467] <TB0>  WARNING: Not unmasking DUT, not setting Calibrate bits!
+[11:12:11.074] <TB0>    DEBUG: <PixTestCmd.cc/~PixTestCmd:L78> PixTestCmd dtor
+[11:12:11.108] <TB0>     INFO: TBM phases:  160MHz: 7, 400MHz: 2, TBM delays: ROC(0/1):4, header/trailer: 1, token: 1
+[11:12:11.108] <TB0>     INFO: (success/tries = 100/100), width = 5
+[11:12:11.108] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2431> changing tbm reg basee[0] from 0xe8 to 0xe8
+[11:12:11.108] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2431> changing tbm reg basea[0] from 0xe4 to 0xe4
+[11:12:11.108] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2431> changing tbm reg basea[1] from 0xe4 to 0xe4
+[11:12:11.108] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2431> changing tbm reg base4[0] from 0x80 to 0x80
+[11:12:11.108] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2431> changing tbm reg base4[1] from 0x80 to 0x80
+[11:12:11.111] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:11.111] <TB0>     INFO:    PixTestPretest::findWorkingPixel()
+[11:12:11.111] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:11.247] <TB0>     INFO: Expecting 231680 events.
+[11:12:18.585] <TB0>     INFO: 231680 events read in total (6623ms).
+[11:12:18.590] <TB0>     INFO: Test took 7477ms.
+[11:12:18.928] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C0 OK, with vthrComp = 88 and Delta(CalDel) = 64
+[11:12:18.931] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C1 OK, with vthrComp = 94 and Delta(CalDel) = 60
+[11:12:18.935] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C2 OK, with vthrComp = 91 and Delta(CalDel) = 64
+[11:12:18.939] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C3 OK, with vthrComp = 93 and Delta(CalDel) = 62
+[11:12:18.943] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C4 OK, with vthrComp = 95 and Delta(CalDel) = 60
+[11:12:18.947] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C5 OK, with vthrComp = 77 and Delta(CalDel) = 59
+[11:12:18.951] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C6 OK, with vthrComp = 89 and Delta(CalDel) = 62
+[11:12:18.955] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C7 OK, with vthrComp = 92 and Delta(CalDel) = 56
+[11:12:18.958] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C8 OK, with vthrComp = 92 and Delta(CalDel) = 63
+[11:12:18.962] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C9 OK, with vthrComp = 90 and Delta(CalDel) = 64
+[11:12:18.966] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C10 OK, with vthrComp = 96 and Delta(CalDel) = 61
+[11:12:18.969] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C11 OK, with vthrComp = 100 and Delta(CalDel) = 62
+[11:12:18.973] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C12 OK, with vthrComp = 74 and Delta(CalDel) = 65
+[11:12:18.976] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C13 OK, with vthrComp = 94 and Delta(CalDel) = 62
+[11:12:18.980] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C14 OK, with vthrComp = 87 and Delta(CalDel) = 60
+[11:12:18.984] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1195> fwp_c12_r22_C15 OK, with vthrComp = 79 and Delta(CalDel) = 62
+[11:12:19.025] <TB0>     INFO: Found working pixel in all ROCs: col/row = 12/22
+[11:12:19.064] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:19.064] <TB0>     INFO:    PixTestPretest::setVthrCompCalDel()
+[11:12:19.064] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:19.200] <TB0>     INFO: Expecting 231680 events.
+[11:12:27.298] <TB0>     INFO: 231680 events read in total (7383ms).
+[11:12:27.303] <TB0>     INFO: Test took 8235ms.
+[11:12:27.326] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 143 +/- 31.5
+[11:12:27.643] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 143 +/- 31
+[11:12:27.647] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 157 +/- 32
+[11:12:27.650] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 144 +/- 31
+[11:12:27.654] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 133 +/- 29.5
+[11:12:27.657] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 126 +/- 30
+[11:12:27.661] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 143 +/- 31
+[11:12:27.664] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 117 +/- 28
+[11:12:27.668] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 138 +/- 31.5
+[11:12:27.672] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 146 +/- 31
+[11:12:27.676] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 126 +/- 30
+[11:12:27.680] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 131 +/- 30.5
+[11:12:27.683] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 172 +/- 32
+[11:12:27.687] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 144 +/- 30.5
+[11:12:27.690] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 127 +/- 30.5
+[11:12:27.694] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L717> CalDel: 159 +/- 32
+[11:12:27.729] <TB0>     INFO: PixTestPretest::setVthrCompCalDel() done
+[11:12:27.730] <TB0>     INFO: CalDel:      143   143   157   144   133   126   143   117   138   146   126   131   172   144   127   159
+[11:12:27.730] <TB0>     INFO: VthrComp:     51    51    51    51    51    51    51    51    51    51    51    51    51    51    51    51
+[11:12:27.734] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C0.dat
+[11:12:27.734] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C1.dat
+[11:12:27.734] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C2.dat
+[11:12:27.734] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C3.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C4.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C5.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C6.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C7.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C8.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C9.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C10.dat
+[11:12:27.735] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C11.dat
+[11:12:27.736] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C12.dat
+[11:12:27.736] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C13.dat
+[11:12:27.736] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C14.dat
+[11:12:27.736] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters_C15.dat
+[11:12:27.736] <TB0>     INFO: write tbm parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//tbmParameters_C0a.dat
+[11:12:27.736] <TB0>     INFO: write tbm parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//tbmParameters_C0b.dat
+[11:12:27.736] <TB0>     INFO: PixTestPretest::doTest() done, duration: 148 seconds
+[11:12:27.736] <TB0>    DEBUG: <PixTestPretest.cc/~PixTestPretest:L136> PixTestPretest dtor
+[11:12:27.797] <TB0>    DEBUG: <PixTestAlive.cc/init:L77> PixTestAlive::init()
+[11:12:27.797] <TB0>    DEBUG: <PixTestAlive.cc/PixTestAlive:L21> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[11:12:27.799] <TB0>     INFO: ######################################################################
+[11:12:27.799] <TB0>     INFO: PixTestAlive::doTest()
+[11:12:27.799] <TB0>     INFO: ######################################################################
+[11:12:27.803] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:27.803] <TB0>     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:12:27.803] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:27.804] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:12:28.147] <TB0>     INFO: Expecting 41600 events.
+[11:12:32.171] <TB0>     INFO: 41600 events read in total (3309ms).
+[11:12:32.172] <TB0>     INFO: Test took 4368ms.
+[11:12:32.180] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:12:32.180] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 66558
+[11:12:32.180] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists PixelAlive_C0 .. PixelAlive_C15
+[11:12:32.559] <TB0>     INFO: PixTestAlive::aliveTest() done
+[11:12:32.559] <TB0>     INFO: number of dead pixels (per ROC):     0    0    1    0    0    0    0    0    0    0    0    1    0    0    0    0
+[11:12:32.559] <TB0>    DEBUG: <PixTestAlive.cc/aliveTest:L188> number of red-efficiency pixels:     0    0    1    0    0    0    0    0    0    0    0    1    0    0    0    0
+[11:12:32.562] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:32.562] <TB0>     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:12:32.562] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:32.563] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:12:32.910] <TB0>     INFO: Expecting 41600 events.
+[11:12:35.843] <TB0>     INFO: 41600 events read in total (2218ms).
+[11:12:35.843] <TB0>     INFO: Test took 3280ms.
+[11:12:35.843] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:12:35.843] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 0
+[11:12:35.843] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists MaskTest_C0 .. MaskTest_C15
+[11:12:35.844] <TB0>     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[11:12:36.249] <TB0>     INFO: PixTestAlive::maskTest() done
+[11:12:36.249] <TB0>     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[11:12:36.252] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:36.252] <TB0>     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:12:36.252] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:36.254] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:12:36.596] <TB0>     INFO: Expecting 41600 events.
+[11:12:40.630] <TB0>     INFO: 41600 events read in total (3319ms).
+[11:12:40.631] <TB0>     INFO: Test took 4377ms.
+[11:12:40.639] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:12:40.639] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 66558
+[11:12:40.639] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists AddressDecodingTest_C0 .. AddressDecodingTest_C15
+[11:12:41.015] <TB0>     INFO: PixTestAlive::addressDecodingTest() done
+[11:12:41.015] <TB0>     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[11:12:41.015] <TB0>     INFO: PixTestAlive::doTest() done, duration: 13 seconds
+[11:12:41.015] <TB0>    DEBUG: <PixTestAlive.cc/~PixTestAlive:L109> PixTestAlive dtor
+[11:12:41.023] <TB0>     INFO: ######################################################################
+[11:12:41.023] <TB0>     INFO: PixTestTrim::doTest()
+[11:12:41.023] <TB0>     INFO: ######################################################################
+[11:12:41.026] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:41.026] <TB0>     INFO:    PixTestTrim::trimTest() ntrig = 8, vcal = 35
+[11:12:41.026] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:12:41.105] <TB0>     INFO: ---> VthrComp thr map (minimal VthrComp)
+[11:12:41.105] <TB0>     INFO: ---> dac: vthrcomp name: TrimThr0 ntrig: 8 dacrange: 10 .. 160 (-1/-1) hits flags = 528 (plus default)
+[11:12:41.227] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:12:41.227] <TB0>     INFO:     run 1 of 1
+[11:12:41.227] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:12:41.573] <TB0>     INFO: Expecting 5025280 events.
+[11:13:24.882] <TB0>     INFO: 1372752 events read in total (42594ms).
+[11:14:07.544] <TB0>     INFO: 2728656 events read in total (85256ms).
+[11:14:51.334] <TB0>     INFO: 4095632 events read in total (129047ms).
+[11:15:20.756] <TB0>     INFO: 5025280 events read in total (158468ms).
+[11:15:20.803] <TB0>     INFO: Test took 159576ms.
+[11:15:20.868] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:15:20.981] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:15:22.347] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:15:23.708] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:15:25.119] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:15:26.498] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:15:27.920] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:15:29.277] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:15:30.651] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:15:32.062] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:15:33.494] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:15:34.870] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:15:36.327] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:15:37.765] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:15:39.111] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:15:40.500] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:15:41.872] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:15:43.187] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 218992640
+[11:15:43.190] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 88.818 minThrLimit = 88.8138 minThrNLimit = 114.863 -> result = 88.818 -> 88
+[11:15:43.190] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 86.6848 minThrLimit = 86.6613 minThrNLimit = 114.437 -> result = 86.6848 -> 86
+[11:15:43.190] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 92.1017 minThrLimit = 92.0934 minThrNLimit = 116.626 -> result = 92.1017 -> 92
+[11:15:43.191] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 83.7888 minThrLimit = 83.7886 minThrNLimit = 109.667 -> result = 83.7888 -> 83
+[11:15:43.191] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 85.6718 minThrLimit = 85.6562 minThrNLimit = 113.889 -> result = 85.6718 -> 85
+[11:15:43.191] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 80.6567 minThrLimit = 80.641 minThrNLimit = 106.826 -> result = 80.6567 -> 80
+[11:15:43.192] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 87.7466 minThrLimit = 87.7163 minThrNLimit = 111.008 -> result = 87.7466 -> 87
+[11:15:43.192] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 91.0912 minThrLimit = 91.0623 minThrNLimit = 117.254 -> result = 91.0912 -> 91
+[11:15:43.193] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 94.9898 minThrLimit = 94.9828 minThrNLimit = 121.195 -> result = 94.9898 -> 94
+[11:15:43.193] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 79.9464 minThrLimit = 79.9088 minThrNLimit = 106.184 -> result = 79.9464 -> 79
+[11:15:43.193] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 88.7411 minThrLimit = 88.7277 minThrNLimit = 121.531 -> result = 88.7411 -> 88
+[11:15:43.194] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 97.1081 minThrLimit = 97.0924 minThrNLimit = 125.049 -> result = 97.1081 -> 97
+[11:15:43.194] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 85.2424 minThrLimit = 85.1861 minThrNLimit = 106.75 -> result = 85.2424 -> 85
+[11:15:43.194] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 88.8813 minThrLimit = 88.848 minThrNLimit = 113.873 -> result = 88.8813 -> 88
+[11:15:43.195] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 95.8737 minThrLimit = 95.818 minThrNLimit = 115.929 -> result = 95.8737 -> 95
+[11:15:43.195] <TB0>    DEBUG: <PixTest.cc/getMinimumVthrComp:L1275> minThr = 82.8944 minThrLimit = 82.8852 minThrNLimit = 102.4 -> result = 82.8944 -> 82
+[11:15:43.195] <TB0>     INFO: ROC 0 VthrComp = 88
+[11:15:43.195] <TB0>     INFO: ROC 1 VthrComp = 86
+[11:15:43.195] <TB0>     INFO: ROC 2 VthrComp = 92
+[11:15:43.196] <TB0>     INFO: ROC 3 VthrComp = 83
+[11:15:43.196] <TB0>     INFO: ROC 4 VthrComp = 85
+[11:15:43.196] <TB0>     INFO: ROC 5 VthrComp = 80
+[11:15:43.196] <TB0>     INFO: ROC 6 VthrComp = 87
+[11:15:43.196] <TB0>     INFO: ROC 7 VthrComp = 91
+[11:15:43.196] <TB0>     INFO: ROC 8 VthrComp = 94
+[11:15:43.196] <TB0>     INFO: ROC 9 VthrComp = 79
+[11:15:43.196] <TB0>     INFO: ROC 10 VthrComp = 88
+[11:15:43.196] <TB0>     INFO: ROC 11 VthrComp = 97
+[11:15:43.197] <TB0>     INFO: ROC 12 VthrComp = 85
+[11:15:43.197] <TB0>     INFO: ROC 13 VthrComp = 88
+[11:15:43.197] <TB0>     INFO: ROC 14 VthrComp = 95
+[11:15:43.197] <TB0>     INFO: ROC 15 VthrComp = 82
+[11:15:43.197] <TB0>     INFO: ---> Vcal thr map (pixel with maximum Vcal thr)
+[11:15:43.197] <TB0>     INFO: ---> dac: vcal name: TrimThr1 ntrig: 8 dacrange: 10 .. 160 (-1/-1) hits flags = 528 (plus default)
+[11:15:43.209] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:15:43.209] <TB0>     INFO:     run 1 of 1
+[11:15:43.209] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:15:43.551] <TB0>     INFO: Expecting 5025280 events.
+[11:16:19.080] <TB0>     INFO: 883328 events read in total (34814ms).
+[11:16:53.913] <TB0>     INFO: 1764272 events read in total (69647ms).
+[11:17:28.676] <TB0>     INFO: 2644256 events read in total (104411ms).
+[11:18:02.976] <TB0>     INFO: 3516248 events read in total (138710ms).
+[11:18:37.204] <TB0>     INFO: 4384280 events read in total (172939ms).
+[11:19:02.539] <TB0>     INFO: 5025280 events read in total (198273ms).
+[11:19:02.614] <TB0>     INFO: Test took 199405ms.
+[11:19:02.798] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:19:03.127] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:19:04.685] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:19:06.246] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:19:07.825] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:19:09.383] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:19:10.935] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:19:12.485] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:19:14.055] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:19:15.630] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:19:17.196] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:19:18.761] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:19:20.307] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:19:21.869] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:19:23.454] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:19:25.011] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:19:26.608] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:19:28.193] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 243920896
+[11:19:28.196] <TB0>     INFO:    roc 0 with ID = 0  has maximal Vcal 56.1125 for pixel 9/4 mean/min/max = 45.2884/34.3779/56.1989
+[11:19:28.197] <TB0>     INFO:    roc 1 with ID = 1  has maximal Vcal 52.5737 for pixel 22/3 mean/min/max = 43.0317/32.6928/53.3706
+[11:19:28.197] <TB0>     INFO:    roc 2 with ID = 2  has maximal Vcal 59.4827 for pixel 0/67 mean/min/max = 46.0361/32.5189/59.5533
+[11:19:28.197] <TB0>     INFO:    roc 3 with ID = 3  has maximal Vcal 54.9325 for pixel 23/79 mean/min/max = 43.7813/32.6122/54.9505
+[11:19:28.198] <TB0>     INFO:    roc 4 with ID = 4  has maximal Vcal 56.6071 for pixel 9/0 mean/min/max = 44.6119/32.4692/56.7545
+[11:19:28.198] <TB0>     INFO:    roc 5 with ID = 5  has maximal Vcal 53.1213 for pixel 19/70 mean/min/max = 43.3323/33.3649/53.2997
+[11:19:28.198] <TB0>     INFO:    roc 6 with ID = 6  has maximal Vcal 55.5193 for pixel 41/1 mean/min/max = 44.0627/32.444/55.6813
+[11:19:28.199] <TB0>     INFO:    roc 7 with ID = 7  has maximal Vcal 55.5238 for pixel 39/72 mean/min/max = 44.4234/33.2947/55.552
+[11:19:28.199] <TB0>     INFO:    roc 8 with ID = 8  has maximal Vcal 55.426 for pixel 31/79 mean/min/max = 44.5071/33.5329/55.4812
+[11:19:28.199] <TB0>     INFO:    roc 9 with ID = 9  has maximal Vcal 56.3413 for pixel 3/8 mean/min/max = 45.7505/35.0075/56.4935
+[11:19:28.200] <TB0>     INFO:    roc 10 with ID = 10  has maximal Vcal 54.2265 for pixel 1/76 mean/min/max = 44.4406/34.5672/54.314
+[11:19:28.200] <TB0>     INFO:    roc 11 with ID = 11  has maximal Vcal 54.6222 for pixel 0/65 mean/min/max = 43.2822/31.7668/54.7976
+[11:19:28.201] <TB0>     INFO:    roc 12 with ID = 12  has maximal Vcal 56.6034 for pixel 16/8 mean/min/max = 44.6988/32.7577/56.6398
+[11:19:28.201] <TB0>     INFO:    roc 13 with ID = 13  has maximal Vcal 56.7387 for pixel 6/79 mean/min/max = 45.6511/34.5081/56.7941
+[11:19:28.201] <TB0>     INFO:    roc 14 with ID = 14  has maximal Vcal 57.5319 for pixel 1/11 mean/min/max = 45.2559/32.734/57.7777
+[11:19:28.202] <TB0>     INFO:    roc 15 with ID = 15  has maximal Vcal 55.1224 for pixel 25/63 mean/min/max = 44.2378/32.8612/55.6143
+[11:19:28.202] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[11:19:28.334] <TB0>     INFO: Expecting 411648 events.
+[11:19:35.786] <TB0>     INFO: 411648 events read in total (6737ms).
+[11:19:35.793] <TB0>     INFO: Expecting 411648 events.
+[11:19:43.210] <TB0>     INFO: 411648 events read in total (6750ms).
+[11:19:43.220] <TB0>     INFO: Expecting 411648 events.
+[11:19:50.619] <TB0>     INFO: 411648 events read in total (6740ms).
+[11:19:50.630] <TB0>     INFO: Expecting 411648 events.
+[11:19:58.114] <TB0>     INFO: 411648 events read in total (6819ms).
+[11:19:58.129] <TB0>     INFO: Expecting 411648 events.
+[11:20:05.702] <TB0>     INFO: 411648 events read in total (6914ms).
+[11:20:05.721] <TB0>     INFO: Expecting 411648 events.
+[11:20:13.379] <TB0>     INFO: 411648 events read in total (7013ms).
+[11:20:13.400] <TB0>     INFO: Expecting 411648 events.
+[11:20:21.213] <TB0>     INFO: 411648 events read in total (7168ms).
+[11:20:21.238] <TB0>     INFO: Expecting 411648 events.
+[11:20:28.716] <TB0>     INFO: 411648 events read in total (6832ms).
+[11:20:28.742] <TB0>     INFO: Expecting 411648 events.
+[11:20:36.454] <TB0>     INFO: 411648 events read in total (7071ms).
+[11:20:36.482] <TB0>     INFO: Expecting 411648 events.
+[11:20:44.145] <TB0>     INFO: 411648 events read in total (7020ms).
+[11:20:44.176] <TB0>     INFO: Expecting 411648 events.
+[11:20:51.722] <TB0>     INFO: 411648 events read in total (6910ms).
+[11:20:51.757] <TB0>     INFO: Expecting 411648 events.
+[11:20:59.297] <TB0>     INFO: 411648 events read in total (6909ms).
+[11:20:59.333] <TB0>     INFO: Expecting 411648 events.
+[11:21:06.889] <TB0>     INFO: 411648 events read in total (6923ms).
+[11:21:06.928] <TB0>     INFO: Expecting 411648 events.
+[11:21:14.522] <TB0>     INFO: 411648 events read in total (6961ms).
+[11:21:14.562] <TB0>     INFO: Expecting 411648 events.
+[11:21:22.032] <TB0>     INFO: 411648 events read in total (6836ms).
+[11:21:22.074] <TB0>     INFO: Expecting 411648 events.
+[11:21:29.516] <TB0>     INFO: 411648 events read in total (6810ms).
+[11:21:29.561] <TB0>     INFO: Test took 121359ms.
+[11:21:30.097] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.143 < 35 for itrim = 101; old thr = 34.6788 ... break
+[11:21:30.147] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.4193 < 35 for itrim = 99; old thr = 34.4583 ... break
+[11:21:30.181] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L309> vtrim: vcal = 35.4874 < 35 for itrim+1 = 108; old thr = 34.7421 ... break
+[11:21:30.219] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.3585 < 35 for itrim = 96; old thr = 34.6177 ... break
+[11:21:30.269] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L309> vtrim: vcal = 36.1097 < 35 for itrim+1 = 110; old thr = 34.7669 ... break
+[11:21:30.323] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.0149 < 35 for itrim = 105; old thr = 34.6781 ... break
+[11:21:30.367] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L309> vtrim: vcal = 35.872 < 35 for itrim+1 = 105; old thr = 34.4043 ... break
+[11:21:30.411] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.4846 < 35 for itrim = 100; old thr = 34.1521 ... break
+[11:21:30.452] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.4291 < 35 for itrim = 105; old thr = 34.4388 ... break
+[11:21:30.494] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.065 < 35 for itrim = 108; old thr = 34.6163 ... break
+[11:21:30.545] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.1095 < 35 for itrim = 108; old thr = 34.6744 ... break
+[11:21:30.591] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.1729 < 35 for itrim = 115; old thr = 34.6945 ... break
+[11:21:30.628] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L309> vtrim: vcal = 35.914 < 35 for itrim+1 = 98; old thr = 34.8017 ... break
+[11:21:30.659] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.1279 < 35 for itrim = 103; old thr = 34.2432 ... break
+[11:21:30.692] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L304>  vtrim: vcal = 35.3033 < 35 for itrim = 110; old thr = 34.3388 ... break
+[11:21:30.722] <TB0>    DEBUG: <PixTestTrim.cc/trimTest:L309> vtrim: vcal = 35.3559 < 35 for itrim+1 = 86; old thr = 34.7555 ... break
+[11:21:30.799] <TB0>     INFO: ---> dac: vcal name: TrimThr2 ntrig: 8 dacrange: 0 .. 150 (-1/-1) hits flags = 528 (plus default)
+[11:21:30.809] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:21:30.809] <TB0>     INFO:     run 1 of 1
+[11:21:30.810] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:21:31.151] <TB0>     INFO: Expecting 5025280 events.
+[11:22:06.287] <TB0>     INFO: 870936 events read in total (34421ms).
+[11:22:40.732] <TB0>     INFO: 1739504 events read in total (68867ms).
+[11:23:15.662] <TB0>     INFO: 2607552 events read in total (103796ms).
+[11:23:50.696] <TB0>     INFO: 3467240 events read in total (138830ms).
+[11:24:25.330] <TB0>     INFO: 4322448 events read in total (173465ms).
+[11:24:53.664] <TB0>     INFO: 5025280 events read in total (201798ms).
+[11:24:53.748] <TB0>     INFO: Test took 202939ms.
+[11:24:53.941] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:24:54.311] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:24:55.967] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:24:57.598] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:24:59.197] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:25:00.755] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:25:02.332] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:25:03.875] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:25:05.448] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:25:07.006] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:25:08.582] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:25:10.137] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:25:11.668] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:25:13.222] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:25:14.797] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:25:16.347] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:25:17.959] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:25:19.604] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 259096576
+[11:25:19.609] <TB0>     INFO: ---> TrimStepCorr4 extremal thresholds: 0.215198 .. 255.000000
+[11:25:19.687] <TB0>     INFO: ---> dac: vcal name: trimStepCorr4 ntrig: 8 dacrange: 0 .. 255 (-1/-1) hits flags = 528 (plus default)
+[11:25:19.701] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:25:19.701] <TB0>     INFO:     run 1 of 1
+[11:25:19.701] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:25:20.052] <TB0>     INFO: Expecting 8519680 events.
+[11:25:54.851] <TB0>     INFO: 827224 events read in total (34085ms).
+[11:26:28.305] <TB0>     INFO: 1654776 events read in total (67539ms).
+[11:27:03.523] <TB0>     INFO: 2482080 events read in total (102757ms).
+[11:27:37.725] <TB0>     INFO: 3309312 events read in total (136959ms).
+[11:28:11.015] <TB0>     INFO: 4136936 events read in total (170249ms).
+[11:28:44.338] <TB0>     INFO: 4963776 events read in total (203572ms).
+[11:29:16.961] <TB0>     INFO: 5789424 events read in total (236195ms).
+[11:29:50.844] <TB0>     INFO: 6614056 events read in total (270078ms).
+[11:30:23.254] <TB0>     INFO: 7437992 events read in total (302489ms).
+[11:30:57.086] <TB0>     INFO: 8262728 events read in total (336320ms).
+[11:31:07.585] <TB0>     INFO: 8519680 events read in total (346819ms).
+[11:31:07.692] <TB0>     INFO: Test took 347992ms.
+[11:31:08.022] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:31:08.687] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:31:10.518] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:31:12.345] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:31:14.192] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:31:16.011] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:31:17.836] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:31:19.645] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:31:21.483] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:31:23.387] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:31:25.309] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:31:27.257] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:31:29.226] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:31:31.247] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:31:33.294] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:31:35.302] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:31:37.272] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:31:39.170] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 367775744
+[11:31:39.249] <TB0>     INFO: ---> TrimStepCorr2 extremal thresholds: 17.332545 .. 47.262924
+[11:31:39.324] <TB0>     INFO: ---> dac: vcal name: trimStepCorr2 ntrig: 8 dacrange: 7 .. 57 (-1/-1) hits flags = 528 (plus default)
+[11:31:39.334] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:31:39.334] <TB0>     INFO:     run 1 of 1
+[11:31:39.334] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:31:39.677] <TB0>     INFO: Expecting 1697280 events.
+[11:32:21.664] <TB0>     INFO: 1126352 events read in total (41266ms).
+[11:32:41.935] <TB0>     INFO: 1697280 events read in total (61537ms).
+[11:32:41.950] <TB0>     INFO: Test took 62616ms.
+[11:32:41.985] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:32:42.060] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:32:43.077] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:32:44.093] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:32:45.105] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:32:46.110] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:32:47.107] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:32:48.089] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:32:49.073] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:32:50.060] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:32:51.042] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:32:52.016] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:32:52.002] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:32:53.986] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:32:54.971] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:32:55.954] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:32:56.935] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:32:57.920] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 305922048
+[11:32:57.004] <TB0>     INFO: ---> TrimStepCorr1a extremal thresholds: 21.812814 .. 44.049211
+[11:32:58.078] <TB0>     INFO: ---> dac: vcal name: trimStepCorr1a ntrig: 8 dacrange: 11 .. 54 (-1/-1) hits flags = 528 (plus default)
+[11:32:58.088] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:32:58.088] <TB0>     INFO:     run 1 of 1
+[11:32:58.088] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:32:58.430] <TB0>     INFO: Expecting 1464320 events.
+[11:33:39.285] <TB0>     INFO: 1127584 events read in total (40140ms).
+[11:33:51.416] <TB0>     INFO: 1464320 events read in total (52271ms).
+[11:33:51.428] <TB0>     INFO: Test took 53340ms.
+[11:33:51.459] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:33:51.526] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:33:52.488] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:33:53.443] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:33:54.402] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:33:55.389] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:33:56.385] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:33:57.375] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:33:58.352] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:33:59.311] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:34:00.263] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:34:01.219] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:34:02.176] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:34:03.129] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:34:04.081] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:34:05.037] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:34:05.988] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:34:06.942] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 269631488
+[11:34:07.025] <TB0>     INFO: ---> TrimStepCorr1b extremal thresholds: 23.293686 .. 44.049211
+[11:34:07.101] <TB0>     INFO: ---> dac: vcal name: trimStepCorr1b ntrig: 8 dacrange: 13 .. 54 (-1/-1) hits flags = 528 (plus default)
+[11:34:07.111] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:34:07.111] <TB0>     INFO:     run 1 of 1
+[11:34:07.111] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:34:07.456] <TB0>     INFO: Expecting 1397760 events.
+[11:34:47.796] <TB0>     INFO: 1107776 events read in total (39625ms).
+[11:34:58.443] <TB0>     INFO: 1397760 events read in total (50272ms).
+[11:34:58.463] <TB0>     INFO: Test took 51352ms.
+[11:34:58.498] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:34:58.569] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:34:59.537] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:35:00.499] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:35:01.454] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:35:02.413] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:35:03.374] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:35:04.334] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:35:05.295] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:35:06.250] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:35:07.204] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:35:08.164] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:35:09.127] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:35:10.082] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:35:11.037] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:35:11.995] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:35:12.952] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:35:13.912] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 320266240
+[11:35:13.995] <TB0>     INFO: ---> TrimThrFinal extremal thresholds: 15 .. 55
+[11:35:13.995] <TB0>     INFO: ---> dac: vcal name: TrimThrFinal ntrig: 8 dacrange: 15 .. 55 (-1/-1) hits flags = 528 (plus default)
+[11:35:13.005] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:35:14.005] <TB0>     INFO:     run 1 of 1
+[11:35:14.005] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:35:14.347] <TB0>     INFO: Expecting 1364480 events.
+[11:35:54.112] <TB0>     INFO: 1076128 events read in total (39050ms).
+[11:36:04.764] <TB0>     INFO: 1364480 events read in total (49702ms).
+[11:36:04.780] <TB0>     INFO: Test took 50775ms.
+[11:36:04.815] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:36:04.890] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:36:05.863] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:36:06.835] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:36:07.803] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:36:08.775] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:36:09.750] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:36:10.720] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:36:11.691] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:36:12.661] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:36:13.628] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:36:14.594] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:36:15.563] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:36:16.531] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:36:17.495] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:36:18.460] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:36:19.426] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:36:20.392] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 266915840
+[11:36:20.423] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C0.dat
+[11:36:20.423] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C1.dat
+[11:36:20.423] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C2.dat
+[11:36:20.423] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C3.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C4.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C5.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C6.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C7.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C8.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C9.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C10.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C11.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C12.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C13.dat
+[11:36:20.424] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C14.dat
+[11:36:20.425] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C15.dat
+[11:36:20.425] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C0.dat
+[11:36:20.431] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C1.dat
+[11:36:20.438] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C2.dat
+[11:36:20.445] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C3.dat
+[11:36:20.451] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C4.dat
+[11:36:20.458] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C5.dat
+[11:36:20.464] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C6.dat
+[11:36:20.471] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C7.dat
+[11:36:20.477] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C8.dat
+[11:36:20.484] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C9.dat
+[11:36:20.490] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C10.dat
+[11:36:20.497] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C11.dat
+[11:36:20.503] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C12.dat
+[11:36:20.510] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C13.dat
+[11:36:20.517] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C14.dat
+[11:36:20.523] <TB0>     INFO: write trim parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//trimParameters35_C15.dat
+[11:36:20.530] <TB0>     INFO: PixTestTrim::trimTest() done
+[11:36:20.530] <TB0>     INFO: vtrim:     101  99 108  96 110 105 105 100 105 108 108 115  98 103 110  86 
+[11:36:20.530] <TB0>     INFO: vthrcomp:   88  86  92  83  85  80  87  91  94  79  88  97  85  88  95  82 
+[11:36:20.530] <TB0>     INFO: vcal mean:  35.00  35.02  35.00  35.03  35.03  35.02  35.04  34.98  35.02  35.03  35.03  34.97  35.06  35.00  35.04  35.03 
+[11:36:20.530] <TB0>     INFO: vcal RMS:    0.76   0.75   1.15   0.77   0.79   0.77   0.81   0.80   0.79   0.75   0.71   0.98   0.81   0.77   0.88   0.80 
+[11:36:20.530] <TB0>     INFO: bits mean:   9.23  10.18   8.92  10.01   9.50  10.17  10.12   9.66   9.44   8.97   9.54  10.26   9.89   9.16   9.38   9.87 
+[11:36:20.530] <TB0>     INFO: bits RMS:    2.47   2.40   2.83   2.50   2.72   2.28   2.47   2.54   2.59   2.55   2.38   2.53   2.52   2.48   2.76   2.54 
+[11:36:20.540] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:36:20.540] <TB0>     INFO:    PixTestTrim::trimBitTest() ntrig = 10, vtrims = 254 126 63 32
+[11:36:20.540] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:36:20.543] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L520> trimBitTest determine threshold map without trims 
+[11:36:20.543] <TB0>     INFO: ---> dac: Vcal name: TrimBitsThr0 ntrig: 10 dacrange: 0 .. 199 (-1/-1) hits flags = 528 (plus default)
+[11:36:20.553] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 10
+[11:36:20.553] <TB0>     INFO:     run 1 of 1
+[11:36:20.553] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:36:20.895] <TB0>     INFO: Expecting 8320000 events.
+[11:36:57.414] <TB0>     INFO: 1089660 events read in total (35804ms).
+[11:37:33.309] <TB0>     INFO: 2171260 events read in total (71699ms).
+[11:38:09.558] <TB0>     INFO: 3250060 events read in total (107948ms).
+[11:38:46.073] <TB0>     INFO: 4325270 events read in total (144463ms).
+[11:39:21.942] <TB0>     INFO: 5391080 events read in total (180332ms).
+[11:39:57.857] <TB0>     INFO: 6455610 events read in total (216247ms).
+[11:40:33.548] <TB0>     INFO: 7520350 events read in total (251938ms).
+[11:41:00.389] <TB0>     INFO: 8320000 events read in total (278779ms).
+[11:41:00.452] <TB0>     INFO: Test took 279899ms.
+[11:41:00.598] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:41:00.878] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:41:02.611] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:41:04.341] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:41:06.058] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:41:07.783] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:41:09.527] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:41:11.243] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:41:12.977] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:41:14.706] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:41:16.416] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:41:18.149] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:41:19.876] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:41:21.580] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:41:23.330] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:41:25.068] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:41:26.791] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:41:28.539] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 273465344
+[11:41:28.540] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L535> trimBitTest initDUT with trim bits = 14
+[11:41:28.614] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L541> trimBitTest threshold map with trim = 14
+[11:41:28.614] <TB0>     INFO: ---> dac: Vcal name: TrimThr_trim14 ntrig: 10 dacrange: 0 .. 164 (-1/-1) hits flags = 528 (plus default)
+[11:41:28.625] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 10
+[11:41:28.625] <TB0>     INFO:     run 1 of 1
+[11:41:28.625] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:41:28.967] <TB0>     INFO: Expecting 6864000 events.
+[11:42:06.128] <TB0>     INFO: 1145540 events read in total (36446ms).
+[11:42:42.967] <TB0>     INFO: 2281090 events read in total (73285ms).
+[11:43:20.012] <TB0>     INFO: 3411760 events read in total (110330ms).
+[11:43:57.193] <TB0>     INFO: 4528530 events read in total (147511ms).
+[11:44:33.619] <TB0>     INFO: 5641720 events read in total (183937ms).
+[11:45:10.511] <TB0>     INFO: 6761120 events read in total (220829ms).
+[11:45:14.204] <TB0>     INFO: 6864000 events read in total (224522ms).
+[11:45:14.259] <TB0>     INFO: Test took 225635ms.
+[11:45:14.371] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:45:14.564] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:45:16.117] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:45:17.690] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:45:19.252] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:45:20.869] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:45:22.482] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:45:24.112] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:45:25.706] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:45:27.296] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:45:28.864] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:45:30.442] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:45:32.014] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:45:33.564] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:45:35.131] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:45:36.690] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:45:38.212] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:45:39.788] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 274087936
+[11:45:39.788] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L535> trimBitTest initDUT with trim bits = 13
+[11:45:39.862] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L541> trimBitTest threshold map with trim = 13
+[11:45:39.862] <TB0>     INFO: ---> dac: Vcal name: TrimThr_trim13 ntrig: 10 dacrange: 0 .. 153 (-1/-1) hits flags = 528 (plus default)
+[11:45:39.872] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 10
+[11:45:39.872] <TB0>     INFO:     run 1 of 1
+[11:45:39.872] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:45:40.214] <TB0>     INFO: Expecting 6406400 events.
+[11:46:18.922] <TB0>     INFO: 1187340 events read in total (37993ms).
+[11:46:56.827] <TB0>     INFO: 2363300 events read in total (75898ms).
+[11:47:34.698] <TB0>     INFO: 3530880 events read in total (113769ms).
+[11:48:12.412] <TB0>     INFO: 4686060 events read in total (151483ms).
+[11:48:47.784] <TB0>     INFO: 5837830 events read in total (186855ms).
+[11:49:06.554] <TB0>     INFO: 6406400 events read in total (205625ms).
+[11:49:06.598] <TB0>     INFO: Test took 206726ms.
+[11:49:06.692] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:49:06.849] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:49:08.332] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:49:09.830] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:49:11.307] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:49:12.809] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:49:14.309] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:49:15.831] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:49:17.314] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:49:18.803] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:49:20.276] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:49:21.789] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:49:23.295] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:49:24.765] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:49:26.255] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:49:27.733] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:49:29.215] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:49:30.745] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 273326080
+[11:49:30.746] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L535> trimBitTest initDUT with trim bits = 11
+[11:49:30.822] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L541> trimBitTest threshold map with trim = 11
+[11:49:30.822] <TB0>     INFO: ---> dac: Vcal name: TrimThr_trim11 ntrig: 10 dacrange: 0 .. 152 (-1/-1) hits flags = 528 (plus default)
+[11:49:30.835] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 10
+[11:49:30.835] <TB0>     INFO:     run 1 of 1
+[11:49:30.835] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:49:31.176] <TB0>     INFO: Expecting 6364800 events.
+[11:50:09.775] <TB0>     INFO: 1192750 events read in total (37884ms).
+[11:50:47.460] <TB0>     INFO: 2372080 events read in total (75569ms).
+[11:51:25.096] <TB0>     INFO: 3542160 events read in total (113206ms).
+[11:52:02.650] <TB0>     INFO: 4700710 events read in total (150759ms).
+[11:52:38.894] <TB0>     INFO: 5857670 events read in total (187003ms).
+[11:52:54.682] <TB0>     INFO: 6364800 events read in total (202791ms).
+[11:52:54.724] <TB0>     INFO: Test took 203889ms.
+[11:52:54.812] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:52:54.965] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:52:56.444] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:52:57.946] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:52:59.420] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:53:00.919] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:53:02.423] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:53:03.943] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:53:05.429] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:53:06.912] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:53:08.382] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:53:09.904] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:53:11.411] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:53:12.880] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:53:14.368] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:53:15.854] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:53:17.296] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:53:18.799] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 297308160
+[11:53:18.800] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L535> trimBitTest initDUT with trim bits = 7
+[11:53:18.873] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L541> trimBitTest threshold map with trim = 7
+[11:53:18.873] <TB0>     INFO: ---> dac: Vcal name: TrimThr_trim7 ntrig: 10 dacrange: 0 .. 152 (-1/-1) hits flags = 528 (plus default)
+[11:53:18.884] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 10
+[11:53:18.884] <TB0>     INFO:     run 1 of 1
+[11:53:18.884] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:53:19.225] <TB0>     INFO: Expecting 6364800 events.
+[11:53:57.918] <TB0>     INFO: 1191600 events read in total (37979ms).
+[11:54:35.767] <TB0>     INFO: 2371350 events read in total (75828ms).
+[11:55:13.380] <TB0>     INFO: 3541480 events read in total (113441ms).
+[11:55:50.869] <TB0>     INFO: 4698400 events read in total (150930ms).
+[11:56:28.550] <TB0>     INFO: 5854710 events read in total (188611ms).
+[11:56:45.231] <TB0>     INFO: 6364800 events read in total (205292ms).
+[11:56:45.271] <TB0>     INFO: Test took 206387ms.
+[11:56:45.358] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:45.516] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[11:56:47.025] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[11:56:48.522] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[11:56:49.989] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[11:56:51.485] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[11:56:52.982] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[11:56:54.498] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[11:56:55.982] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[11:56:57.457] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[11:56:58.925] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[11:57:00.429] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[11:57:01.931] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[11:57:03.399] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[11:57:04.885] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[11:57:06.363] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[11:57:07.800] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[11:57:09.288] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 267653120
+[11:57:09.289] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 0 step 0: thr difference mean: 8.63394, thr difference RMS: 1.0769
+[11:57:09.289] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 1 step 0: thr difference mean: 8.29074, thr difference RMS: 0.863539
+[11:57:09.289] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 2 step 0: thr difference mean: 8.55211, thr difference RMS: 1.31
+[11:57:09.290] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 3 step 0: thr difference mean: 8.4341, thr difference RMS: 0.98667
+[11:57:09.290] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 4 step 0: thr difference mean: 8.29818, thr difference RMS: 0.885725
+[11:57:09.290] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 5 step 0: thr difference mean: 7.94105, thr difference RMS: 1.0363
+[11:57:09.290] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 6 step 0: thr difference mean: 8.72769, thr difference RMS: 1.07901
+[11:57:09.290] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 7 step 0: thr difference mean: 8.61046, thr difference RMS: 1.24007
+[11:57:09.291] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 8 step 0: thr difference mean: 8.07768, thr difference RMS: 1.42046
+[11:57:09.291] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 9 step 0: thr difference mean: 8.2141, thr difference RMS: 0.963835
+[11:57:09.291] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 10 step 0: thr difference mean: 8.12372, thr difference RMS: 0.921967
+[11:57:09.291] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 11 step 0: thr difference mean: 7.63948, thr difference RMS: 1.2312
+[11:57:09.291] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 12 step 0: thr difference mean: 9.42286, thr difference RMS: 1.01818
+[11:57:09.292] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 13 step 0: thr difference mean: 8.9927, thr difference RMS: 1.16165
+[11:57:09.292] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 14 step 0: thr difference mean: 8.47411, thr difference RMS: 1.53635
+[11:57:09.292] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 15 step 0: thr difference mean: 9.50396, thr difference RMS: 1.01997
+[11:57:09.292] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 0 step 1: thr difference mean: 8.66983, thr difference RMS: 1.07012
+[11:57:09.292] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 1 step 1: thr difference mean: 8.25262, thr difference RMS: 0.851529
+[11:57:09.293] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 2 step 1: thr difference mean: 8.57042, thr difference RMS: 1.29739
+[11:57:09.293] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 3 step 1: thr difference mean: 8.43402, thr difference RMS: 0.991072
+[11:57:09.293] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 4 step 1: thr difference mean: 8.3306, thr difference RMS: 0.881361
+[11:57:09.293] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 5 step 1: thr difference mean: 7.89239, thr difference RMS: 1.0302
+[11:57:09.293] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 6 step 1: thr difference mean: 8.72696, thr difference RMS: 1.09314
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 7 step 1: thr difference mean: 8.65431, thr difference RMS: 1.22557
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 8 step 1: thr difference mean: 8.06743, thr difference RMS: 1.40916
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 9 step 1: thr difference mean: 8.16999, thr difference RMS: 0.935019
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 10 step 1: thr difference mean: 8.12796, thr difference RMS: 0.906361
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 11 step 1: thr difference mean: 7.54598, thr difference RMS: 1.21479
+[11:57:09.294] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 12 step 1: thr difference mean: 9.54676, thr difference RMS: 1.01886
+[11:57:09.295] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 13 step 1: thr difference mean: 8.84837, thr difference RMS: 1.15422
+[11:57:09.295] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 14 step 1: thr difference mean: 8.48473, thr difference RMS: 1.55813
+[11:57:09.295] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 15 step 1: thr difference mean: 9.59377, thr difference RMS: 1.03921
+[11:57:09.295] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 0 step 2: thr difference mean: 8.7659, thr difference RMS: 1.08352
+[11:57:09.295] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 1 step 2: thr difference mean: 8.1944, thr difference RMS: 0.839613
+[11:57:09.296] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 2 step 2: thr difference mean: 8.54623, thr difference RMS: 1.28389
+[11:57:09.296] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 3 step 2: thr difference mean: 8.46026, thr difference RMS: 0.980423
+[11:57:09.296] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 4 step 2: thr difference mean: 8.29524, thr difference RMS: 0.868099
+[11:57:09.296] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 5 step 2: thr difference mean: 7.84852, thr difference RMS: 1.02736
+[11:57:09.296] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 6 step 2: thr difference mean: 8.74921, thr difference RMS: 1.09019
+[11:57:09.297] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 7 step 2: thr difference mean: 8.74095, thr difference RMS: 1.23405
+[11:57:09.297] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 8 step 2: thr difference mean: 8.0404, thr difference RMS: 1.407
+[11:57:09.297] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 9 step 2: thr difference mean: 8.23441, thr difference RMS: 0.947289
+[11:57:09.297] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 10 step 2: thr difference mean: 8.15411, thr difference RMS: 0.891926
+[11:57:09.297] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 11 step 2: thr difference mean: 7.51438, thr difference RMS: 1.21816
+[11:57:09.298] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 12 step 2: thr difference mean: 9.5926, thr difference RMS: 1.01502
+[11:57:09.298] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 13 step 2: thr difference mean: 8.81413, thr difference RMS: 1.13925
+[11:57:09.298] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 14 step 2: thr difference mean: 8.42398, thr difference RMS: 1.54388
+[11:57:09.298] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 15 step 2: thr difference mean: 9.68771, thr difference RMS: 1.02271
+[11:57:09.298] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 0 step 3: thr difference mean: 8.79776, thr difference RMS: 1.0556
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 1 step 3: thr difference mean: 8.20266, thr difference RMS: 0.814727
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 2 step 3: thr difference mean: 8.60284, thr difference RMS: 1.27797
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 3 step 3: thr difference mean: 8.48819, thr difference RMS: 0.964673
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 4 step 3: thr difference mean: 8.49182, thr difference RMS: 0.848164
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 5 step 3: thr difference mean: 7.94528, thr difference RMS: 1.00951
+[11:57:09.299] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 6 step 3: thr difference mean: 8.81446, thr difference RMS: 1.06236
+[11:57:09.300] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 7 step 3: thr difference mean: 8.88867, thr difference RMS: 1.21492
+[11:57:09.300] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 8 step 3: thr difference mean: 8.07369, thr difference RMS: 1.40906
+[11:57:09.300] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 9 step 3: thr difference mean: 8.34055, thr difference RMS: 0.935502
+[11:57:09.300] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 10 step 3: thr difference mean: 8.24964, thr difference RMS: 0.884461
+[11:57:09.300] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 11 step 3: thr difference mean: 7.51227, thr difference RMS: 1.22907
+[11:57:09.301] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 12 step 3: thr difference mean: 9.76015, thr difference RMS: 0.976662
+[11:57:09.301] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 13 step 3: thr difference mean: 8.72851, thr difference RMS: 1.12271
+[11:57:09.301] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 14 step 3: thr difference mean: 8.40605, thr difference RMS: 1.54115
+[11:57:09.301] <TB0>    DEBUG: <PixTestTrim.cc/trimBitTest:L561> ROC 15 step 3: thr difference mean: 9.75702, thr difference RMS: 1.00732
+[11:57:09.404] <TB0>     INFO: PixTestTrim::trimBitTest() done 
+[11:57:09.407] <TB0>     INFO: PixTestTrim::doTest() done, duration: 2668 seconds
+[11:57:09.408] <TB0>    DEBUG: <PixTestTrim.cc/~PixTestTrim:L103> PixTestTrim dtor
+[11:57:10.116] <TB0>    DEBUG: <PixTestScurves.cc/setParameter:L93> set fOutputFilename = 
+[11:57:10.117] <TB0>    DEBUG: <PixTestScurves.cc/setParameter:L93> set fOutputFilename = SCurveData
+[11:57:10.119] <TB0>     INFO: ######################################################################
+[11:57:10.119] <TB0>     INFO: PixTestScurves::doTest() ntrig = 200
+[11:57:10.119] <TB0>     INFO: ######################################################################
+[11:57:10.120] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:57:10.120] <TB0>     INFO:    PixTestScurves::scurves(Vcal), ntrig = 200, dacs/step = -1, ntrig/step = -1
+[11:57:10.120] <TB0>     INFO:    ----------------------------------------------------------------------
+[11:57:10.120] <TB0>     INFO: ---> dac: Vcal name: scurveVcal ntrig: 200 dacrange: 0 .. 70 (-1/-1) hits flags = 528 (plus default)
+[11:57:10.130] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 200
+[11:57:10.130] <TB0>     INFO:     run 1 of 1
+[11:57:10.130] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[11:57:10.472] <TB0>     INFO: Expecting 59072000 events.
+[11:57:39.551] <TB0>     INFO: 1073000 events read in total (28364ms).
+[11:58:07.836] <TB0>     INFO: 2141200 events read in total (56649ms).
+[11:58:36.014] <TB0>     INFO: 3210000 events read in total (84827ms).
+[11:59:04.306] <TB0>     INFO: 4283000 events read in total (113119ms).
+[11:59:32.539] <TB0>     INFO: 5351600 events read in total (141352ms).
+[12:00:00.816] <TB0>     INFO: 6421200 events read in total (169629ms).
+[12:00:29.204] <TB0>     INFO: 7491400 events read in total (198017ms).
+[12:00:57.468] <TB0>     INFO: 8560000 events read in total (226281ms).
+[12:01:25.802] <TB0>     INFO: 9630600 events read in total (254615ms).
+[12:01:54.168] <TB0>     INFO: 10701800 events read in total (282981ms).
+[12:02:22.454] <TB0>     INFO: 11770200 events read in total (311267ms).
+[12:02:50.813] <TB0>     INFO: 12841000 events read in total (339626ms).
+[12:03:19.135] <TB0>     INFO: 13911200 events read in total (367948ms).
+[12:03:47.430] <TB0>     INFO: 14980000 events read in total (396243ms).
+[12:04:15.745] <TB0>     INFO: 16053200 events read in total (424559ms).
+[12:04:44.074] <TB0>     INFO: 17121600 events read in total (452887ms).
+[12:05:12.281] <TB0>     INFO: 18189400 events read in total (481094ms).
+[12:05:40.515] <TB0>     INFO: 19261200 events read in total (509328ms).
+[12:06:08.759] <TB0>     INFO: 20330800 events read in total (537572ms).
+[12:06:37.062] <TB0>     INFO: 21400000 events read in total (565875ms).
+[12:07:05.318] <TB0>     INFO: 22472600 events read in total (594131ms).
+[12:07:33.485] <TB0>     INFO: 23541000 events read in total (622298ms).
+[12:08:01.728] <TB0>     INFO: 24610800 events read in total (650541ms).
+[12:08:29.965] <TB0>     INFO: 25682800 events read in total (678778ms).
+[12:08:58.148] <TB0>     INFO: 26751600 events read in total (706961ms).
+[12:09:26.368] <TB0>     INFO: 27822400 events read in total (735181ms).
+[12:09:54.629] <TB0>     INFO: 28892200 events read in total (763442ms).
+[12:10:22.872] <TB0>     INFO: 29960400 events read in total (791685ms).
+[12:10:51.177] <TB0>     INFO: 31032200 events read in total (819990ms).
+[12:11:19.486] <TB0>     INFO: 32102000 events read in total (848299ms).
+[12:11:47.714] <TB0>     INFO: 33170000 events read in total (876527ms).
+[12:12:15.955] <TB0>     INFO: 34241000 events read in total (904768ms).
+[12:12:44.362] <TB0>     INFO: 35310800 events read in total (933175ms).
+[12:13:12.637] <TB0>     INFO: 36379400 events read in total (961450ms).
+[12:13:40.906] <TB0>     INFO: 37450000 events read in total (989719ms).
+[12:14:09.219] <TB0>     INFO: 38519400 events read in total (1018032ms).
+[12:14:37.491] <TB0>     INFO: 39588000 events read in total (1046304ms).
+[12:15:05.818] <TB0>     INFO: 40659000 events read in total (1074631ms).
+[12:15:34.042] <TB0>     INFO: 41728800 events read in total (1102855ms).
+[12:16:02.327] <TB0>     INFO: 42797000 events read in total (1131140ms).
+[12:16:30.602] <TB0>     INFO: 43865400 events read in total (1159415ms).
+[12:16:58.840] <TB0>     INFO: 44936800 events read in total (1187653ms).
+[12:17:27.069] <TB0>     INFO: 46005400 events read in total (1215882ms).
+[12:17:55.276] <TB0>     INFO: 47074200 events read in total (1244089ms).
+[12:18:23.553] <TB0>     INFO: 48145200 events read in total (1272366ms).
+[12:18:51.764] <TB0>     INFO: 49212600 events read in total (1300577ms).
+[12:19:18.019] <TB0>     INFO: 50280400 events read in total (1326832ms).
+[12:19:46.436] <TB0>     INFO: 51350000 events read in total (1355249ms).
+[12:20:15.030] <TB0>     INFO: 52421000 events read in total (1383843ms).
+[12:20:43.571] <TB0>     INFO: 53488400 events read in total (1412384ms).
+[12:21:12.068] <TB0>     INFO: 54556200 events read in total (1440881ms).
+[12:21:40.562] <TB0>     INFO: 55626000 events read in total (1469375ms).
+[12:22:09.271] <TB0>     INFO: 56696000 events read in total (1498084ms).
+[12:22:37.820] <TB0>     INFO: 57764000 events read in total (1526633ms).
+[12:23:06.317] <TB0>     INFO: 58833600 events read in total (1555130ms).
+[12:23:12.938] <TB0>     INFO: 59072000 events read in total (1561751ms).
+[12:23:12.957] <TB0>     INFO: Test took 1562827ms.
+[12:23:13.012] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:23:13.124] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[12:23:13.124] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:14.259] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[12:23:14.259] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:15.439] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[12:23:15.439] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:16.666] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[12:23:16.666] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:17.822] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[12:23:17.822] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:19.006] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[12:23:19.006] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:20.171] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[12:23:20.172] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:21.328] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[12:23:21.328] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:22.467] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[12:23:22.467] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:23.645] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[12:23:23.645] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:24.832] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[12:23:24.832] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:25.003] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[12:23:25.004] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:27.187] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[12:23:27.187] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:28.365] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[12:23:28.365] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:29.507] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[12:23:29.507] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:30.677] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[12:23:30.677] <TB0>     INFO: dumping ASCII scurve output file: SCurveData
+[12:23:31.844] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 498262016
+[12:23:31.873] <TB0>     INFO: PixTestScurves::scurves() done 
+[12:23:31.873] <TB0>     INFO: Vcal mean:  35.09  35.01  35.12  35.09  35.08  35.10  35.10  35.06  35.10  35.13  35.10  35.08  35.11  35.12  35.14  35.10 
+[12:23:31.873] <TB0>     INFO: Vcal RMS:    0.62   0.63   3.53   0.64   0.68   0.63   0.70   0.65   0.66   0.63   0.59   0.89   0.67   0.64   0.76   0.68 
+[12:23:31.873] <TB0>    DEBUG: <PixTestScurves.cc/~PixTestScurves:L142> PixTestScurves dtor
+[12:23:31.945] <TB0>    DEBUG: <PixTest.cc/setTestParameter:L637>  setting  ntrig to new value 10
+[12:23:31.945] <TB0>    DEBUG: <PixTestPhOptimization.cc/setParameter:L37>   setting fParNtrig  ->10<- from sval = 10
+[12:23:31.945] <TB0>    DEBUG: <PixTestPhOptimization.cc/setParameter:L42>   setting fSafetyMarginLow  ->20<- from sval = 20
+[12:23:31.945] <TB0>    DEBUG: <PixTestPhOptimization.cc/setParameter:L48>   setting fVcalMax  ->100<- from sval = 100
+[12:23:31.945] <TB0>    DEBUG: <PixTestPhOptimization.cc/setParameter:L53>   setting fQuantMax  ->0.98<- from sval = 0.98
+[12:23:31.945] <TB0>     INFO: ######################################################################
+[12:23:31.945] <TB0>     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[12:23:31.945] <TB0>     INFO: ######################################################################
+[12:23:31.949] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[12:23:32.292] <TB0>     INFO: Expecting 41600 events.
+[12:23:36.395] <TB0>     INFO: 41600 events read in total (3373ms).
+[12:23:36.396] <TB0>     INFO: Test took 4447ms.
+[12:23:36.403] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:23:36.403] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 66557
+[12:23:36.403] <TB0>    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists PixelAlive_C0 .. PixelAlive_C15
+[12:23:36.407] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> Pixel [2, 47, 54] has eff 0/10
+[12:23:36.407] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L231> bad Pixel found and blacklisted: [2, 47, 54]
+[12:23:36.407] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> Pixel [2, 48, 62] has eff 0/10
+[12:23:36.407] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L231> bad Pixel found and blacklisted: [2, 48, 62]
+[12:23:36.409] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> Pixel [11, 6, 58] has eff 0/10
+[12:23:36.409] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L231> bad Pixel found and blacklisted: [11, 6, 58]
+[12:23:36.412] <TB0>    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L239> Number of bad pixels found: 3
+[12:23:36.412] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L124> **********Ph range will be optimised on the whole ROC***********
+[12:23:36.412] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L276> ROC type is newer than digv2
+[12:23:36.412] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L277> ROC type is psi46digv21respin
+[12:23:36.751] <TB0>    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[12:23:37.095] <TB0>     INFO: Expecting 41600 events.
+[12:23:41.264] <TB0>     INFO: 41600 events read in total (3454ms).
+[12:23:41.264] <TB0>     INFO: Test took 4513ms.
+[12:23:41.272] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:23:41.272] <TB0>    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 66558
+[12:23:41.272] <TB0>    DEBUG: <PixTest.cc/phMaps:L349> Create hists maxphmap_C0 .. maxphmap_C15
+[12:23:41.276] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 169.392
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [18 ,5] phvalue 169
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 179.202
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,6] phvalue 179
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 182.049
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 183
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 191.682
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [6 ,5] phvalue 192
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 169.563
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,10] phvalue 170
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 169.823
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 170
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 173.159
+[12:23:41.277] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 173
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 172.775
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [4 ,7] phvalue 173
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 179.697
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 179
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 183.784
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [4 ,15] phvalue 183
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 187.882
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 188
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 181.256
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,10] phvalue 181
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 168.584
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 169
+[12:23:41.278] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 181.774
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,6] phvalue 182
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 178.868
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [14 ,12] phvalue 178
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L347> maxph quantile 172.801
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L371> Max pixel is [3 ,5] phvalue 173
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L427> ROC type is newer than digv2
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L428> ROC type is psi46digv21respin
+[12:23:41.279] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L450> init_phScale=150, flag_minPh = 0, minph = 0
+[12:23:41.370] <TB0>    DEBUG: <PixTest.cc/phMaps:L331>       attempt #0
+[12:23:41.715] <TB0>     INFO: Expecting 41600 events.
+[12:23:45.871] <TB0>     INFO: 41600 events read in total (3442ms).
+[12:23:45.871] <TB0>     INFO: Test took 4501ms.
+[12:23:45.879] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:23:45.879] <TB0>    DEBUG: <PixTest.cc/phMaps:L342>  eff result size = 66557
+[12:23:45.879] <TB0>    DEBUG: <PixTest.cc/phMaps:L349> Create hists minphmap_C0 .. minphmap_C15
+[12:23:45.883] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L457> result size 0
+
+[12:23:45.883] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L484> done. init_phScale=155, flag_minPh = 1, minph = 56minph_roc = 4
+[12:23:45.883] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 62.7705
+[12:23:45.883] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [3 ,13] phvalue 63
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 83.1128
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [10 ,13] phvalue 83
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 77.1873
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [8 ,32] phvalue 78
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 84.9935
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [4 ,19] phvalue 85
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 60.0292
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [4 ,12] phvalue 60
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 74.1094
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [6 ,25] phvalue 74
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 67.1804
+[12:23:45.884] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [6 ,61] phvalue 67
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 61.9891
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [6 ,14] phvalue 62
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 79.3887
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [4 ,25] phvalue 80
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 79.9159
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [3 ,12] phvalue 80
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 82.6094
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [5 ,50] phvalue 83
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 69.7562
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [6 ,61] phvalue 70
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 67.3898
+[12:23:45.885] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [6 ,48] phvalue 68
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 75.1248
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [4 ,12] phvalue 76
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 63.1654
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [3 ,68] phvalue 64
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L502> minph quantile 0.02 73.2788
+[12:23:45.886] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L525> Min pixel is [5 ,44] phvalue 74
+[12:23:45.887] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 3, 13, 0 0
+[12:23:46.297] <TB0>     INFO: Expecting 2560 events.
+[12:23:47.256] <TB0>     INFO: 2560 events read in total (244ms).
+[12:23:47.256] <TB0>     INFO: Test took 1369ms.
+[12:23:47.257] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:47.257] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 10, 13, 1 1
+[12:23:47.764] <TB0>     INFO: Expecting 2560 events.
+[12:23:48.721] <TB0>     INFO: 2560 events read in total (242ms).
+[12:23:48.721] <TB0>     INFO: Test took 1464ms.
+[12:23:48.721] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:48.721] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 8, 32, 2 2
+[12:23:49.229] <TB0>     INFO: Expecting 2560 events.
+[12:23:50.186] <TB0>     INFO: 2560 events read in total (242ms).
+[12:23:50.186] <TB0>     INFO: Test took 1465ms.
+[12:23:50.186] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:50.187] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 4, 19, 3 3
+[12:23:50.694] <TB0>     INFO: Expecting 2560 events.
+[12:23:51.652] <TB0>     INFO: 2560 events read in total (243ms).
+[12:23:51.652] <TB0>     INFO: Test took 1465ms.
+[12:23:51.653] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:51.653] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 4, 12, 4 4
+[12:23:52.160] <TB0>     INFO: Expecting 2560 events.
+[12:23:53.118] <TB0>     INFO: 2560 events read in total (243ms).
+[12:23:53.118] <TB0>     INFO: Test took 1465ms.
+[12:23:53.118] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:53.119] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 6, 25, 5 5
+[12:23:53.627] <TB0>     INFO: Expecting 2560 events.
+[12:23:54.585] <TB0>     INFO: 2560 events read in total (243ms).
+[12:23:54.585] <TB0>     INFO: Test took 1466ms.
+[12:23:54.585] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:54.585] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 6, 61, 6 6
+[12:23:55.097] <TB0>     INFO: Expecting 2560 events.
+[12:23:56.056] <TB0>     INFO: 2560 events read in total (244ms).
+[12:23:56.056] <TB0>     INFO: Test took 1471ms.
+[12:23:56.056] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:56.057] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 6, 14, 7 7
+[12:23:56.564] <TB0>     INFO: Expecting 2560 events.
+[12:23:57.522] <TB0>     INFO: 2560 events read in total (243ms).
+[12:23:57.523] <TB0>     INFO: Test took 1466ms.
+[12:23:57.523] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:57.523] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 4, 25, 8 8
+[12:23:58.030] <TB0>     INFO: Expecting 2560 events.
+[12:23:58.989] <TB0>     INFO: 2560 events read in total (244ms).
+[12:23:58.989] <TB0>     INFO: Test took 1465ms.
+[12:23:58.989] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:23:58.989] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 3, 12, 9 9
+[12:23:59.497] <TB0>     INFO: Expecting 2560 events.
+[12:24:00.456] <TB0>     INFO: 2560 events read in total (244ms).
+[12:24:00.456] <TB0>     INFO: Test took 1467ms.
+[12:24:00.456] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:00.457] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 5, 50, 10 10
+[12:24:00.964] <TB0>     INFO: Expecting 2560 events.
+[12:24:01.922] <TB0>     INFO: 2560 events read in total (244ms).
+[12:24:01.922] <TB0>     INFO: Test took 1465ms.
+[12:24:01.923] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:01.923] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 6, 61, 11 11
+[12:24:02.430] <TB0>     INFO: Expecting 2560 events.
+[12:24:03.388] <TB0>     INFO: 2560 events read in total (244ms).
+[12:24:03.389] <TB0>     INFO: Test took 1466ms.
+[12:24:03.389] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:03.389] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 6, 48, 12 12
+[12:24:03.897] <TB0>     INFO: Expecting 2560 events.
+[12:24:04.854] <TB0>     INFO: 2560 events read in total (243ms).
+[12:24:04.854] <TB0>     INFO: Test took 1465ms.
+[12:24:04.854] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:04.855] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 4, 12, 13 13
+[12:24:05.362] <TB0>     INFO: Expecting 2560 events.
+[12:24:06.320] <TB0>     INFO: 2560 events read in total (243ms).
+[12:24:06.320] <TB0>     INFO: Test took 1465ms.
+[12:24:06.321] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:06.321] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 3, 68, 14 14
+[12:24:06.828] <TB0>     INFO: Expecting 2560 events.
+[12:24:07.788] <TB0>     INFO: 2560 events read in total (245ms).
+[12:24:07.788] <TB0>     INFO: Test took 1467ms.
+[12:24:07.788] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:07.788] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L591> enabling pixels 5, 44, 15 15
+[12:24:08.295] <TB0>     INFO: Expecting 2560 events.
+[12:24:09.253] <TB0>     INFO: 2560 events read in total (243ms).
+[12:24:09.254] <TB0>     INFO: Test took 1466ms.
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L611> size of results 256
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 32 on ROC0
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC1
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC2
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC3
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC4
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 35 on ROC5
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC6
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 34 on ROC7
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 32 on ROC8
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC9
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC10
+[12:24:09.254] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC11
+[12:24:09.255] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC12
+[12:24:09.255] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC13
+[12:24:09.255] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 31 on ROC14
+[12:24:09.255] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L132> vcal min 33 on ROC15
+[12:24:09.258] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:24:09.763] <TB0>     INFO: Expecting 655360 events.
+[12:24:21.542] <TB0>     INFO: 655360 events read in total (11064ms).
+[12:24:21.553] <TB0>     INFO: Expecting 655360 events.
+[12:24:33.205] <TB0>     INFO: 655360 events read in total (11083ms).
+[12:24:33.222] <TB0>     INFO: Expecting 655360 events.
+[12:24:44.890] <TB0>     INFO: 655360 events read in total (11100ms).
+[12:24:44.909] <TB0>     INFO: Expecting 655360 events.
+[12:24:56.542] <TB0>     INFO: 655360 events read in total (11070ms).
+[12:24:56.566] <TB0>     INFO: Expecting 655360 events.
+[12:25:08.215] <TB0>     INFO: 655360 events read in total (11090ms).
+[12:25:08.242] <TB0>     INFO: Expecting 655360 events.
+[12:25:19.872] <TB0>     INFO: 655360 events read in total (11076ms).
+[12:25:19.907] <TB0>     INFO: Expecting 655360 events.
+[12:25:31.523] <TB0>     INFO: 655360 events read in total (11074ms).
+[12:25:31.559] <TB0>     INFO: Expecting 655360 events.
+[12:25:43.208] <TB0>     INFO: 655360 events read in total (11107ms).
+[12:25:43.248] <TB0>     INFO: Expecting 655360 events.
+[12:25:54.942] <TB0>     INFO: 655360 events read in total (11154ms).
+[12:25:54.986] <TB0>     INFO: Expecting 655360 events.
+[12:26:06.682] <TB0>     INFO: 655360 events read in total (11161ms).
+[12:26:06.731] <TB0>     INFO: Expecting 655360 events.
+[12:26:18.427] <TB0>     INFO: 655360 events read in total (11168ms).
+[12:26:18.480] <TB0>     INFO: Expecting 655360 events.
+[12:26:30.221] <TB0>     INFO: 655360 events read in total (11214ms).
+[12:26:30.279] <TB0>     INFO: Expecting 655360 events.
+[12:26:42.020] <TB0>     INFO: 655360 events read in total (11215ms).
+[12:26:42.094] <TB0>     INFO: Expecting 655360 events.
+[12:26:53.869] <TB0>     INFO: 655360 events read in total (11248ms).
+[12:26:53.938] <TB0>     INFO: Expecting 655360 events.
+[12:27:05.707] <TB0>     INFO: 655360 events read in total (11242ms).
+[12:27:05.777] <TB0>     INFO: Expecting 655360 events.
+[12:27:17.480] <TB0>     INFO: 655360 events read in total (11177ms).
+[12:27:17.562] <TB0>     INFO: Test took 188304ms.
+[12:27:17.655] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:27:17.960] <TB0>     INFO: Expecting 655360 events.
+[12:27:29.769] <TB0>     INFO: 655360 events read in total (11094ms).
+[12:27:29.781] <TB0>     INFO: Expecting 655360 events.
+[12:27:41.477] <TB0>     INFO: 655360 events read in total (11129ms).
+[12:27:41.492] <TB0>     INFO: Expecting 655360 events.
+[12:27:53.124] <TB0>     INFO: 655360 events read in total (11066ms).
+[12:27:53.143] <TB0>     INFO: Expecting 655360 events.
+[12:28:04.810] <TB0>     INFO: 655360 events read in total (11108ms).
+[12:28:04.833] <TB0>     INFO: Expecting 655360 events.
+[12:28:16.502] <TB0>     INFO: 655360 events read in total (11109ms).
+[12:28:16.529] <TB0>     INFO: Expecting 655360 events.
+[12:28:28.231] <TB0>     INFO: 655360 events read in total (11146ms).
+[12:28:28.266] <TB0>     INFO: Expecting 655360 events.
+[12:28:39.924] <TB0>     INFO: 655360 events read in total (11110ms).
+[12:28:39.965] <TB0>     INFO: Expecting 655360 events.
+[12:28:51.639] <TB0>     INFO: 655360 events read in total (11141ms).
+[12:28:51.678] <TB0>     INFO: Expecting 655360 events.
+[12:29:03.344] <TB0>     INFO: 655360 events read in total (11135ms).
+[12:29:03.388] <TB0>     INFO: Expecting 655360 events.
+[12:29:15.129] <TB0>     INFO: 655360 events read in total (11205ms).
+[12:29:15.177] <TB0>     INFO: Expecting 655360 events.
+[12:29:26.848] <TB0>     INFO: 655360 events read in total (11135ms).
+[12:29:26.900] <TB0>     INFO: Expecting 655360 events.
+[12:29:38.202] <TB0>     INFO: 655360 events read in total (10775ms).
+[12:29:38.259] <TB0>     INFO: Expecting 655360 events.
+[12:29:49.543] <TB0>     INFO: 655360 events read in total (10757ms).
+[12:29:49.605] <TB0>     INFO: Expecting 655360 events.
+[12:30:00.894] <TB0>     INFO: 655360 events read in total (10762ms).
+[12:30:00.963] <TB0>     INFO: Expecting 655360 events.
+[12:30:12.374] <TB0>     INFO: 655360 events read in total (10885ms).
+[12:30:12.445] <TB0>     INFO: Expecting 655360 events.
+[12:30:24.176] <TB0>     INFO: 655360 events read in total (11205ms).
+[12:30:24.256] <TB0>     INFO: Test took 186601ms.
+[12:30:24.438] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.438] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip0
+[12:30:24.438] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip1
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip2
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip3
+[12:30:24.439] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip4
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip5
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip6
+[12:30:24.440] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.441] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip7
+[12:30:24.441] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.441] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip8
+[12:30:24.441] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip9
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip10
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip11
+[12:30:24.442] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip12
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip13
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip14
+[12:30:24.443] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L955> before assigning th2_sol to vector component
+[12:30:24.444] <TB0>    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L962> after assigning th2_sol to vector component, chip15
+[12:30:24.444] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.451] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.458] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.465] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.471] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.478] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.485] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.492] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.498] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.505] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.512] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.519] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.525] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.532] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.539] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.546] <TB0>     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:30:24.552] <TB0>     INFO: safety margin for low PH: adding 1, margin is now 21
+[12:30:24.559] <TB0>     INFO: safety margin for low PH: adding 2, margin is now 22
+[12:30:24.566] <TB0>     INFO: safety margin for low PH: adding 3, margin is now 23
+[12:30:24.573] <TB0>     INFO: safety margin for low PH: adding 4, margin is now 24
+[12:30:24.579] <TB0>     INFO: safety margin for low PH: adding 5, margin is now 25
+[12:30:24.586] <TB0>     INFO: safety margin for low PH: adding 6, margin is now 26
+[12:30:24.593] <TB0>    DEBUG: <PixTestPhOptimization.cc/doTest:L172> optimisation done
+[12:30:24.623] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C0.dat
+[12:30:24.623] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C1.dat
+[12:30:24.623] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C2.dat
+[12:30:24.623] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C3.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C4.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C5.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C6.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C7.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C8.dat
+[12:30:24.624] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C9.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C10.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C11.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C12.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C13.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C14.dat
+[12:30:24.625] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//dacParameters35_C15.dat
+[12:30:24.974] <TB0>     INFO: Expecting 41600 events.
+[12:30:28.813] <TB0>     INFO: 41600 events read in total (3124ms).
+[12:30:28.813] <TB0>     INFO: Test took 4184ms.
+[12:30:29.467] <TB0>     INFO: Expecting 41600 events.
+[12:30:33.317] <TB0>     INFO: 41600 events read in total (3135ms).
+[12:30:33.318] <TB0>     INFO: Test took 4195ms.
+[12:30:33.969] <TB0>     INFO: Expecting 41600 events.
+[12:30:37.813] <TB0>     INFO: 41600 events read in total (3129ms).
+[12:30:37.814] <TB0>     INFO: Test took 4190ms.
+[12:30:38.121] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:38.253] <TB0>     INFO: Expecting 2560 events.
+[12:30:39.211] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:39.212] <TB0>     INFO: Test took 1091ms.
+[12:30:39.214] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:39.721] <TB0>     INFO: Expecting 2560 events.
+[12:30:40.678] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:40.679] <TB0>     INFO: Test took 1465ms.
+[12:30:40.681] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:41.187] <TB0>     INFO: Expecting 2560 events.
+[12:30:42.146] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:42.146] <TB0>     INFO: Test took 1465ms.
+[12:30:42.149] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:42.655] <TB0>     INFO: Expecting 2560 events.
+[12:30:43.613] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:43.614] <TB0>     INFO: Test took 1465ms.
+[12:30:43.616] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:44.122] <TB0>     INFO: Expecting 2560 events.
+[12:30:45.081] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:45.081] <TB0>     INFO: Test took 1465ms.
+[12:30:45.083] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:45.590] <TB0>     INFO: Expecting 2560 events.
+[12:30:46.549] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:46.550] <TB0>     INFO: Test took 1467ms.
+[12:30:46.552] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:47.061] <TB0>     INFO: Expecting 2560 events.
+[12:30:48.020] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:48.020] <TB0>     INFO: Test took 1468ms.
+[12:30:48.022] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:48.528] <TB0>     INFO: Expecting 2560 events.
+[12:30:49.486] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:49.486] <TB0>     INFO: Test took 1464ms.
+[12:30:49.488] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:49.995] <TB0>     INFO: Expecting 2560 events.
+[12:30:50.953] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:50.953] <TB0>     INFO: Test took 1465ms.
+[12:30:50.956] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:51.462] <TB0>     INFO: Expecting 2560 events.
+[12:30:52.419] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:52.420] <TB0>     INFO: Test took 1464ms.
+[12:30:52.422] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:52.928] <TB0>     INFO: Expecting 2560 events.
+[12:30:53.885] <TB0>     INFO: 2560 events read in total (242ms).
+[12:30:53.886] <TB0>     INFO: Test took 1464ms.
+[12:30:53.888] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:54.395] <TB0>     INFO: Expecting 2560 events.
+[12:30:55.353] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:55.354] <TB0>     INFO: Test took 1466ms.
+[12:30:55.356] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:55.862] <TB0>     INFO: Expecting 2560 events.
+[12:30:56.819] <TB0>     INFO: 2560 events read in total (242ms).
+[12:30:56.819] <TB0>     INFO: Test took 1463ms.
+[12:30:56.821] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:57.328] <TB0>     INFO: Expecting 2560 events.
+[12:30:58.285] <TB0>     INFO: 2560 events read in total (243ms).
+[12:30:58.286] <TB0>     INFO: Test took 1465ms.
+[12:30:58.288] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:30:58.794] <TB0>     INFO: Expecting 2560 events.
+[12:30:59.753] <TB0>     INFO: 2560 events read in total (244ms).
+[12:30:59.754] <TB0>     INFO: Test took 1466ms.
+[12:30:59.755] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:00.262] <TB0>     INFO: Expecting 2560 events.
+[12:31:01.220] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:01.220] <TB0>     INFO: Test took 1465ms.
+[12:31:01.223] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:01.729] <TB0>     INFO: Expecting 2560 events.
+[12:31:02.689] <TB0>     INFO: 2560 events read in total (245ms).
+[12:31:02.690] <TB0>     INFO: Test took 1468ms.
+[12:31:02.692] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:03.198] <TB0>     INFO: Expecting 2560 events.
+[12:31:04.157] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:04.157] <TB0>     INFO: Test took 1465ms.
+[12:31:04.159] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:04.666] <TB0>     INFO: Expecting 2560 events.
+[12:31:05.626] <TB0>     INFO: 2560 events read in total (245ms).
+[12:31:05.626] <TB0>     INFO: Test took 1467ms.
+[12:31:05.628] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:06.134] <TB0>     INFO: Expecting 2560 events.
+[12:31:07.093] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:07.094] <TB0>     INFO: Test took 1466ms.
+[12:31:07.096] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:07.602] <TB0>     INFO: Expecting 2560 events.
+[12:31:08.560] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:08.561] <TB0>     INFO: Test took 1465ms.
+[12:31:08.563] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:09.069] <TB0>     INFO: Expecting 2560 events.
+[12:31:10.028] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:10.028] <TB0>     INFO: Test took 1465ms.
+[12:31:10.030] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:10.536] <TB0>     INFO: Expecting 2560 events.
+[12:31:11.496] <TB0>     INFO: 2560 events read in total (245ms).
+[12:31:11.496] <TB0>     INFO: Test took 1466ms.
+[12:31:11.498] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:12.005] <TB0>     INFO: Expecting 2560 events.
+[12:31:12.963] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:12.963] <TB0>     INFO: Test took 1465ms.
+[12:31:12.965] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:13.472] <TB0>     INFO: Expecting 2560 events.
+[12:31:14.431] <TB0>     INFO: 2560 events read in total (245ms).
+[12:31:14.431] <TB0>     INFO: Test took 1466ms.
+[12:31:14.433] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:14.940] <TB0>     INFO: Expecting 2560 events.
+[12:31:15.899] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:15.899] <TB0>     INFO: Test took 1466ms.
+[12:31:15.902] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:16.408] <TB0>     INFO: Expecting 2560 events.
+[12:31:17.367] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:17.368] <TB0>     INFO: Test took 1466ms.
+[12:31:17.370] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:17.876] <TB0>     INFO: Expecting 2560 events.
+[12:31:18.834] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:18.834] <TB0>     INFO: Test took 1464ms.
+[12:31:18.837] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:19.343] <TB0>     INFO: Expecting 2560 events.
+[12:31:20.301] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:20.302] <TB0>     INFO: Test took 1465ms.
+[12:31:20.304] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:20.810] <TB0>     INFO: Expecting 2560 events.
+[12:31:21.769] <TB0>     INFO: 2560 events read in total (244ms).
+[12:31:21.770] <TB0>     INFO: Test took 1466ms.
+[12:31:21.772] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:22.278] <TB0>     INFO: Expecting 2560 events.
+[12:31:23.238] <TB0>     INFO: 2560 events read in total (245ms).
+[12:31:23.239] <TB0>     INFO: Test took 1468ms.
+[12:31:23.241] <TB0>     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:31:23.747] <TB0>     INFO: Expecting 2560 events.
+[12:31:24.705] <TB0>     INFO: 2560 events read in total (243ms).
+[12:31:24.706] <TB0>     INFO: Test took 1465ms.
+[12:31:25.728] <TB0>     INFO: PixTestPhOptimization::doTest() done, duration: 473 seconds
+[12:31:25.728] <TB0>     INFO: PH scale (per ROC):    80  80  79  92  88  80  81  80  76  85  91  85  75  83  79  77
+[12:31:25.728] <TB0>     INFO: PH offset (per ROC):  181 164 170 159 179 173 176 179 172 165 159 173 181 171 184 176
+[12:31:25.900] <TB0>    DEBUG: <PixTestGainPedestal.cc/setParameter:L83> PixTestGainPedestal::PixTest() fVcalStep = 10
+[12:31:25.903] <TB0>     INFO: ######################################################################
+[12:31:25.903] <TB0>     INFO: PixTestGainPedestal::doTest() ntrig = 10
+[12:31:25.903] <TB0>     INFO: ######################################################################
+[12:31:25.903] <TB0>    DEBUG: <PixTestGainPedestal.cc/measure:L192>  using FLAGS = 16
+[12:31:25.914] <TB0>     INFO: scanning low vcal = 10
+[12:31:26.257] <TB0>     INFO: Expecting 41600 events.
+[12:31:29.983] <TB0>     INFO: 41600 events read in total (3011ms).
+[12:31:29.984] <TB0>     INFO: Test took 4070ms.
+[12:31:29.985] <TB0>     INFO: scanning low vcal = 20
+[12:31:30.491] <TB0>     INFO: Expecting 41600 events.
+[12:31:34.212] <TB0>     INFO: 41600 events read in total (3006ms).
+[12:31:34.213] <TB0>     INFO: Test took 4228ms.
+[12:31:34.214] <TB0>     INFO: scanning low vcal = 30
+[12:31:34.721] <TB0>     INFO: Expecting 41600 events.
+[12:31:38.454] <TB0>     INFO: 41600 events read in total (3018ms).
+[12:31:38.455] <TB0>     INFO: Test took 4241ms.
+[12:31:38.457] <TB0>     INFO: scanning low vcal = 40
+[12:31:38.961] <TB0>     INFO: Expecting 41600 events.
+[12:31:43.209] <TB0>     INFO: 41600 events read in total (3533ms).
+[12:31:43.209] <TB0>     INFO: Test took 4752ms.
+[12:31:43.212] <TB0>     INFO: scanning low vcal = 50
+[12:31:43.633] <TB0>     INFO: Expecting 41600 events.
+[12:31:47.889] <TB0>     INFO: 41600 events read in total (3541ms).
+[12:31:47.890] <TB0>     INFO: Test took 4678ms.
+[12:31:47.892] <TB0>     INFO: scanning low vcal = 60
+[12:31:48.316] <TB0>     INFO: Expecting 41600 events.
+[12:31:52.562] <TB0>     INFO: 41600 events read in total (3531ms).
+[12:31:52.563] <TB0>     INFO: Test took 4671ms.
+[12:31:52.566] <TB0>     INFO: scanning low vcal = 70
+[12:31:52.989] <TB0>     INFO: Expecting 41600 events.
+[12:31:57.267] <TB0>     INFO: 41600 events read in total (3563ms).
+[12:31:57.268] <TB0>     INFO: Test took 4702ms.
+[12:31:57.270] <TB0>     INFO: scanning low vcal = 80
+[12:31:57.693] <TB0>     INFO: Expecting 41600 events.
+[12:32:01.977] <TB0>     INFO: 41600 events read in total (3569ms).
+[12:32:01.978] <TB0>     INFO: Test took 4708ms.
+[12:32:01.981] <TB0>     INFO: scanning low vcal = 90
+[12:32:02.403] <TB0>     INFO: Expecting 41600 events.
+[12:32:06.665] <TB0>     INFO: 41600 events read in total (3548ms).
+[12:32:06.665] <TB0>     INFO: Test took 4684ms.
+[12:32:06.669] <TB0>     INFO: scanning low vcal = 100
+[12:32:07.090] <TB0>     INFO: Expecting 41600 events.
+[12:32:11.489] <TB0>     INFO: 41600 events read in total (3684ms).
+[12:32:11.490] <TB0>     INFO: Test took 4821ms.
+[12:32:11.493] <TB0>     INFO: scanning low vcal = 110
+[12:32:11.913] <TB0>     INFO: Expecting 41600 events.
+[12:32:16.125] <TB0>     INFO: 41600 events read in total (3497ms).
+[12:32:16.125] <TB0>     INFO: Test took 4632ms.
+[12:32:16.128] <TB0>     INFO: scanning low vcal = 120
+[12:32:16.552] <TB0>     INFO: Expecting 41600 events.
+[12:32:20.766] <TB0>     INFO: 41600 events read in total (3499ms).
+[12:32:20.767] <TB0>     INFO: Test took 4639ms.
+[12:32:20.770] <TB0>     INFO: scanning low vcal = 130
+[12:32:21.195] <TB0>     INFO: Expecting 41600 events.
+[12:32:25.403] <TB0>     INFO: 41600 events read in total (3493ms).
+[12:32:25.404] <TB0>     INFO: Test took 4634ms.
+[12:32:25.406] <TB0>     INFO: scanning low vcal = 140
+[12:32:25.832] <TB0>     INFO: Expecting 41600 events.
+[12:32:30.055] <TB0>     INFO: 41600 events read in total (3508ms).
+[12:32:30.055] <TB0>     INFO: Test took 4649ms.
+[12:32:30.058] <TB0>     INFO: scanning low vcal = 150
+[12:32:30.479] <TB0>     INFO: Expecting 41600 events.
+[12:32:34.684] <TB0>     INFO: 41600 events read in total (3490ms).
+[12:32:34.685] <TB0>     INFO: Test took 4627ms.
+[12:32:34.687] <TB0>     INFO: scanning low vcal = 160
+[12:32:35.113] <TB0>     INFO: Expecting 41600 events.
+[12:32:39.332] <TB0>     INFO: 41600 events read in total (3504ms).
+[12:32:39.333] <TB0>     INFO: Test took 4646ms.
+[12:32:39.336] <TB0>     INFO: scanning low vcal = 170
+[12:32:39.765] <TB0>     INFO: Expecting 41600 events.
+[12:32:43.982] <TB0>     INFO: 41600 events read in total (3503ms).
+[12:32:43.983] <TB0>     INFO: Test took 4647ms.
+[12:32:43.987] <TB0>     INFO: scanning low vcal = 180
+[12:32:44.414] <TB0>     INFO: Expecting 41600 events.
+[12:32:48.635] <TB0>     INFO: 41600 events read in total (3506ms).
+[12:32:48.636] <TB0>     INFO: Test took 4649ms.
+[12:32:48.639] <TB0>     INFO: scanning low vcal = 190
+[12:32:49.065] <TB0>     INFO: Expecting 41600 events.
+[12:32:53.284] <TB0>     INFO: 41600 events read in total (3504ms).
+[12:32:53.285] <TB0>     INFO: Test took 4646ms.
+[12:32:53.287] <TB0>     INFO: scanning low vcal = 200
+[12:32:53.715] <TB0>     INFO: Expecting 41600 events.
+[12:32:57.935] <TB0>     INFO: 41600 events read in total (3505ms).
+[12:32:57.935] <TB0>     INFO: Test took 4647ms.
+[12:32:57.938] <TB0>     INFO: scanning low vcal = 210
+[12:32:58.367] <TB0>     INFO: Expecting 41600 events.
+[12:33:02.587] <TB0>     INFO: 41600 events read in total (3505ms).
+[12:33:02.588] <TB0>     INFO: Test took 4650ms.
+[12:33:02.591] <TB0>     INFO: scanning low vcal = 220
+[12:33:03.018] <TB0>     INFO: Expecting 41600 events.
+[12:33:07.236] <TB0>     INFO: 41600 events read in total (3503ms).
+[12:33:07.237] <TB0>     INFO: Test took 4646ms.
+[12:33:07.240] <TB0>     INFO: scanning low vcal = 230
+[12:33:07.668] <TB0>     INFO: Expecting 41600 events.
+[12:33:11.888] <TB0>     INFO: 41600 events read in total (3505ms).
+[12:33:11.888] <TB0>     INFO: Test took 4648ms.
+[12:33:11.891] <TB0>     INFO: scanning low vcal = 240
+[12:33:12.319] <TB0>     INFO: Expecting 41600 events.
+[12:33:16.536] <TB0>     INFO: 41600 events read in total (3502ms).
+[12:33:16.537] <TB0>     INFO: Test took 4646ms.
+[12:33:16.540] <TB0>     INFO: scanning low vcal = 250
+[12:33:16.968] <TB0>     INFO: Expecting 41600 events.
+[12:33:21.188] <TB0>     INFO: 41600 events read in total (3505ms).
+[12:33:21.189] <TB0>     INFO: Test took 4649ms.
+[12:33:21.193] <TB0>     INFO: scanning high vcal = 30 (= 210 in low range)
+[12:33:21.620] <TB0>     INFO: Expecting 41600 events.
+[12:33:25.838] <TB0>     INFO: 41600 events read in total (3503ms).
+[12:33:25.838] <TB0>     INFO: Test took 4645ms.
+[12:33:25.841] <TB0>     INFO: scanning high vcal = 50 (= 350 in low range)
+[12:33:26.269] <TB0>     INFO: Expecting 41600 events.
+[12:33:30.489] <TB0>     INFO: 41600 events read in total (3505ms).
+[12:33:30.490] <TB0>     INFO: Test took 4649ms.
+[12:33:30.493] <TB0>     INFO: scanning high vcal = 70 (= 490 in low range)
+[12:33:30.920] <TB0>     INFO: Expecting 41600 events.
+[12:33:35.139] <TB0>     INFO: 41600 events read in total (3504ms).
+[12:33:35.140] <TB0>     INFO: Test took 4647ms.
+[12:33:35.143] <TB0>     INFO: scanning high vcal = 90 (= 630 in low range)
+[12:33:35.572] <TB0>     INFO: Expecting 41600 events.
+[12:33:39.791] <TB0>     INFO: 41600 events read in total (3504ms).
+[12:33:39.791] <TB0>     INFO: Test took 4648ms.
+[12:33:39.794] <TB0>     INFO: scanning high vcal = 200 (= 1400 in low range)
+[12:33:40.222] <TB0>     INFO: Expecting 41600 events.
+[12:33:44.443] <TB0>     INFO: 41600 events read in total (3506ms).
+[12:33:44.443] <TB0>     INFO: Test took 4649ms.
+[12:33:44.971] <TB0>     INFO: PixTestGainPedestal::measure() done 
+[12:33:44.973] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C0
+[12:33:44.973] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C1
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C2
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C3
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C4
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C5
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C6
+[12:33:44.974] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C7
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C8
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C9
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C10
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C11
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C12
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C13
+[12:33:44.975] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C14
+[12:33:44.976] <TB0>    DEBUG: <PixTestGainPedestal.cc/fit:L379> Create hist gainPedestalP1_C15
+[12:34:24.059] <TB0>     INFO: PixTestGainPedestal::fit() done
+[12:34:24.059] <TB0>     INFO: non-linearity mean:  0.962 0.961 0.959 0.962 0.961 0.963 0.966 0.957 0.958 0.958 0.957 0.958 0.959 0.960 0.961 0.965
+[12:34:24.059] <TB0>     INFO: non-linearity RMS:   0.005 0.005 0.006 0.006 0.006 0.005 0.005 0.006 0.005 0.006 0.005 0.006 0.006 0.005 0.006 0.004
+[12:34:24.059] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C0.dat
+[12:34:24.081] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C1.dat
+[12:34:24.103] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C2.dat
+[12:34:24.125] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C3.dat
+[12:34:24.147] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C4.dat
+[12:34:24.169] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C5.dat
+[12:34:24.191] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C6.dat
+[12:34:24.213] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C7.dat
+[12:34:24.235] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C8.dat
+[12:34:24.257] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C9.dat
+[12:34:24.279] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C10.dat
+[12:34:24.301] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C11.dat
+[12:34:24.323] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C12.dat
+[12:34:24.345] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C13.dat
+[12:34:24.367] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C14.dat
+[12:34:24.389] <TB0>     INFO: write gain/ped parameters into /home/silpix5/allTestResults/M-H-2-36_ElComandanteTest_2016-01-05_11h04m_1452013478//000_FPIXTest_p17//phCalibrationFitErr35_C15.dat
+[12:34:24.411] <TB0>     INFO: PixTestGainPedestal::doTest() done, duration: 178 seconds
+[12:34:24.411] <TB0>    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L125> PixTestGainPedestal dtor
+[12:34:24.418] <TB0>    DEBUG: <PixTestBB3Map.cc/init:L81> PixTestBB3Map::init()
+[12:34:24.418] <TB0>    DEBUG: <PixTestBB3Map.cc/PixTestBB3Map:L29> PixTestBB3Map ctor(PixSetup &a, string, TGTab *)
+[12:34:24.421] <TB0>     INFO: ######################################################################
+[12:34:24.421] <TB0>     INFO: PixTestBB3Map::doTest() Ntrig = 5, VcalS = 250 (high range)
+[12:34:24.421] <TB0>     INFO: ######################################################################
+[12:34:24.423] <TB0>     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 (-1/-1) hits flags = 514 (plus default)
+[12:34:24.432] <TB0>     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:34:24.432] <TB0>     INFO:     run 1 of 1
+[12:34:24.433] <TB0>    DEBUG: <PixTest.cc/dacScan:L1587>       attempt #0
+[12:34:24.773] <TB0>     INFO: Expecting 3120000 events.
+[12:35:13.028] <TB0>     INFO: 1279105 events read in total (47539ms).
+[12:36:00.483] <TB0>     INFO: 2550970 events read in total (94995ms).
+[12:36:21.846] <TB0>     INFO: 3120000 events read in total (116358ms).
+[12:36:21.894] <TB0>     INFO: Test took 117461ms.
+[12:36:21.972] <TB0>     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:36:22.074] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 0
+[12:36:23.452] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 1
+[12:36:24.851] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 2
+[12:36:26.248] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 3
+[12:36:27.612] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 4
+[12:36:29.013] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 5
+[12:36:30.366] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 6
+[12:36:31.727] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 7
+[12:36:33.132] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 8
+[12:36:34.577] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 9
+[12:36:35.937] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 10
+[12:36:37.374] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 11
+[12:36:38.847] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 12
+[12:36:40.217] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 13
+[12:36:41.599] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 14
+[12:36:42.994] <TB0>    DEBUG: <PixTest.cc/scurveAna:L1650> analyzing ROC 15
+[12:36:44.322] <TB0>    DEBUG: <PixTest.cc/scurveMaps:L316> PixTest::scurveMaps end: getCurrentRSS() = 399622144
+[12:36:44.352] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C0_V0
+[12:36:44.352] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 74.0142, RMS = 1.77369
+[12:36:44.352] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 83
+[12:36:44.353] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C0_V0
+[12:36:44.353] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 73.557, RMS = 2.14075
+[12:36:44.353] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.353] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C1_V0
+[12:36:44.354] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 76.5709, RMS = 1.43811
+[12:36:44.354] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 84
+[12:36:44.354] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C1_V0
+[12:36:44.354] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 75.4209, RMS = 1.83548
+[12:36:44.354] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C2_V0
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 76.1427, RMS = 1.70429
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C2_V0
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 73.7485, RMS = 2.06896
+[12:36:44.355] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C3_V0
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 74.8997, RMS = 1.7187
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 84
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C3_V0
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 74.2759, RMS = 1.78957
+[12:36:44.356] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 84
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C4_V0
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 75.2915, RMS = 1.82331
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C4_V0
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 72.1964, RMS = 2.37402
+[12:36:44.357] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C5_V0
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 74.2029, RMS = 1.60461
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 83
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C5_V0
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 72.1449, RMS = 2.13991
+[12:36:44.358] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 83
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C6_V0
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 76.3355, RMS = 1.56303
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C6_V0
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 72.0107, RMS = 2.42065
+[12:36:44.359] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C7_V0
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 79.6824, RMS = 1.04713
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C7_V0
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 78.3021, RMS = 1.22859
+[12:36:44.360] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C8_V0
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 79.7166, RMS = 1.35356
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 87
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C8_V0
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 79.3832, RMS = 1.32889
+[12:36:44.361] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 87
+[12:36:44.362] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C9_V0
+[12:36:44.362] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 68.2737, RMS = 1.58939
+[12:36:44.362] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 77
+[12:36:44.363] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C9_V0
+[12:36:44.363] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 66.018, RMS = 1.67736
+[12:36:44.363] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 75
+[12:36:44.363] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C10_V0
+[12:36:44.363] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 78.1539, RMS = 1.52039
+[12:36:44.364] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 86
+[12:36:44.364] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C10_V0
+[12:36:44.364] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 78.1962, RMS = 1.44602
+[12:36:44.364] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 86
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C11_V0
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 82.4287, RMS = 1.82841
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 92
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C11_V0
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 81.7836, RMS = 1.87224
+[12:36:44.365] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 92
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C12_V0
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 66.1349, RMS = 2.59048
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 80
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C12_V0
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 64.1103, RMS = 2.40411
+[12:36:44.366] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 77
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C13_V0
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 77.3234, RMS = 1.36181
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C13_V0
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 74.4023, RMS = 1.83461
+[12:36:44.367] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 84
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C14_V0
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 81.2574, RMS = 1.3109
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 88
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C14_V0
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 78.4777, RMS = 1.11105
+[12:36:44.368] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 85
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L227> found 1 peaks in dist_thr_calSMap_VthrComp_EvenCol_C15_V0
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L229>   best peak: mean = 73.3159, RMS = 2.17077
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L230>     cut value = 85
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L242> found 1 peaks in dist_thr_calSMap_VthrComp_OddCol_C15_V0
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L244>   best peak: mean = 71.8621, RMS = 2.25302
+[12:36:44.369] <TB0>    DEBUG: <PixTestBB3Map.cc/doTest:L245>     cut value = 84
+[12:36:44.372] <TB0>     INFO: PixTestBB3Map::doTest() done, duration: 139 seconds
+[12:36:44.372] <TB0>     INFO: number of dead bumps (per ROC):     4    2    0    0    0    4    1   17    0    1    0    1    1    5    1    1
+[12:36:44.372] <TB0>    DEBUG: <PixTestBB3Map.cc/~PixTestBB3Map:L99> PixTestBB3Map dtor
+[12:36:44.431] <TB0>    DEBUG: <PixTestFPIXTest.cc/~PixTestFPIXTest:L78> PixTestFPIXTest dtor
+[12:36:44.431] <TB0>     INFO: enter test to run
+[12:36:44.431] <TB0>     INFO:   test:  no parameter change
+[12:36:44.431] <TB0>    DEBUG: <pXar.cc/main:L340> Final Analog Current: 379.4mA
+[12:36:44.432] <TB0>    DEBUG: <pXar.cc/main:L341> Final Digital Current: 465.5mA
+[12:36:44.432] <TB0>    DEBUG: <pXar.cc/main:L342> Final Module Temperature: 19.7 C
+[12:36:44.432] <TB0>    DEBUG: <PixMonitor.cc/dumpSummaries:L39> PixMonitor::dumpSummaries
+[12:36:44.897] <TB0>    QUIET: Connection to board 133 closed.
+[12:36:44.898] <TB0>     INFO: pXar: this is the end, my friend
+[12:36:44.898] <TB0>    DEBUG: <PixSetup.cc/~PixSetup:L68> PixSetup free fPxarMemory
