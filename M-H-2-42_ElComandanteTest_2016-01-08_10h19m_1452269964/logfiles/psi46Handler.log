@@ -1,0 +1,25 @@
+#
+#--------LOG from Fri 08 Jan 2016 at 10h:19m:32s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB2  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB2
+>>> Aquire Testboard 2 <<<
+>>> Release Testboard 2 <<<
+:Test 000_FPIXTest_p17 finished in TB2
+open TB2
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-H-2-42_ElComandanteTest_2016-01-08_10h19m_1452269964//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 2 <<<
+trying to close TB...
+>>> Release Testboard 2 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB2
+CLOSE TB 2 HERE
+:Test 001_IV_p17 finished in TB2
+exit
+:Test  finished in TB0
+:Test  finished in TB1
+:Test 001_IV_p17 finished in TB2
+:Test  finished in TB3
+waiting for client to be closed...
+done
