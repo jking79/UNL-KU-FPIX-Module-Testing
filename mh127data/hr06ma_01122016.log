@@ -1,0 +1,525 @@
+[11:56:13.765]     INFO: *** Welcome to pxar ***
+[11:56:13.765]     INFO: *** Today: 2016/01/12
+[11:56:13.776]     INFO: *** Version: prod-12
+[11:56:13.776]     INFO: readRocDacs: data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/dacParameters35_C0.dat .. data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/dacParameters35_C15.dat
+[11:56:13.777]     INFO: readTbmDacs: data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/tbmParameters_C0a.dat .. data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/tbmParameters_C0b.dat
+[11:56:13.777]     INFO: readMaskFile: data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/defaultMaskFile.dat
+[11:56:13.777]     INFO: readTrimFile: data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/trimParameters35_C0.dat .. data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/trimParameters35_C15.dat
+[11:56:13.933]     INFO:         clk: 4
+[11:56:13.933]     INFO:         ctr: 4
+[11:56:13.933]     INFO:         sda: 19
+[11:56:13.933]     INFO:         tin: 9
+[11:56:13.933]     INFO:         level: 15
+[11:56:13.933]     INFO:         triggerdelay: 0
+[11:56:13.933]    QUIET: Instanciating API for pxar prod-12
+[11:56:13.933]     INFO: Log level: DEBUG
+[11:56:13.944]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:56:13.947]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:56:13.950]     INFO: RPC call hashes of host and DTB match: 398089610
+[11:56:15.553]     INFO: DUT info: 
+[11:56:15.553]     INFO: The DUT currently contains the following objects:
+[11:56:15.553]     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:56:15.553]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:56:15.553]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:56:15.553]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:56:15.553]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.553]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.553]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.553]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.553]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.553]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB3<-
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:56:15.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB4<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   savecaldelscan: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 100
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   cals: 1
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   caldello: 80
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelhi: 200
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelstep: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomplo: 70
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomphi: 130
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompstep: 5
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   noisypixels: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 255
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   cut: 0.5
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Cmd<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DAQ<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   trgnumber: 5
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqtrg: button
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   daqseconds: 5
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqseconds: button
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   vcalstep: 10
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[11:56:15.555]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixels: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixelthr: 200
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   runsecondshotpixels: 10
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   savetrimbits: checkbox(1)
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   maskuntrimmable: checkbox(1)
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 2
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 20
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.556]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   findtiming: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpoutputfile: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: Vcal
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: -1
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig/step: -1
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   notokenpass: checkbox(0)
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[11:56:15.557]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 8
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[11:56:15.558]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 31391744
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x1791380
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x1706c10
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7fd151d94010
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7fd157fff510
+[11:56:15.560]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 31399936 fPxarMemory = 0x7fd151d94010
+[11:56:15.562]    DEBUG: <pXar.cc/main:L223> Initial Analog Current: 381.9mA
+[11:56:15.563]    DEBUG: <pXar.cc/main:L224> Initial Digital Current: 467.1mA
+[11:56:15.563]    DEBUG: <pXar.cc/main:L225> Initial Module Temperature: 20.0 C
+[11:56:16.061]    DEBUG: <PixGui.cc/hvOn:L460> HV set On: 0x1d4f5d0
+[11:56:16.128]    DEBUG: <PixTestFactory.cc/PixTestFactory:L53> PixTestFactory::PixTestFactory()
+[11:56:16.128]    DEBUG: <PixTestBBMap.cc/init:L79> PixTestBBMap::init()
+[11:56:16.128]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L27> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[11:56:16.134]    DEBUG: <PixTestBB2Map.cc/setParameter:L58> setting fTargetIa    = 24 mA/ROC
+[11:56:16.134]    DEBUG: <PixTestBB2Map.cc/init:L97> PixTestBB2Map::init()
+[11:56:16.134]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L29> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[11:56:16.146]    DEBUG: <PixTestBB3Map.cc/init:L81> PixTestBB3Map::init()
+[11:56:16.146]    DEBUG: <PixTestBB3Map.cc/PixTestBB3Map:L29> PixTestBB3Map ctor(PixSetup &a, string, TGTab *)
+[11:56:16.163]    DEBUG: <PixTestBB4Map.cc/init:L93> PixTestBB4Map::init()
+[11:56:16.164]    DEBUG: <PixTestBB4Map.cc/PixTestBB4Map:L26> PixTestMapeff ctor(PixSetup &a, string, TGTab *)
+[11:56:16.175]     INFO: PixTestCmd::init()
+[11:56:16.199]    DEBUG: <PixTestDaq.cc/init:L44> PixTestDaq::init()
+[11:56:16.199]    DEBUG: <PixTestDaq.cc/PixTestDaq:L22> PixTestDaq ctor(PixSetup &a, string, TGTab *)
+[11:56:16.199]     INFO: readGainPedestalParameters data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/phCalibrationFitErr35_C0.dat .. data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/phCalibrationFitErr35_C15.dat
+[11:56:16.442]    DEBUG: <PixTestDacDacScan.cc/init:L103> PixTestDacDacScan::init()
+[11:56:16.442]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L22> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[11:56:16.455]    DEBUG: <PixTestGainPedestal.cc/setParameter:L83> PixTestGainPedestal::PixTest() fVcalStep = 10
+[11:56:16.461]    DEBUG: <PixTestHighRate.cc/setParameter:L68>   setting fParTriggerFrequency -> 20
+[11:56:16.461]    DEBUG: <PixTestHighRate.cc/init:L198> PixTestHighRate::init()
+[11:56:16.461]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L31> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[11:56:16.488]    DEBUG: <PixTest.cc/setTestParameter:L637>  setting  ntrig to new value 10
+[11:56:16.488]    DEBUG: <PixTestPhOptimization.cc/setParameter:L37>   setting fParNtrig  ->10<- from sval = 10
+[11:56:16.488]    DEBUG: <PixTestPhOptimization.cc/setParameter:L42>   setting fSafetyMarginLow  ->20<- from sval = 20
+[11:56:16.488]    DEBUG: <PixTestPhOptimization.cc/setParameter:L48>   setting fVcalMax  ->100<- from sval = 100
+[11:56:16.488]    DEBUG: <PixTestPhOptimization.cc/setParameter:L53>   setting fQuantMax  ->0.98<- from sval = 0.98
+[11:56:16.495]    DEBUG: <PixTestAlive.cc/init:L77> PixTestAlive::init()
+[11:56:16.495]    DEBUG: <PixTestAlive.cc/PixTestAlive:L21> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[11:56:16.517]    DEBUG: <PixTestReadback.cc/setParameter:L172> fCalwVd set to 1
+[11:56:16.517]    DEBUG: <PixTestReadback.cc/init:L95> PixTestReadback::init()
+[11:56:16.517]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[11:56:16.517]     INFO: readReadbackCal: data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/readbackCal_C0.dat .. data/mh127/M-H-1-27_ElComandanteTest_2016-01-07_15h43m_1452203009/000_FPIXTest_p17/readbackCal_C15.dat
+[11:56:16.527]    DEBUG: <PixTestScurves.cc/setParameter:L93> set fOutputFilename = 
+[11:56:16.534]    DEBUG: <PixTestTiming.cc/setParameter:L60> PixTestTiming::PixTest() targetclk = 4
+[11:56:16.535]    DEBUG: <PixTestTiming.cc/setParameter:L64> PixTestTiming::PixTest() ntrig = 10
+[11:56:16.535]    DEBUG: <PixTestTiming.cc/setParameter:L48> fNoTokenPass: 0
+[11:56:16.535]    DEBUG: <PixTestTiming.cc/init:L74> PixTestTiming::init()
+[11:56:16.555]    DEBUG: <PixTestXray.cc/init:L134> PixTestXray::init()
+[11:56:16.555]    DEBUG: <PixTestXray.cc/PixTestXray:L28> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[11:56:19.660]    DEBUG: <PixTab.cc/buttonClicked:L308> xxxPressed():  caldelscan
+[11:56:19.660]    DEBUG: <PixTestHighRate.cc/runCommand:L157> running command: caldelscan
+[11:56:19.660]     INFO:    ----------------------------------------------------------------------
+[11:56:19.660]     INFO:    PixTestHighRate::calDelScan() ntrig = 10, vcal = 200
+[11:56:19.660]     INFO:    ----------------------------------------------------------------------
+[11:56:19.802]     INFO: Expecting 768 events.
+[11:56:20.941]     INFO: 768 events read in total (421ms).
+[11:56:21.130]     INFO: Test took 1464ms.
+[11:56:21.136]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:21.805]     INFO: Expecting 41600 events.
+[11:56:25.416]     INFO: 41600 events read in total (3084ms).
+[11:56:25.420]     INFO: Test took 4284ms.
+[11:56:25.541]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:25.541]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 696911
+[11:56:25.541]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step0_C0 .. HR_xeff_CalDelScan_step0_C15
+[11:56:25.541]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:25.593]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:26.261]     INFO: Expecting 41600 events.
+[11:56:29.967]     INFO: 41600 events read in total (3179ms).
+[11:56:29.971]     INFO: Test took 4377ms.
+[11:56:30.091]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:30.091]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 703741
+[11:56:30.091]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step1_C0 .. HR_xeff_CalDelScan_step1_C15
+[11:56:30.092]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:30.148]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:30.814]     INFO: Expecting 41600 events.
+[11:56:34.570]     INFO: 41600 events read in total (3229ms).
+[11:56:34.574]     INFO: Test took 4426ms.
+[11:56:34.691]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:34.691]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 708320
+[11:56:34.691]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step2_C0 .. HR_xeff_CalDelScan_step2_C15
+[11:56:34.692]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:34.746]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:35.411]     INFO: Expecting 41600 events.
+[11:56:39.185]     INFO: 41600 events read in total (3247ms).
+[11:56:39.190]     INFO: Test took 4444ms.
+[11:56:39.308]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:39.308]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706986
+[11:56:39.308]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step3_C0 .. HR_xeff_CalDelScan_step3_C15
+[11:56:39.308]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:39.362]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:40.027]     INFO: Expecting 41600 events.
+[11:56:43.792]     INFO: 41600 events read in total (3238ms).
+[11:56:43.796]     INFO: Test took 4434ms.
+[11:56:43.915]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:43.915]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706246
+[11:56:43.915]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step4_C0 .. HR_xeff_CalDelScan_step4_C15
+[11:56:43.916]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:43.973]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:44.640]     INFO: Expecting 41600 events.
+[11:56:48.407]     INFO: 41600 events read in total (3240ms).
+[11:56:48.411]     INFO: Test took 4438ms.
+[11:56:48.529]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:48.529]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 707927
+[11:56:48.529]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step5_C0 .. HR_xeff_CalDelScan_step5_C15
+[11:56:48.529]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:48.584]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:49.251]     INFO: Expecting 41600 events.
+[11:56:53.036]     INFO: 41600 events read in total (3258ms).
+[11:56:53.041]     INFO: Test took 4457ms.
+[11:56:53.161]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:53.161]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706468
+[11:56:53.161]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step6_C0 .. HR_xeff_CalDelScan_step6_C15
+[11:56:53.161]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:53.215]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:53.880]     INFO: Expecting 41600 events.
+[11:56:57.665]     INFO: 41600 events read in total (3258ms).
+[11:56:57.669]     INFO: Test took 4454ms.
+[11:56:57.790]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:56:57.790]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706977
+[11:56:57.790]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step7_C0 .. HR_xeff_CalDelScan_step7_C15
+[11:56:57.791]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:56:57.847]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:56:58.513]     INFO: Expecting 41600 events.
+[11:57:02.298]     INFO: 41600 events read in total (3258ms).
+[11:57:02.303]     INFO: Test took 4456ms.
+[11:57:02.422]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:02.422]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 707151
+[11:57:02.422]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step8_C0 .. HR_xeff_CalDelScan_step8_C15
+[11:57:02.422]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:02.477]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:03.142]     INFO: Expecting 41600 events.
+[11:57:06.933]     INFO: 41600 events read in total (3264ms).
+[11:57:06.938]     INFO: Test took 4461ms.
+[11:57:07.055]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:07.055]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706857
+[11:57:07.055]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step9_C0 .. HR_xeff_CalDelScan_step9_C15
+[11:57:07.055]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:07.111]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:07.776]     INFO: Expecting 41600 events.
+[11:57:11.560]     INFO: 41600 events read in total (3257ms).
+[11:57:11.564]     INFO: Test took 4453ms.
+[11:57:11.683]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:11.683]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706900
+[11:57:11.683]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step10_C0 .. HR_xeff_CalDelScan_step10_C15
+[11:57:11.683]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:11.738]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:12.403]     INFO: Expecting 41600 events.
+[11:57:16.195]     INFO: 41600 events read in total (3266ms).
+[11:57:16.200]     INFO: Test took 4462ms.
+[11:57:16.319]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:16.319]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 708190
+[11:57:16.319]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step11_C0 .. HR_xeff_CalDelScan_step11_C15
+[11:57:16.319]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:16.376]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:17.043]     INFO: Expecting 41600 events.
+[11:57:20.831]     INFO: 41600 events read in total (3261ms).
+[11:57:20.836]     INFO: Test took 4460ms.
+[11:57:20.955]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:20.955]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 708187
+[11:57:20.955]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step12_C0 .. HR_xeff_CalDelScan_step12_C15
+[11:57:20.955]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:21.010]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:21.675]     INFO: Expecting 41600 events.
+[11:57:25.460]     INFO: 41600 events read in total (3258ms).
+[11:57:25.465]     INFO: Test took 4455ms.
+[11:57:25.583]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:25.583]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 707739
+[11:57:25.583]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step13_C0 .. HR_xeff_CalDelScan_step13_C15
+[11:57:25.583]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:25.638]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:26.303]     INFO: Expecting 41600 events.
+[11:57:30.088]     INFO: 41600 events read in total (3258ms).
+[11:57:30.093]     INFO: Test took 4455ms.
+[11:57:30.213]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:30.213]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 705715
+[11:57:30.213]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step14_C0 .. HR_xeff_CalDelScan_step14_C15
+[11:57:30.213]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:30.271]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:30.937]     INFO: Expecting 41600 events.
+[11:57:34.727]     INFO: 41600 events read in total (3263ms).
+[11:57:34.732]     INFO: Test took 4461ms.
+[11:57:34.849]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:34.849]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 705784
+[11:57:34.849]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step15_C0 .. HR_xeff_CalDelScan_step15_C15
+[11:57:34.850]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:34.905]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:35.570]     INFO: Expecting 41600 events.
+[11:57:39.357]     INFO: 41600 events read in total (3261ms).
+[11:57:39.362]     INFO: Test took 4457ms.
+[11:57:39.480]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:39.480]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 707089
+[11:57:39.480]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step16_C0 .. HR_xeff_CalDelScan_step16_C15
+[11:57:39.480]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:39.535]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:40.200]     INFO: Expecting 41600 events.
+[11:57:43.975]     INFO: 41600 events read in total (3249ms).
+[11:57:43.979]     INFO: Test took 4444ms.
+[11:57:44.096]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:44.096]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 707242
+[11:57:44.096]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step17_C0 .. HR_xeff_CalDelScan_step17_C15
+[11:57:44.097]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:44.152]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:44.817]     INFO: Expecting 41600 events.
+[11:57:48.583]     INFO: 41600 events read in total (3239ms).
+[11:57:48.587]     INFO: Test took 4435ms.
+[11:57:48.706]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:48.706]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 706680
+[11:57:48.706]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step18_C0 .. HR_xeff_CalDelScan_step18_C15
+[11:57:48.706]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:48.761]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:57:49.426]     INFO: Expecting 41600 events.
+[11:57:53.050]     INFO: 41600 events read in total (3097ms).
+[11:57:53.055]     INFO: Test took 4294ms.
+[11:57:53.171]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:57:53.171]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 700112
+[11:57:53.171]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists HR_xeff_CalDelScan_step19_C0 .. HR_xeff_CalDelScan_step19_C15
+[11:57:53.172]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:57:53.451]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  0: caldel = 169 eff = 0.999231
+[11:57:53.451]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  1: caldel = 152 eff = 0.999712
+[11:57:53.451]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  2: caldel = 139 eff = 0.998317
+[11:57:53.451]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  3: caldel = 150 eff = 0.997764
+[11:57:53.452]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  4: caldel = 143 eff = 0.99762
+[11:57:53.452]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  5: caldel = 158 eff = 0.997596
+[11:57:53.452]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  6: caldel = 155 eff = 0.997716
+[11:57:53.452]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  7: caldel = 164 eff = 0.998005
+[11:57:53.453]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  8: caldel = 156 eff = 0.997308
+[11:57:53.453]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc  9: caldel = 159 eff = 0.997139
+[11:57:53.453]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 10: caldel = 171 eff = 0.997163
+[11:57:53.453]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 11: caldel = 150 eff = 0.997284
+[11:57:53.454]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 12: caldel = 149 eff = 0.997163
+[11:57:53.454]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 13: caldel = 161 eff = 0.998534
+[11:57:53.454]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 14: caldel = 160 eff = 0.998966
+[11:57:53.454]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L422> roc 15: caldel = 150 eff = 0.999447
+[11:58:22.988]    DEBUG: <PixTab.cc/buttonClicked:L308> xxxPressed():  xpixelalive
+[11:58:22.988]    DEBUG: <PixTestHighRate.cc/runCommand:L157> running command: xpixelalive
+[11:58:22.988]     INFO:    ----------------------------------------------------------------------
+[11:58:22.988]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 50, vcal = 200
+[11:58:22.988]     INFO:    ----------------------------------------------------------------------
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: clk: 4
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: ctr: 4
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: sda: 19
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: tin: 9
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: level: 15
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L451>  old set: triggerdelay: 0
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: clk: 4
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: ctr: 4
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: sda: 19
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: tin: 9
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: level: 15
+[11:58:22.989]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L467>  setting: triggerdelay: 20
+[11:58:23.033]    DEBUG: <PixTest.cc/efficiencyMaps:L396>       attempt #0
+[11:58:23.704]     INFO: Expecting 208000 events.
+[11:58:38.883]     INFO: 208000 events read in total (14652ms).
+[11:58:38.900]     INFO: Test took 15867ms.
+[11:58:39.462]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:58:39.462]    DEBUG: <PixTest.cc/efficiencyMaps:L407>  eff result size = 3237281
+[11:58:39.462]    DEBUG: <PixTest.cc/efficiencyMaps:L412> Create hists highRate_C0 .. highRate_C15
+[11:58:39.462]    DEBUG: <PixTest.cc/efficiencyMaps:L426> booking xray maps for unmasked detector
+[11:58:39.909]     INFO: number of dead pixels (per ROC):     0    0    1    0    0    0    0    0    0    0    0    1    2    1    2    0
+[11:58:39.909]     INFO: number of red-efficiency pixels:   166  149  320  421  418  487  473  407  525  543  550  503  448  249  152  184
+[11:58:39.909]     INFO: number of X-ray hits detected:    118115 90229 148470 229844 246068 244385 245504 222232 253786 262869 257116 238655 239531 154873 97737 121314
+[11:58:39.909]     INFO: number of triggers sent (total per ROC):  208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000
+[11:58:39.909]     INFO: number of Vcal hits detected:  207831 207843 207594 207539 207549 207477 207484 207564 207437 207414 207392 207392 207413 207684 207742 207812
+[11:58:39.909]     INFO: Vcal hit fiducial efficiency (%):  99.9 99.9 99.8 99.8 99.8 99.8 99.8 99.8 99.7 99.7 99.7 99.8 99.8 99.9 99.9 99.9
+[11:58:39.909]     INFO: Vcal hit overall efficiency (%):  99.9 99.9 99.8 99.8 99.8 99.7 99.8 99.8 99.7 99.7 99.7 99.7 99.7 99.8 99.9 99.9
+[11:58:39.909]     INFO: X-ray hit rate [MHz/cm2]:  34.6 26.4 43.5 67.4 72.1 71.6 72.0 65.1 74.4 77.0 75.4 70.0 70.2 45.4 28.6 35.6
+[11:58:39.909]     INFO: PixTestHighRate::doXPixelAlive() done
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: clk: 4
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: ctr: 4
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: sda: 19
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: tin: 9
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: level: 15
+[11:58:39.955]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L586>  resetting: triggerdelay: 0
+[11:58:39.955]     INFO: PixTest::       pg_setup set to default.
+[11:59:18.860]    DEBUG: <PixTest.cc/moduleMap:L1029> moduleMap histname: what
+[11:59:18.860]    DEBUG: <PixTest.cc/moduleMap:L1039> h1->GetName() = highRate_xraymap_C12_V0 -> highRate_xraymap_mod
+[11:59:23.860]    DEBUG: <PixGui.cc/handleButtons:L396> PixGui::exit called
+[11:59:23.861]    DEBUG: <PixGui.cc/CloseWindow:L335> Final Analog Current: 384.3mA
+[11:59:23.862]    DEBUG: <PixGui.cc/CloseWindow:L336> Final Digital Current: 467.1mA
+[11:59:23.862]    DEBUG: <PixGui.cc/CloseWindow:L337> Final Module Temperature: 21.5 C
+[11:59:23.862]    DEBUG: <PixTestBBMap.cc/~PixTestBBMap:L97> PixTestBBMap dtor
+[11:59:23.862]    DEBUG: <PixTestBB2Map.cc/~PixTestBB2Map:L115> PixTestBB2Map dtor
+[11:59:23.862]    DEBUG: <PixTestBB3Map.cc/~PixTestBB3Map:L99> PixTestBB3Map dtor
+[11:59:23.862]    DEBUG: <PixTestBB4Map.cc/~PixTestBB4Map:L118> PixTestBB4Map dtor
+[11:59:23.862]    DEBUG: <PixTestCmd.cc/~PixTestCmd:L78> PixTestCmd dtor
+[11:59:23.862]    DEBUG: <PixTestDaq.cc/~PixTestDaq:L37> PixTestDaq dtor
+[11:59:23.862]    DEBUG: <PixTestDacDacScan.cc/~PixTestDacDacScan:L136> PixTestDacDacScan dtor
+[11:59:23.862]    DEBUG: <PixTestDacScan.cc/~PixTestDacScan:L129> PixTestDacScan dtor
+[11:59:23.862]    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L125> PixTestGainPedestal dtor
+[11:59:23.862]    DEBUG: <PixTestHighRate.cc/~PixTestHighRate:L245> PixTestHighRate dtor
+[11:59:23.958]    DEBUG: <PixTestIV.cc/~PixTestIV:L96> PixTestIV dtor
+[11:59:23.958]    DEBUG: <PixTestAlive.cc/~PixTestAlive:L109> PixTestAlive dtor
+[11:59:23.958]    DEBUG: <PixTestPretest.cc/~PixTestPretest:L136> PixTestPretest dtor
+[11:59:23.958]    DEBUG: <PixTestReadback.cc/~PixTestReadback:L89> PixTestReadback dtor, saving tree ... 
+[11:59:23.958]    DEBUG: <PixTestScurves.cc/~PixTestScurves:L142> PixTestScurves dtor
+[11:59:23.958]    DEBUG: <PixTestTiming.cc/~PixTestTiming:L97> PixTestTiming dtor
+[11:59:23.958]    DEBUG: <PixTestTrim.cc/~PixTestTrim:L103> PixTestTrim dtor
+[11:59:23.958]    DEBUG: <PixTestXray.cc/~PixTestXray:L217> PixTestXray dtor
+[11:59:23.961]    QUIET: Connection to board 58 closed.
+[11:59:24.041]    DEBUG: <PixMonitor.cc/dumpSummaries:L39> PixMonitor::dumpSummaries
