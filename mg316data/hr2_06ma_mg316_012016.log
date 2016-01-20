@@ -1,0 +1,157 @@
+[15:28:44.774]     INFO: *** Welcome to pxar ***
+[15:28:44.774]     INFO: *** Today: 2016/01/20
+[15:28:44.786]     INFO: *** Version: prod-12
+[15:28:44.786]     INFO: readRocDacs: /home/CMS_pixel/Testing/pxar_prod12/data/mg316/dacParameters35_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg316/dacParameters35_C15.dat
+[15:28:44.787]     INFO: readTbmDacs: /home/CMS_pixel/Testing/pxar_prod12/data/mg316/tbmParameters_C0a.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg316/tbmParameters_C0b.dat
+[15:28:44.787]     INFO: readMaskFile: /home/CMS_pixel/Testing/pxar_prod12/data/mg316/defaultMaskFile.dat
+[15:28:44.787]     INFO: readTrimFile: /home/CMS_pixel/Testing/pxar_prod12/data/mg316/trimParameters35_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg316/trimParameters35_C15.dat
+[15:28:44.940]     INFO:         clk: 4
+[15:28:44.940]     INFO:         ctr: 4
+[15:28:44.940]     INFO:         sda: 19
+[15:28:44.940]     INFO:         tin: 9
+[15:28:44.940]     INFO:         level: 15
+[15:28:44.940]     INFO:         triggerdelay: 0
+[15:28:44.940]    QUIET: Instanciating API for pxar prod-12
+[15:28:44.940]     INFO: Log level: INFO
+[15:28:44.951]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:28:44.954]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:28:44.957]     INFO: RPC call hashes of host and DTB match: 398089610
+[15:28:46.560]     INFO: DUT info: 
+[15:28:46.560]     INFO: The DUT currently contains the following objects:
+[15:28:46.560]     INFO:  2 TBM Cores tbm08c (2 ON)
+[15:28:46.560]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:28:46.560]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:28:46.560]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:28:46.560]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.560]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.561]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.561]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:46.561]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:47.170]     INFO: PixTestCmd::init()
+[15:28:47.189]     INFO: readGainPedestalParameters /home/CMS_pixel/Testing/pxar_prod12/data/mg316/phCalibrationFitErr35_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg316/phCalibrationFitErr35_C15.dat
+[15:28:47.496]     INFO: readReadbackCal: /home/CMS_pixel/Testing/pxar_prod12/data/mg316/readbackCal_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg316/readbackCal_C15.dat
+[15:29:02.068]     INFO:    ----------------------------------------------------------------------
+[15:29:02.068]     INFO:    PixTestHighRate::calDelScan() ntrig = 10, vcal = 200
+[15:29:02.068]     INFO:    ----------------------------------------------------------------------
+[15:29:02.209]     INFO: Expecting 768 events.
+[15:29:03.345]     INFO: 768 events read in total (418ms).
+[15:29:03.534]     INFO: Test took 1460ms.
+[15:29:04.209]     INFO: Expecting 41600 events.
+[15:29:07.972]     INFO: 41600 events read in total (3237ms).
+[15:29:07.978]     INFO: Test took 4438ms.
+[15:29:08.120]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:08.849]     INFO: Expecting 41600 events.
+[15:29:12.698]     INFO: 41600 events read in total (3322ms).
+[15:29:12.703]     INFO: Test took 4521ms.
+[15:29:12.836]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:13.564]     INFO: Expecting 41600 events.
+[15:29:17.456]     INFO: 41600 events read in total (3365ms).
+[15:29:17.461]     INFO: Test took 4562ms.
+[15:29:17.596]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:18.324]     INFO: Expecting 41600 events.
+[15:29:22.210]     INFO: 41600 events read in total (3359ms).
+[15:29:22.215]     INFO: Test took 4556ms.
+[15:29:22.348]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:23.077]     INFO: Expecting 41600 events.
+[15:29:26.963]     INFO: 41600 events read in total (3360ms).
+[15:29:26.968]     INFO: Test took 4556ms.
+[15:29:27.100]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:27.828]     INFO: Expecting 41600 events.
+[15:29:31.722]     INFO: 41600 events read in total (3368ms).
+[15:29:31.727]     INFO: Test took 4564ms.
+[15:29:31.860]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:32.589]     INFO: Expecting 41600 events.
+[15:29:36.507]     INFO: 41600 events read in total (3391ms).
+[15:29:36.512]     INFO: Test took 4588ms.
+[15:29:36.645]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:37.372]     INFO: Expecting 41600 events.
+[15:29:41.284]     INFO: 41600 events read in total (3385ms).
+[15:29:41.289]     INFO: Test took 4583ms.
+[15:29:41.420]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:42.148]     INFO: Expecting 41600 events.
+[15:29:46.057]     INFO: 41600 events read in total (3382ms).
+[15:29:46.062]     INFO: Test took 4579ms.
+[15:29:46.198]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:46.926]     INFO: Expecting 41600 events.
+[15:29:50.845]     INFO: 41600 events read in total (3393ms).
+[15:29:50.850]     INFO: Test took 4590ms.
+[15:29:50.986]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:51.716]     INFO: Expecting 41600 events.
+[15:29:55.616]     INFO: 41600 events read in total (3373ms).
+[15:29:55.621]     INFO: Test took 4570ms.
+[15:29:55.756]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:29:56.484]     INFO: Expecting 41600 events.
+[15:30:00.407]     INFO: 41600 events read in total (3396ms).
+[15:30:00.412]     INFO: Test took 4594ms.
+[15:30:00.549]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:01.275]     INFO: Expecting 41600 events.
+[15:30:05.197]     INFO: 41600 events read in total (3395ms).
+[15:30:05.202]     INFO: Test took 4592ms.
+[15:30:05.339]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:06.066]     INFO: Expecting 41600 events.
+[15:30:09.987]     INFO: 41600 events read in total (3394ms).
+[15:30:09.992]     INFO: Test took 4591ms.
+[15:30:10.125]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:10.854]     INFO: Expecting 41600 events.
+[15:30:14.740]     INFO: 41600 events read in total (3360ms).
+[15:30:14.745]     INFO: Test took 4558ms.
+[15:30:14.878]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:15.607]     INFO: Expecting 41600 events.
+[15:30:19.520]     INFO: 41600 events read in total (3386ms).
+[15:30:19.525]     INFO: Test took 4583ms.
+[15:30:19.658]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:20.387]     INFO: Expecting 41600 events.
+[15:30:24.304]     INFO: 41600 events read in total (3390ms).
+[15:30:24.309]     INFO: Test took 4587ms.
+[15:30:24.441]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:25.170]     INFO: Expecting 41600 events.
+[15:30:29.077]     INFO: 41600 events read in total (3381ms).
+[15:30:29.082]     INFO: Test took 4577ms.
+[15:30:29.216]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:29.944]     INFO: Expecting 41600 events.
+[15:30:33.772]     INFO: 41600 events read in total (3301ms).
+[15:30:33.777]     INFO: Test took 4498ms.
+[15:30:33.910]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:30:34.639]     INFO: Expecting 41600 events.
+[15:30:38.362]     INFO: 41600 events read in total (3196ms).
+[15:30:38.367]     INFO: Test took 4393ms.
+[15:30:38.498]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:10.164]     INFO:    ----------------------------------------------------------------------
+[15:31:10.164]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 50, vcal = 200
+[15:31:10.164]     INFO:    ----------------------------------------------------------------------
+[15:31:10.873]     INFO: Expecting 208000 events.
+[15:31:26.892]     INFO: 208000 events read in total (15492ms).
+[15:31:26.910]     INFO: Test took 16705ms.
+[15:31:27.605]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:28.074]     INFO: number of dead pixels (per ROC):     0    0    0    1    0    0    0    0    0    0    0    0    0    0    0    8
+[15:31:28.074]     INFO: number of red-efficiency pixels:   181  166  384  565  615  698  637  521  655  690  680  587  603  307  158  227
+[15:31:28.074]     INFO: number of X-ray hits detected:    134971 103925 176148 271156 282150 291430 292819 260001 284559 296568 284181 266434 268972 174196 109004 153009
+[15:31:28.075]     INFO: number of triggers sent (total per ROC):  208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000
+[15:31:28.075]     INFO: number of Vcal hits detected:  207812 207828 207578 207336 207325 207213 207290 207424 207289 207220 207233 207332 207323 207662 207833 207156
+[15:31:28.075]     INFO: Vcal hit fiducial efficiency (%):  99.9 99.9 99.8 99.7 99.7 99.7 99.7 99.7 99.7 99.7 99.7 99.7 99.7 99.8 99.9 99.8
+[15:31:28.075]     INFO: Vcal hit overall efficiency (%):  99.9 99.9 99.8 99.7 99.7 99.6 99.7 99.7 99.7 99.6 99.6 99.7 99.7 99.8 99.9 99.6
+[15:31:28.075]     INFO: X-ray hit rate [MHz/cm2]:  39.6 30.5 51.6 79.5 82.7 85.4 85.8 76.2 83.4 86.9 83.3 78.1 78.8 51.1 31.9 44.8
+[15:31:28.075]     INFO: PixTestHighRate::doXPixelAlive() done
+[15:31:28.120]     INFO: PixTest::       pg_setup set to default.
+[15:32:04.553]    QUIET: Connection to board 58 closed.
