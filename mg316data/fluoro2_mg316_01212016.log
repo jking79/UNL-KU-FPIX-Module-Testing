@@ -1,0 +1,187 @@
+[15:25:06.758]     INFO: *** Welcome to pxar ***
+[15:25:06.758]     INFO: *** Today: 2016/01/21
+[15:25:06.767]     INFO: *** Version: prod-12
+[15:25:06.767]     INFO: readRocDacs: data/mg316/dacParameters35_C0.dat .. data/mg316/dacParameters35_C15.dat
+[15:25:06.827]     INFO: readTbmDacs: data/mg316/tbmParameters_C0a.dat .. data/mg316/tbmParameters_C0b.dat
+[15:25:06.827]     INFO: readMaskFile: data/mg316/defaultMaskFile.dat
+[15:25:06.827]     INFO: readTrimFile: data/mg316/trimParameters35_C0.dat .. data/mg316/trimParameters35_C15.dat
+[15:25:07.034]     INFO:         clk: 4
+[15:25:07.034]     INFO:         ctr: 4
+[15:25:07.034]     INFO:         sda: 19
+[15:25:07.034]     INFO:         tin: 9
+[15:25:07.034]     INFO:         level: 15
+[15:25:07.034]     INFO:         triggerdelay: 0
+[15:25:07.035]    QUIET: Instanciating API for pxar prod-12
+[15:25:07.035]     INFO: Log level: INFO
+[15:25:07.047]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:25:07.050]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:25:07.053]     INFO: RPC call hashes of host and DTB match: 398089610
+[15:25:08.655]     INFO: DUT info: 
+[15:25:08.655]     INFO: The DUT currently contains the following objects:
+[15:25:08.655]     INFO:  2 TBM Cores tbm08c (2 ON)
+[15:25:08.655]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:25:08.655]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:25:08.655]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:25:08.655]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.655]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.656]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.656]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:08.656]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:25:09.266]     INFO: PixTestCmd::init()
+[15:25:09.278]     INFO: readGainPedestalParameters data/mg316/phCalibrationFitErr35_C0.dat .. data/mg316/phCalibrationFitErr35_C15.dat
+[15:25:09.670]     INFO: readReadbackCal: data/mg316/readbackCal_C0.dat .. data/mg316/readbackCal_C15.dat
+[15:25:20.218]     INFO: ######################################################################
+[15:25:20.219]     INFO: PixTestXray::doTest()
+[15:25:20.219]     INFO: ######################################################################
+[15:25:20.219]     INFO:    ----------------------------------------------------------------------
+[15:25:20.219]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 100
+[15:25:20.219]     INFO:    ----------------------------------------------------------------------
+[15:25:21.193]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 100 seconds,  fEventsMax = 10000000
+[15:25:38.176]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.
+[15:26:05.806]     INFO: Resuming triggers.
+[15:26:22.787]     INFO: run duration 33 seconds, buffer almost full (81%), pausing triggers.
+[15:26:50.328]     INFO: Resuming triggers.
+[15:27:07.309]     INFO: run duration 50 seconds, buffer almost full (81%), pausing triggers.
+[15:27:34.893]     INFO: Resuming triggers.
+[15:27:51.870]     INFO: run duration 67 seconds, buffer almost full (81%), pausing triggers.
+[15:28:19.616]     INFO: Resuming triggers.
+[15:28:36.590]     INFO: run duration 84 seconds, buffer almost full (81%), pausing triggers.
+[15:29:04.230]     INFO: Resuming triggers.
+[15:29:19.463]     INFO: data taking finished, elapsed time: 100 seconds.
+[15:29:44.431]     INFO: PixTest::       pg_setup set to default.
+[15:29:44.476]     INFO: PixTestXray::doPhRun() done
+[15:29:44.476]     INFO: PixTestXray::doTest() done 
+[15:31:55.035]     INFO: ######################################################################
+[15:31:55.035]     INFO: PixTestXray::doTest()
+[15:31:55.035]     INFO: ######################################################################
+[15:31:55.035]     INFO:    ----------------------------------------------------------------------
+[15:31:55.035]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 50
+[15:31:55.035]     INFO:    ----------------------------------------------------------------------
+[15:31:56.036]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 50 seconds,  fEventsMax = 5000000
+[15:32:13.005]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.
+[15:32:40.821]     INFO: Resuming triggers.
+[15:32:57.790]     INFO: run duration 33 seconds, buffer almost full (81%), pausing triggers.
+[15:33:25.469]     INFO: Resuming triggers.
+[15:33:41.598]     INFO: data taking finished, elapsed time: 50 seconds.
+[15:34:08.111]     INFO: PixTest::       pg_setup set to default.
+[15:34:08.154]     INFO: PixTestXray::doPhRun() done
+[15:34:08.154]     INFO: PixTestXray::doTest() done 
+[15:35:53.955]     INFO: ######################################################################
+[15:35:53.955]     INFO: PixTestXray::doTest()
+[15:35:53.955]     INFO: ######################################################################
+[15:35:53.955]     INFO:    ----------------------------------------------------------------------
+[15:35:53.955]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 160
+[15:35:53.955]     INFO:    ----------------------------------------------------------------------
+[15:35:54.962]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 160 seconds,  fEventsMax = 16000000
+[15:36:11.919]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.
+[15:36:39.768]     INFO: Resuming triggers.
+[15:36:56.731]     INFO: run duration 33 seconds, buffer almost full (81%), pausing triggers.
+[15:37:24.592]     INFO: Resuming triggers.
+[15:37:41.552]     INFO: run duration 50 seconds, buffer almost full (81%), pausing triggers.
+[15:38:09.388]     INFO: Resuming triggers.
+[15:38:26.351]     INFO: run duration 67 seconds, buffer almost full (81%), pausing triggers.
+[15:38:53.974]     INFO: Resuming triggers.
+[15:39:10.935]     INFO: run duration 84 seconds, buffer almost full (81%), pausing triggers.
+[15:39:38.717]     INFO: Resuming triggers.
+[15:39:55.682]     INFO: run duration 101 seconds, buffer almost full (81%), pausing triggers.
+[15:40:23.360]     INFO: Resuming triggers.
+[15:40:40.326]     INFO: run duration 118 seconds, buffer almost full (81%), pausing triggers.
+[15:41:08.131]     INFO: Resuming triggers.
+[15:41:25.096]     INFO: run duration 135 seconds, buffer almost full (81%), pausing triggers.
+[15:41:52.801]     INFO: Resuming triggers.
+[15:42:09.763]     INFO: run duration 152 seconds, buffer almost full (81%), pausing triggers.
+[15:42:37.547]     INFO: Resuming triggers.
+[15:42:45.089]     INFO: data taking finished, elapsed time: 160 seconds.
+[15:42:57.752]     INFO: PixTest::       pg_setup set to default.
+[15:42:57.790]     INFO: PixTestXray::doPhRun() done
+[15:42:57.790]     INFO: PixTestXray::doTest() done 
+[15:45:10.811]     INFO: ######################################################################
+[15:45:10.811]     INFO: PixTestXray::doTest()
+[15:45:10.811]     INFO: ######################################################################
+[15:45:10.811]     INFO:    ----------------------------------------------------------------------
+[15:45:10.811]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 100
+[15:45:10.811]     INFO:    ----------------------------------------------------------------------
+[15:45:11.817]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 100 seconds,  fEventsMax = 10000000
+[15:45:28.777]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1be 8000 4308 4308 4308 4308 4308 430a 4308 4308 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b8 80b1 4308 4308 4308 4308 4308 4308 4308 4308 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b9 80c0 4308 4308 4308 4308 4308 4308 4308 4308 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1ba 8000 4308 4308 4308 4308 4308 4308 4308 4308 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bb 8040 4308 4308 4308 4308 4308 4308 5308 4308 640 2620 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bc 80b1 4308 4308 4308 4308 4308 4308 4308 4308 e000 c000 
+[15:45:28.850]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bd 80c0 4308 4308 4308 4308 4308 4308 4308 4308 640 2621 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:45:31.062]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0a4 80b1 4f88 4f88 4f88 4f88 4f88 4f88 4f88 4f88 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a09e 8000 4f88 4f88 4f88 4f88 4f88 4f88 4f88 4f88 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a09f 8040 4f8a 4f8a 4f8a 4f8a 4f8a 4f8a 4f8a 4f8a e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0a0 80b1 4f88 4f88 4f88 4f88 4f88 4f88 4f88 4f88 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0a1 80c0 4f88 3f8 4f88 4f88 4f89 4f89 4f89 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0a2 8000 4f88 4f88 4f89 4f89 4f88 4f88 4f89 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0a3 8040 4f88 4f89 4f88 4f89 4f88 4f89 4f88 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a4 80b1 4f88 4f88 4f88 4f88 4f88 4f88 4f88 4f88 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a19e 8000 4f88 4f88 4f88 4f88 4f88 4f8a 4f88 4f88 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a19f 8040 4f8a 4f8a 4f8a 4f8a 4f8a 4f89 4f8a 4f8a e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a0 80b1 4f89 4f89 4f89 4f89 4f89 4f89 4f89 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a1 80c0 4f88 3f8 4f88 4f88 4f89 4f88 4f89 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a2 8000 4f88 4f88 4f89 4f89 4f88 4f89 4f89 4f89 e000 c000 
+[15:45:31.062]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a3 8040 4f88 4f89 4f88 4f89 4f88 4f88 4f88 4f89 e000 c000 
+[15:45:56.433]     INFO: Resuming triggers.
+[15:46:13.393]     INFO: run duration 33 seconds, buffer almost full (81%), pausing triggers.
+[15:46:41.170]     INFO: Resuming triggers.
+[15:46:58.132]     INFO: run duration 50 seconds, buffer almost full (81%), pausing triggers.
+[15:47:25.894]     INFO: Resuming triggers.
+[15:47:42.856]     INFO: run duration 67 seconds, buffer almost full (81%), pausing triggers.
+[15:48:10.610]     INFO: Resuming triggers.
+[15:48:27.574]     INFO: run duration 84 seconds, buffer almost full (81%), pausing triggers.
+[15:48:55.352]     INFO: Resuming triggers.
+[15:49:10.671]     INFO: data taking finished, elapsed time: 100 seconds.
+[15:49:35.979]     INFO: PixTest::       pg_setup set to default.
+[15:49:35.999]     INFO: PixTestXray::doPhRun() done
+[15:49:35.999]     INFO: PixTestXray::doTest() done 
+[15:54:34.691]     INFO: ######################################################################
+[15:54:34.691]     INFO: PixTestXray::doTest()
+[15:54:34.691]     INFO: ######################################################################
+[15:54:34.691]     INFO:    ----------------------------------------------------------------------
+[15:54:34.691]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 100
+[15:54:34.691]     INFO:    ----------------------------------------------------------------------
+[15:54:35.675]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 100 seconds,  fEventsMax = 10000000
+[15:54:52.637]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.
+[15:55:20.402]     INFO: Resuming triggers.
+[15:55:37.364]     INFO: run duration 33 seconds, buffer almost full (81%), pausing triggers.
+[15:56:05.174]     INFO: Resuming triggers.
+[15:56:22.131]     INFO: run duration 50 seconds, buffer almost full (81%), pausing triggers.
+[15:56:49.821]     INFO: Resuming triggers.
+[15:57:06.781]     INFO: run duration 67 seconds, buffer almost full (81%), pausing triggers.
+[15:57:34.520]     INFO: Resuming triggers.
+[15:57:51.476]     INFO: run duration 84 seconds, buffer almost full (81%), pausing triggers.
+[15:58:19.126]     INFO: Resuming triggers.
+[15:58:34.458]     INFO: data taking finished, elapsed time: 100 seconds.
+[15:58:59.756]     INFO: PixTest::       pg_setup set to default.
+[15:58:59.795]     INFO: PixTestXray::doPhRun() done
+[15:58:59.795]     INFO: PixTestXray::doTest() done 
+[16:00:12.441]    QUIET: Connection to board 58 closed.
