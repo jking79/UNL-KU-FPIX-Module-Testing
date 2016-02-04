@@ -1,0 +1,871 @@
+[11:25:06.065]     INFO: *** Welcome to pxar ***
+[11:25:06.065]     INFO: *** Today: 2016/01/22
+[11:25:06.075]     INFO: *** Version: prod-12
+[11:25:06.076]     INFO: readRocDacs: data/pa315/dacParameters_C0.dat .. data/pa315/dacParameters_C15.dat
+[11:25:06.077]     INFO: readTbmDacs: data/pa315/tbmParameters_C0a.dat .. data/pa315/tbmParameters_C0b.dat
+[11:25:06.078]     INFO: readMaskFile: data/pa315/defaultMaskFile.dat
+[11:25:06.078]     INFO: readTrimFile: data/pa315/trimParameters_C0.dat .. data/pa315/trimParameters_C15.dat
+[11:25:06.231]     INFO:         clk: 4
+[11:25:06.231]     INFO:         ctr: 4
+[11:25:06.231]     INFO:         sda: 19
+[11:25:06.231]     INFO:         tin: 9
+[11:25:06.231]     INFO:         level: 15
+[11:25:06.231]     INFO:         triggerdelay: 0
+[11:25:06.231]    QUIET: Instanciating API for pxar prod-12
+[11:25:06.231]     INFO: Log level: INFO
+[11:25:06.242]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:25:06.245]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:25:06.248]     INFO: RPC call hashes of host and DTB match: 398089610
+[11:25:07.851]     INFO: DUT info: 
+[11:25:07.851]     INFO: The DUT currently contains the following objects:
+[11:25:07.851]     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:25:07.851]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:25:07.852]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:25:07.852]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:25:07.852]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:07.852]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:25:08.473]     INFO: PixTestCmd::init()
+[11:25:08.483]     INFO: readGainPedestalParameters data/pa315/phCalibrationFitErr_C0.dat .. data/pa315/phCalibrationFitErr_C15.dat
+[11:25:08.483]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/pa315/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:25:08.520]     INFO: readGainPedestalParameters data/pa315/phCalibrationFitErr_C0.dat .. data/pa315/phCalibrationFitErr_C15.dat
+[11:25:08.520]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/pa315/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:25:08.575]     INFO: readReadbackCal: data/pa315/readbackCal_C0.dat .. data/pa315/readbackCal_C15.dat
+[11:25:08.576]     INFO: readGainPedestalParameters data/pa315/phCalibrationFitErr_C0.dat .. data/pa315/phCalibrationFitErr_C15.dat
+[11:25:08.576]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/pa315/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:25:08.609]     INFO: readGainPedestalParameters data/pa315/phCalibrationFitErr_C0.dat .. data/pa315/phCalibrationFitErr_C15.dat
+[11:25:08.609]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/pa315/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:26:39.393]     INFO: ######################################################################
+[11:26:39.393]     INFO: PixTestPretest::doTest()
+[11:26:39.393]     INFO: ######################################################################
+[11:26:39.397]     INFO:    ----------------------------------------------------------------------
+[11:26:39.397]     INFO:    PixTestPretest::programROC() 
+[11:26:39.397]     INFO:    ----------------------------------------------------------------------
+[11:26:57.473]     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[11:26:57.473]     INFO: IA differences per ROC:  16.9 17.7 19.3 17.7 18.5 19.3 20.1 19.3 17.7 18.5 17.7 17.7 17.7 19.3 17.7 19.3
+[11:26:57.652]     INFO:    ----------------------------------------------------------------------
+[11:26:57.652]     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[11:26:57.652]     INFO:    ----------------------------------------------------------------------
+[11:27:19.036]     INFO: PixTestPretest::setVana() done, Module Ia 383.5 mA = 23.9688 mA/ROC
+[11:27:19.036]     INFO: i(loss) [mA/ROC]:     19.3  20.1  19.3  19.3  20.1  20.1  19.3  20.1  19.3  18.5  19.3  19.3  19.3  18.5  19.3  20.1
+[11:27:19.099]     INFO:    ----------------------------------------------------------------------
+[11:27:19.099]     INFO:    PixTestPretest::findTiming() 
+[11:27:19.099]     INFO:    ----------------------------------------------------------------------
+[11:27:19.099]     INFO: PixTestCmd::init()
+[11:27:19.698]  WARNING: Not unmasking DUT, not setting Calibrate bits!
+[11:29:00.772]     INFO: TBM phases:  160MHz: 7, 400MHz: 2, TBM delays: ROC(0/1):4, header/trailer: 1, token: 1
+[11:29:00.772]     INFO: (success/tries = 100/100), width = 5
+[11:29:00.790]     INFO:    ----------------------------------------------------------------------
+[11:29:00.791]     INFO:    PixTestPretest::findWorkingPixel()
+[11:29:00.791]     INFO:    ----------------------------------------------------------------------
+[11:29:00.933]     INFO: Expecting 231680 events.
+[11:29:05.542]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (1) != Token Chain Length (8)
+[11:29:05.545]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 0 Event ID mismatch:  local ID (21) !=  TBM ID (2)
+[11:29:08.585]     INFO: 231680 events read in total (6937ms).
+[11:29:08.595]     INFO: Test took 7799ms.
+[11:29:10.180]     INFO: Found working pixel in all ROCs: col/row = 12/22
+[11:29:10.306]     INFO:    ----------------------------------------------------------------------
+[11:29:10.306]     INFO:    PixTestPretest::setVthrCompCalDel()
+[11:29:10.306]     INFO:    ----------------------------------------------------------------------
+[11:29:10.518]     INFO: Expecting 231680 events.
+[11:29:19.054]     INFO: 231680 events read in total (7821ms).
+[11:29:19.065]     INFO: Test took 8680ms.
+[11:29:20.205]     INFO: PixTestPretest::setVthrCompCalDel() done
+[11:29:20.205]     INFO: CalDel:      140   109   117   116   115   127   113   135   135   144   125   126   132   123   110   118
+[11:29:20.205]     INFO: VthrComp:     51    51    51    51    51    51    51    51    51    51    51    51    51    51    51    51
+[11:29:20.289]     INFO: write dac parameters into data/pa315/dacParameters_C0.dat
+[11:29:20.289]     INFO: write dac parameters into data/pa315/dacParameters_C1.dat
+[11:29:20.289]     INFO: write dac parameters into data/pa315/dacParameters_C2.dat
+[11:29:20.289]     INFO: write dac parameters into data/pa315/dacParameters_C3.dat
+[11:29:20.290]     INFO: write dac parameters into data/pa315/dacParameters_C4.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C5.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C6.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C7.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C8.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C9.dat
+[11:29:20.291]     INFO: write dac parameters into data/pa315/dacParameters_C10.dat
+[11:29:20.292]     INFO: write dac parameters into data/pa315/dacParameters_C11.dat
+[11:29:20.292]     INFO: write dac parameters into data/pa315/dacParameters_C12.dat
+[11:29:20.292]     INFO: write dac parameters into data/pa315/dacParameters_C13.dat
+[11:29:20.292]     INFO: write dac parameters into data/pa315/dacParameters_C14.dat
+[11:29:20.292]     INFO: write dac parameters into data/pa315/dacParameters_C15.dat
+[11:29:20.293]     INFO: write tbm parameters into data/pa315/tbmParameters_C0a.dat
+[11:29:20.293]     INFO: write tbm parameters into data/pa315/tbmParameters_C0b.dat
+[11:29:20.293]     INFO: PixTestPretest::doTest() done, duration: 160 seconds
+[11:30:18.705]     INFO: ######################################################################
+[11:30:18.705]     INFO: PixTestAlive::doTest()
+[11:30:18.705]     INFO: ######################################################################
+[11:30:18.708]     INFO:    ----------------------------------------------------------------------
+[11:30:18.708]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:30:18.708]     INFO:    ----------------------------------------------------------------------
+[11:30:19.089]     INFO: Expecting 41600 events.
+[11:30:23.451]     INFO: 41600 events read in total (3647ms).
+[11:30:23.453]     INFO: Test took 4743ms.
+[11:30:23.462]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:30:23.833]     INFO: PixTestAlive::aliveTest() done
+[11:30:23.833]     INFO: number of dead pixels (per ROC):     0    0    0    0    1    0    0    0    0    2    0    0    0    0    0    0
+[11:30:23.862]     INFO:    ----------------------------------------------------------------------
+[11:30:23.862]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:30:23.862]     INFO:    ----------------------------------------------------------------------
+[11:30:24.242]     INFO: Expecting 41600 events.
+[11:30:27.359]     INFO: 41600 events read in total (2402ms).
+[11:30:27.359]     INFO: Test took 3495ms.
+[11:30:27.359]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:30:27.360]     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[11:30:27.783]     INFO: PixTestAlive::maskTest() done
+[11:30:27.783]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[11:30:27.806]     INFO:    ----------------------------------------------------------------------
+[11:30:27.807]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:30:27.807]     INFO:    ----------------------------------------------------------------------
+[11:30:28.188]     INFO: Expecting 41600 events.
+[11:30:32.587]     INFO: 41600 events read in total (3684ms).
+[11:30:32.588]     INFO: Test took 4779ms.
+[11:30:32.598]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:30:32.971]     INFO: PixTestAlive::addressDecodingTest() done
+[11:30:32.971]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[11:30:32.972]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[11:36:35.065]     INFO: ######################################################################
+[11:36:35.065]     INFO: PixTestTrim::doTest()
+[11:36:35.065]     INFO: ######################################################################
+[11:36:35.068]     INFO:    ----------------------------------------------------------------------
+[11:36:35.068]     INFO:    PixTestTrim::trimTest() ntrig = 8, vcal = 35
+[11:36:35.068]     INFO:    ----------------------------------------------------------------------
+[11:36:35.188]     INFO: ---> VthrComp thr map (minimal VthrComp)
+[11:36:35.188]     INFO: ---> dac: vthrcomp name: TrimThr0 ntrig: 8 dacrange: 10 .. 160 (-1/-1) hits flags = 528 (plus default)
+[11:36:35.529]     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:36:35.533]     INFO:     run 1 of 1
+[11:36:35.909]     INFO: Expecting 5025280 events.
+[11:37:28.300]     INFO: 1413040 events read in total (51676ms).
+[11:38:19.729]     INFO: 2816648 events read in total (103105ms).
+[11:39:11.498]     INFO: 4235720 events read in total (154875ms).
+[11:39:40.263]     INFO: 5025280 events read in total (183639ms).
+[11:39:40.364]     INFO: Test took 184831ms.
+[11:39:40.466]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:40:21.848]     INFO: ROC 0 VthrComp = 90
+[11:40:21.848]     INFO: ROC 1 VthrComp = 91
+[11:40:21.848]     INFO: ROC 2 VthrComp = 92
+[11:40:21.849]     INFO: ROC 3 VthrComp = 86
+[11:40:21.849]     INFO: ROC 4 VthrComp = 96
+[11:40:21.849]     INFO: ROC 5 VthrComp = 104
+[11:40:21.849]     INFO: ROC 6 VthrComp = 96
+[11:40:21.849]     INFO: ROC 7 VthrComp = 101
+[11:40:21.850]     INFO: ROC 8 VthrComp = 95
+[11:40:21.850]     INFO: ROC 9 VthrComp = 97
+[11:40:21.850]     INFO: ROC 10 VthrComp = 100
+[11:40:21.850]     INFO: ROC 11 VthrComp = 98
+[11:40:21.850]     INFO: ROC 12 VthrComp = 85
+[11:40:21.850]     INFO: ROC 13 VthrComp = 91
+[11:40:21.851]     INFO: ROC 14 VthrComp = 92
+[11:40:21.851]     INFO: ROC 15 VthrComp = 102
+[11:40:21.851]     INFO: ---> Vcal thr map (pixel with maximum Vcal thr)
+[11:40:21.851]     INFO: ---> dac: vcal name: TrimThr1 ntrig: 8 dacrange: 10 .. 160 (-1/-1) hits flags = 528 (plus default)
+[11:40:21.877]     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:40:21.903]     INFO:     run 1 of 1
+[11:40:22.279]     INFO: Expecting 5025280 events.
+[11:41:04.314]     INFO: 886408 events read in total (41320ms).
+[11:41:45.937]     INFO: 1771968 events read in total (82943ms).
+[11:42:27.546]     INFO: 2656544 events read in total (124552ms).
+[11:43:08.972]     INFO: 3532112 events read in total (165978ms).
+[11:43:50.470]     INFO: 4403848 events read in total (207477ms).
+[11:44:20.277]     INFO: 5025280 events read in total (237283ms).
+[11:44:20.456]     INFO: Test took 238553ms.
+[11:44:20.767]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:45:10.940]     INFO:    roc 0 with ID = 0  has maximal Vcal 56.9399 for pixel 49/76 mean/min/max = 45.3091/33.6377/56.9806
+[11:45:10.940]     INFO:    roc 1 with ID = 1  has maximal Vcal 57.6809 for pixel 11/79 mean/min/max = 45.9632/34.1775/57.7488
+[11:45:10.941]     INFO:    roc 2 with ID = 2  has maximal Vcal 59.71 for pixel 8/0 mean/min/max = 46.5206/33.2426/59.7985
+[11:45:10.941]     INFO:    roc 3 with ID = 3  has maximal Vcal 57.9445 for pixel 4/5 mean/min/max = 45.2051/32.3815/58.0286
+[11:45:10.942]     INFO:    roc 4 with ID = 4  has maximal Vcal 60.0953 for pixel 4/10 mean/min/max = 45.9624/31.8234/60.1014
+[11:45:10.942]     INFO:    roc 5 with ID = 5  has maximal Vcal 63.1341 for pixel 8/77 mean/min/max = 48.8232/34.2783/63.3682
+[11:45:10.943]     INFO:    roc 6 with ID = 6  has maximal Vcal 60.5234 for pixel 5/0 mean/min/max = 46.3214/32.1182/60.5245
+[11:45:10.943]     INFO:    roc 7 with ID = 7  has maximal Vcal 58.5262 for pixel 0/54 mean/min/max = 45.5686/32.5836/58.5535
+[11:45:10.944]     INFO:    roc 8 with ID = 8  has maximal Vcal 57.3817 for pixel 15/44 mean/min/max = 45.6671/33.9353/57.3989
+[11:45:10.945]     INFO:    roc 9 with ID = 9  has maximal Vcal 57.917 for pixel 17/6 mean/min/max = 45.2562/32.287/58.2254
+[11:45:10.945]     INFO:    roc 10 with ID = 10  has maximal Vcal 57.1265 for pixel 10/6 mean/min/max = 44.6286/31.9908/57.2665
+[11:45:10.946]     INFO:    roc 11 with ID = 11  has maximal Vcal 56.7478 for pixel 51/3 mean/min/max = 44.5719/32.2354/56.9083
+[11:45:10.946]     INFO:    roc 12 with ID = 12  has maximal Vcal 56.726 for pixel 0/29 mean/min/max = 44.9346/33.0894/56.7798
+[11:45:10.947]     INFO:    roc 13 with ID = 13  has maximal Vcal 57.1987 for pixel 5/3 mean/min/max = 45.7794/34.1704/57.3885
+[11:45:10.947]     INFO:    roc 14 with ID = 14  has maximal Vcal 60.4034 for pixel 6/8 mean/min/max = 46.9251/33.4009/60.4492
+[11:45:10.948]     INFO:    roc 15 with ID = 15  has maximal Vcal 56.5102 for pixel 51/76 mean/min/max = 44.6303/32.7429/56.5177
+[11:45:10.949]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[11:45:11.082]     INFO: Expecting 411648 events.
+[11:45:19.258]     INFO: 411648 events read in total (7461ms).
+[11:45:19.269]     INFO: Expecting 411648 events.
+[11:45:27.437]     INFO: 411648 events read in total (7540ms).
+[11:45:27.453]     INFO: Expecting 411648 events.
+[11:45:35.568]     INFO: 411648 events read in total (7500ms).
+[11:45:35.590]     INFO: Expecting 411648 events.
+[11:45:43.664]     INFO: 411648 events read in total (7462ms).
+[11:45:43.689]     INFO: Expecting 411648 events.
+[11:45:51.826]     INFO: 411648 events read in total (7515ms).
+[11:45:51.857]     INFO: Expecting 411648 events.
+[11:45:59.974]     INFO: 411648 events read in total (7504ms).
+[11:46:00.010]     INFO: Expecting 411648 events.
+[11:46:08.047]     INFO: 411648 events read in total (7444ms).
+[11:46:08.085]     INFO: Expecting 411648 events.
+[11:46:16.115]     INFO: 411648 events read in total (7426ms).
+[11:46:16.158]     INFO: Expecting 411648 events.
+[11:46:24.233]     INFO: 411648 events read in total (7478ms).
+[11:46:24.281]     INFO: Expecting 411648 events.
+[11:46:32.333]     INFO: 411648 events read in total (7460ms).
+[11:46:32.386]     INFO: Expecting 411648 events.
+[11:46:40.442]     INFO: 411648 events read in total (7464ms).
+[11:46:40.498]     INFO: Expecting 411648 events.
+[11:46:48.538]     INFO: 411648 events read in total (7454ms).
+[11:46:48.597]     INFO: Expecting 411648 events.
+[11:46:56.635]     INFO: 411648 events read in total (7451ms).
+[11:46:56.699]     INFO: Expecting 411648 events.
+[11:47:04.731]     INFO: 411648 events read in total (7450ms).
+[11:47:04.799]     INFO: Expecting 411648 events.
+[11:47:12.863]     INFO: 411648 events read in total (7485ms).
+[11:47:12.937]     INFO: Expecting 411648 events.
+[11:47:20.995]     INFO: 411648 events read in total (7491ms).
+[11:47:21.073]     INFO: Test took 130125ms.
+[11:47:22.786]     INFO: ---> dac: vcal name: TrimThr2 ntrig: 8 dacrange: 0 .. 150 (-1/-1) hits flags = 528 (plus default)
+[11:47:22.813]     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:47:22.817]     INFO:     run 1 of 1
+[11:47:23.192]     INFO: Expecting 5025280 events.
+[11:48:04.979]     INFO: 871480 events read in total (41072ms).
+[11:48:46.280]     INFO: 1742104 events read in total (82373ms).
+[11:49:27.738]     INFO: 2610776 events read in total (123831ms).
+[11:50:08.796]     INFO: 3467560 events read in total (164889ms).
+[11:50:49.858]     INFO: 4319504 events read in total (205951ms).
+[11:51:23.868]     INFO: 5025280 events read in total (239961ms).
+[11:51:24.064]     INFO: Test took 241247ms.
+[11:51:24.386]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:52:13.159]     INFO: ---> TrimStepCorr4 extremal thresholds: 0.183564 .. 255.000000
+[11:52:13.272]     INFO: ---> dac: vcal name: trimStepCorr4 ntrig: 8 dacrange: 0 .. 255 (-1/-1) hits flags = 528 (plus default)
+[11:52:13.298]     INFO:   dacScan split into 1 runs with ntrig = 8
+[11:52:13.305]     INFO:     run 1 of 1
+[11:52:13.680]     INFO: Expecting 8519680 events.
+[11:52:53.688]     INFO: 827384 events read in total (39293ms).
+[11:53:33.162]     INFO: 1655200 events read in total (78767ms).
+[11:54:12.972]     INFO: 2482864 events read in total (118577ms).
+[11:54:52.821]     INFO: 3310424 events read in total (158426ms).
+[11:55:32.560]     INFO: 4138088 events read in total (198165ms).
+[11:56:12.394]     INFO: 4964968 events read in total (237999ms).
+[11:56:52.237]     INFO: 5790920 events read in total (277842ms).
+[11:57:32.051]     INFO: 6616176 events read in total (317656ms).
+[11:58:11.492]     INFO: 7440120 events read in total (357097ms).
+[11:58:51.105]     INFO: 8264656 events read in total (396710ms).
+[11:59:03.609]     INFO: 8519680 events read in total (409214ms).
+[11:59:03.911]     INFO: Test took 410605ms.
+[11:59:04.476]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:00:03.988]     INFO: ---> TrimStepCorr2 extremal thresholds: 15.635019 .. 55.781555
+[12:00:04.102]     INFO: ---> dac: vcal name: trimStepCorr2 ntrig: 8 dacrange: 5 .. 65 (-1/-1) hits flags = 528 (plus default)
+[12:00:04.129]     INFO:   dacScan split into 1 runs with ntrig = 8
+[12:00:04.133]     INFO:     run 1 of 1
+[12:00:04.510]     INFO: Expecting 2030080 events.
+[12:00:50.346]     INFO: 1073544 events read in total (45110ms).
+[12:01:30.273]     INFO: 2030080 events read in total (85038ms).
+[12:01:30.339]     INFO: Test took 86206ms.
+[12:01:30.432]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:02:01.879]     INFO: ---> TrimStepCorr1a extremal thresholds: 4.500000 .. 55.781555
+[12:02:01.993]     INFO: ---> dac: vcal name: trimStepCorr1a ntrig: 8 dacrange: 4 .. 65 (-1/-1) hits flags = 528 (plus default)
+[12:02:02.019]     INFO:   dacScan split into 1 runs with ntrig = 8
+[12:02:02.022]     INFO:     run 1 of 1
+[12:02:02.396]     INFO: Expecting 2063360 events.
+[12:02:48.021]     INFO: 1079528 events read in total (44909ms).
+[12:03:28.978]     INFO: 2063360 events read in total (85866ms).
+[12:03:29.035]     INFO: Test took 87013ms.
+[12:03:29.126]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:04:00.842]     INFO: ---> TrimStepCorr1b extremal thresholds: 4.500000 .. 55.781555
+[12:04:00.956]     INFO: ---> dac: vcal name: trimStepCorr1b ntrig: 8 dacrange: 4 .. 65 (-1/-1) hits flags = 528 (plus default)
+[12:04:00.989]     INFO:   dacScan split into 1 runs with ntrig = 8
+[12:04:00.992]     INFO:     run 1 of 1
+[12:04:01.373]     INFO: Expecting 2063360 events.
+[12:04:47.089]     INFO: 1080056 events read in total (45001ms).
+[12:05:28.231]     INFO: 2063360 events read in total (86144ms).
+[12:05:28.290]     INFO: Test took 87298ms.
+[12:05:28.388]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:06:00.070]     INFO: ---> TrimThrFinal extremal thresholds: 15 .. 55
+[12:06:00.070]     INFO: ---> dac: vcal name: TrimThrFinal ntrig: 8 dacrange: 15 .. 55 (-1/-1) hits flags = 528 (plus default)
+[12:06:00.102]     INFO:   dacScan split into 1 runs with ntrig = 8
+[12:06:00.108]     INFO:     run 1 of 1
+[12:06:00.487]     INFO: Expecting 1364480 events.
+[12:06:47.524]     INFO: 1076048 events read in total (46322ms).
+[12:07:00.185]     INFO: 1364480 events read in total (58983ms).
+[12:07:00.220]     INFO: Test took 60111ms.
+[12:07:00.276]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:07:28.554]     INFO: write dac parameters into data/pa315/dacParameters35_C0.dat
+[12:07:28.554]     INFO: write dac parameters into data/pa315/dacParameters35_C1.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C2.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C3.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C4.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C5.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C6.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C7.dat
+[12:07:28.555]     INFO: write dac parameters into data/pa315/dacParameters35_C8.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C9.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C10.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C11.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C12.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C13.dat
+[12:07:28.556]     INFO: write dac parameters into data/pa315/dacParameters35_C14.dat
+[12:07:28.557]     INFO: write dac parameters into data/pa315/dacParameters35_C15.dat
+[12:07:28.557]     INFO: write trim parameters into data/pa315/trimParameters35_C0.dat
+[12:07:28.567]     INFO: write trim parameters into data/pa315/trimParameters35_C1.dat
+[12:07:28.577]     INFO: write trim parameters into data/pa315/trimParameters35_C2.dat
+[12:07:28.586]     INFO: write trim parameters into data/pa315/trimParameters35_C3.dat
+[12:07:28.596]     INFO: write trim parameters into data/pa315/trimParameters35_C4.dat
+[12:07:28.606]     INFO: write trim parameters into data/pa315/trimParameters35_C5.dat
+[12:07:28.615]     INFO: write trim parameters into data/pa315/trimParameters35_C6.dat
+[12:07:28.625]     INFO: write trim parameters into data/pa315/trimParameters35_C7.dat
+[12:07:28.635]     INFO: write trim parameters into data/pa315/trimParameters35_C8.dat
+[12:07:28.644]     INFO: write trim parameters into data/pa315/trimParameters35_C9.dat
+[12:07:28.654]     INFO: write trim parameters into data/pa315/trimParameters35_C10.dat
+[12:07:28.664]     INFO: write trim parameters into data/pa315/trimParameters35_C11.dat
+[12:07:28.674]     INFO: write trim parameters into data/pa315/trimParameters35_C12.dat
+[12:07:28.683]     INFO: write trim parameters into data/pa315/trimParameters35_C13.dat
+[12:07:28.693]     INFO: write trim parameters into data/pa315/trimParameters35_C14.dat
+[12:07:28.703]     INFO: write trim parameters into data/pa315/trimParameters35_C15.dat
+[12:07:28.713]     INFO: PixTestTrim::trimTest() done
+[12:07:28.713]     INFO: vtrim:      95 110 110  92 103 124 102 101  99  95 100  91  94  89 106  97 
+[12:07:28.713]     INFO: vthrcomp:   90  91  92  86  96 104  96 101  95  97 100  98  85  91  92 102 
+[12:07:28.713]     INFO: vcal mean:  35.02  35.05  34.94  35.04  34.97  35.01  34.98  34.92  35.02  34.92  34.93  34.96  35.01  34.99  34.97  34.99 
+[12:07:28.713]     INFO: vcal RMS:    0.83   0.85   0.85   0.85   1.17   0.89   0.99   0.81   0.81   1.31   0.86   0.85   0.84   0.80   0.89   0.79 
+[12:07:28.713]     INFO: bits mean:   9.43   9.44   9.27   9.63   9.69   8.99   9.34   9.16   9.06   9.63   9.90   9.33   9.47   9.04   9.21   9.57 
+[12:07:28.713]     INFO: bits RMS:    2.55   2.42   2.59   2.62   2.62   2.35   2.72   2.81   2.68   2.64   2.60   2.86   2.64   2.61   2.56   2.69 
+[12:07:28.790]     INFO:    ----------------------------------------------------------------------
+[12:07:28.790]     INFO:    PixTestTrim::trimBitTest() ntrig = 5, vtrims = 254 126 63 32
+[12:07:28.790]     INFO:    ----------------------------------------------------------------------
+[12:07:28.795]     INFO: ---> dac: Vcal name: TrimBitsThr0 ntrig: 5 dacrange: 0 .. 199 (-1/-1) hits flags = 528 (plus default)
+[12:07:28.820]     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:07:28.827]     INFO:     run 1 of 1
+[12:07:29.203]     INFO: Expecting 4160000 events.
+[12:08:22.645]     INFO: 1168795 events read in total (52727ms).
+[12:09:15.371]     INFO: 2325950 events read in total (105453ms).
+[12:10:07.854]     INFO: 3468745 events read in total (157937ms).
+[12:10:39.745]     INFO: 4160000 events read in total (189827ms).
+[12:10:39.910]     INFO: Test took 191084ms.
+[12:10:40.133]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:11:39.132]     INFO: ---> dac: Vcal name: TrimThr_trim14 ntrig: 5 dacrange: 0 .. 170 (-1/-1) hits flags = 528 (plus default)
+[12:11:39.158]     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:11:39.165]     INFO:     run 1 of 1
+[12:11:39.539]     INFO: Expecting 3556800 events.
+[12:12:34.282]     INFO: 1216190 events read in total (54027ms).
+[12:13:28.169]     INFO: 2413630 events read in total (107915ms).
+[12:14:19.972]     INFO: 3556800 events read in total (159718ms).
+[12:14:20.108]     INFO: Test took 160944ms.
+[12:14:20.277]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:15:13.466]     INFO: ---> dac: Vcal name: TrimThr_trim13 ntrig: 5 dacrange: 0 .. 157 (-1/-1) hits flags = 528 (plus default)
+[12:15:13.493]     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:15:13.497]     INFO:     run 1 of 1
+[12:15:13.871]     INFO: Expecting 3286400 events.
+[12:16:10.162]     INFO: 1278810 events read in total (55576ms).
+[12:17:05.319]     INFO: 2530970 events read in total (110733ms).
+[12:17:38.907]     INFO: 3286400 events read in total (144322ms).
+[12:17:38.997]     INFO: Test took 145501ms.
+[12:17:39.123]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:18:29.328]     INFO: ---> dac: Vcal name: TrimThr_trim11 ntrig: 5 dacrange: 0 .. 156 (-1/-1) hits flags = 528 (plus default)
+[12:18:29.354]     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:18:29.362]     INFO:     run 1 of 1
+[12:18:29.739]     INFO: Expecting 3265600 events.
+[12:19:26.245]     INFO: 1283570 events read in total (55791ms).
+[12:20:21.444]     INFO: 2539795 events read in total (110990ms).
+[12:20:53.418]     INFO: 3265600 events read in total (142964ms).
+[12:20:53.503]     INFO: Test took 144140ms.
+[12:20:53.625]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:21:43.886]     INFO: ---> dac: Vcal name: TrimThr_trim7 ntrig: 5 dacrange: 0 .. 156 (-1/-1) hits flags = 528 (plus default)
+[12:21:43.912]     INFO:   dacScan split into 1 runs with ntrig = 5
+[12:21:43.917]     INFO:     run 1 of 1
+[12:21:44.293]     INFO: Expecting 3265600 events.
+[12:22:40.869]     INFO: 1283125 events read in total (55861ms).
+[12:23:35.855]     INFO: 2538100 events read in total (110847ms).
+[12:24:07.954]     INFO: 3265600 events read in total (142946ms).
+[12:24:08.034]     INFO: Test took 144117ms.
+[12:24:08.155]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:24:58.574]     INFO: PixTestTrim::trimBitTest() done 
+[12:24:58.589]     INFO: PixTestTrim::doTest() done, duration: 2903 seconds
+[12:45:35.463]     INFO: ######################################################################
+[12:45:35.463]     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[12:45:35.463]     INFO: ######################################################################
+[12:45:35.844]     INFO: Expecting 41600 events.
+[12:45:40.233]     INFO: 41600 events read in total (3674ms).
+[12:45:40.234]     INFO: Test took 4766ms.
+[12:45:40.244]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:45:40.948]     INFO: Expecting 41600 events.
+[12:45:45.475]     INFO: 41600 events read in total (3812ms).
+[12:45:45.476]     INFO: Test took 4902ms.
+[12:45:45.486]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:45:45.879]     INFO: Expecting 41600 events.
+[12:45:50.384]     INFO: 41600 events read in total (3790ms).
+[12:45:50.385]     INFO: Test took 4881ms.
+[12:45:50.395]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:45:50.727]     INFO: Expecting 2560 events.
+[12:45:51.690]     INFO: 2560 events read in total (248ms).
+[12:45:51.690]     INFO: Test took 1284ms.
+[12:45:52.199]     INFO: Expecting 2560 events.
+[12:45:53.161]     INFO: 2560 events read in total (247ms).
+[12:45:53.161]     INFO: Test took 1470ms.
+[12:45:53.670]     INFO: Expecting 2560 events.
+[12:45:54.632]     INFO: 2560 events read in total (246ms).
+[12:45:54.632]     INFO: Test took 1470ms.
+[12:45:55.141]     INFO: Expecting 2560 events.
+[12:45:56.103]     INFO: 2560 events read in total (247ms).
+[12:45:56.103]     INFO: Test took 1470ms.
+[12:45:56.612]     INFO: Expecting 2560 events.
+[12:45:57.573]     INFO: 2560 events read in total (246ms).
+[12:45:57.574]     INFO: Test took 1471ms.
+[12:45:58.082]     INFO: Expecting 2560 events.
+[12:45:59.045]     INFO: 2560 events read in total (247ms).
+[12:45:59.045]     INFO: Test took 1471ms.
+[12:45:59.554]     INFO: Expecting 2560 events.
+[12:46:00.517]     INFO: 2560 events read in total (247ms).
+[12:46:00.517]     INFO: Test took 1471ms.
+[12:46:01.025]     INFO: Expecting 2560 events.
+[12:46:01.987]     INFO: 2560 events read in total (246ms).
+[12:46:01.987]     INFO: Test took 1470ms.
+[12:46:02.496]     INFO: Expecting 2560 events.
+[12:46:03.459]     INFO: 2560 events read in total (248ms).
+[12:46:03.459]     INFO: Test took 1471ms.
+[12:46:03.968]     INFO: Expecting 2560 events.
+[12:46:04.930]     INFO: 2560 events read in total (246ms).
+[12:46:04.931]     INFO: Test took 1471ms.
+[12:46:05.440]     INFO: Expecting 2560 events.
+[12:46:06.402]     INFO: 2560 events read in total (247ms).
+[12:46:06.402]     INFO: Test took 1470ms.
+[12:46:06.911]     INFO: Expecting 2560 events.
+[12:46:07.873]     INFO: 2560 events read in total (247ms).
+[12:46:07.873]     INFO: Test took 1470ms.
+[12:46:08.382]     INFO: Expecting 2560 events.
+[12:46:09.344]     INFO: 2560 events read in total (247ms).
+[12:46:09.344]     INFO: Test took 1470ms.
+[12:46:09.852]     INFO: Expecting 2560 events.
+[12:46:10.815]     INFO: 2560 events read in total (247ms).
+[12:46:10.815]     INFO: Test took 1471ms.
+[12:46:11.324]     INFO: Expecting 2560 events.
+[12:46:12.287]     INFO: 2560 events read in total (248ms).
+[12:46:12.287]     INFO: Test took 1472ms.
+[12:46:12.795]     INFO: Expecting 2560 events.
+[12:46:13.757]     INFO: 2560 events read in total (246ms).
+[12:46:13.758]     INFO: Test took 1470ms.
+[12:46:13.762]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:46:14.269]     INFO: Expecting 655360 events.
+[12:46:26.974]     INFO: 655360 events read in total (11990ms).
+[12:46:26.994]     INFO: Expecting 655360 events.
+[12:46:39.505]     INFO: 655360 events read in total (11984ms).
+[12:46:39.533]     INFO: Expecting 655360 events.
+[12:46:52.017]     INFO: 655360 events read in total (11957ms).
+[12:46:52.052]     INFO: Expecting 655360 events.
+[12:47:04.597]     INFO: 655360 events read in total (12018ms).
+[12:47:04.641]     INFO: Expecting 655360 events.
+[12:47:17.144]     INFO: 655360 events read in total (11976ms).
+[12:47:17.196]     INFO: Expecting 655360 events.
+[12:47:29.686]     INFO: 655360 events read in total (11963ms).
+[12:47:29.747]     INFO: Expecting 655360 events.
+[12:47:42.190]     INFO: 655360 events read in total (11916ms).
+[12:47:42.260]     INFO: Expecting 655360 events.
+[12:47:54.761]     INFO: 655360 events read in total (11974ms).
+[12:47:54.839]     INFO: Expecting 655360 events.
+[12:48:07.395]     INFO: 655360 events read in total (12029ms).
+[12:48:07.480]     INFO: Expecting 655360 events.
+[12:48:20.045]     INFO: 655360 events read in total (12038ms).
+[12:48:20.138]     INFO: Expecting 655360 events.
+[12:48:32.674]     INFO: 655360 events read in total (12009ms).
+[12:48:32.776]     INFO: Expecting 655360 events.
+[12:48:45.326]     INFO: 655360 events read in total (12023ms).
+[12:48:45.435]     INFO: Expecting 655360 events.
+[12:48:58.006]     INFO: 655360 events read in total (12044ms).
+[12:48:58.125]     INFO: Expecting 655360 events.
+[12:49:10.702]     INFO: 655360 events read in total (12050ms).
+[12:49:10.827]     INFO: Expecting 655360 events.
+[12:49:23.417]     INFO: 655360 events read in total (12063ms).
+[12:49:23.555]     INFO: Expecting 655360 events.
+[12:49:36.134]     INFO: 655360 events read in total (12052ms).
+[12:49:36.278]     INFO: Test took 202516ms.
+[12:49:36.481]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:49:36.756]     INFO: Expecting 655360 events.
+[12:49:49.401]     INFO: 655360 events read in total (11930ms).
+[12:49:49.421]     INFO: Expecting 655360 events.
+[12:50:01.935]     INFO: 655360 events read in total (11987ms).
+[12:50:01.962]     INFO: Expecting 655360 events.
+[12:50:14.443]     INFO: 655360 events read in total (11954ms).
+[12:50:14.480]     INFO: Expecting 655360 events.
+[12:50:26.968]     INFO: 655360 events read in total (11961ms).
+[12:50:27.012]     INFO: Expecting 655360 events.
+[12:50:39.541]     INFO: 655360 events read in total (12002ms).
+[12:50:39.596]     INFO: Expecting 655360 events.
+[12:50:52.114]     INFO: 655360 events read in total (11991ms).
+[12:50:52.175]     INFO: Expecting 655360 events.
+[12:51:04.693]     INFO: 655360 events read in total (11991ms).
+[12:51:04.763]     INFO: Expecting 655360 events.
+[12:51:17.285]     INFO: 655360 events read in total (11995ms).
+[12:51:17.362]     INFO: Expecting 655360 events.
+[12:51:29.893]     INFO: 655360 events read in total (12004ms).
+[12:51:29.978]     INFO: Expecting 655360 events.
+[12:51:42.534]     INFO: 655360 events read in total (12028ms).
+[12:51:42.628]     INFO: Expecting 655360 events.
+[12:51:55.121]     INFO: 655360 events read in total (11966ms).
+[12:51:55.223]     INFO: Expecting 655360 events.
+[12:52:07.785]     INFO: 655360 events read in total (12035ms).
+[12:52:07.914]     INFO: Expecting 655360 events.
+[12:52:20.460]     INFO: 655360 events read in total (12019ms).
+[12:52:20.645]     INFO: Expecting 655360 events.
+[12:52:33.228]     INFO: 655360 events read in total (12056ms).
+[12:52:33.355]     INFO: Expecting 655360 events.
+[12:52:45.884]     INFO: 655360 events read in total (12002ms).
+[12:52:46.044]     INFO: Expecting 655360 events.
+[12:52:58.602]     INFO: 655360 events read in total (12031ms).
+[12:52:58.748]     INFO: Test took 202267ms.
+[12:52:59.185]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.195]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.206]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.217]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.227]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.238]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.249]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.259]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.270]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.281]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.291]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.303]     INFO: safety margin for low PH: adding 1, margin is now 21
+[12:52:59.313]     INFO: safety margin for low PH: adding 2, margin is now 22
+[12:52:59.324]     INFO: safety margin for low PH: adding 3, margin is now 23
+[12:52:59.335]     INFO: safety margin for low PH: adding 4, margin is now 24
+[12:52:59.346]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.357]     INFO: safety margin for low PH: adding 1, margin is now 21
+[12:52:59.367]     INFO: safety margin for low PH: adding 2, margin is now 22
+[12:52:59.378]     INFO: safety margin for low PH: adding 3, margin is now 23
+[12:52:59.389]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.399]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.410]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.421]     INFO: safety margin for low PH: adding 1, margin is now 21
+[12:52:59.431]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:52:59.492]     INFO: write dac parameters into data/pa315/dacParameters35_C0.dat
+[12:52:59.492]     INFO: write dac parameters into data/pa315/dacParameters35_C1.dat
+[12:52:59.492]     INFO: write dac parameters into data/pa315/dacParameters35_C2.dat
+[12:52:59.492]     INFO: write dac parameters into data/pa315/dacParameters35_C3.dat
+[12:52:59.492]     INFO: write dac parameters into data/pa315/dacParameters35_C4.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C5.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C6.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C7.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C8.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C9.dat
+[12:52:59.493]     INFO: write dac parameters into data/pa315/dacParameters35_C10.dat
+[12:52:59.494]     INFO: write dac parameters into data/pa315/dacParameters35_C11.dat
+[12:52:59.494]     INFO: write dac parameters into data/pa315/dacParameters35_C12.dat
+[12:52:59.494]     INFO: write dac parameters into data/pa315/dacParameters35_C13.dat
+[12:52:59.494]     INFO: write dac parameters into data/pa315/dacParameters35_C14.dat
+[12:52:59.494]     INFO: write dac parameters into data/pa315/dacParameters35_C15.dat
+[12:52:59.875]     INFO: Expecting 41600 events.
+[12:53:03.909]     INFO: 41600 events read in total (3319ms).
+[12:53:03.910]     INFO: Test took 4411ms.
+[12:53:04.513]     INFO: Expecting 41600 events.
+[12:53:08.536]     INFO: 41600 events read in total (3308ms).
+[12:53:08.537]     INFO: Test took 4400ms.
+[12:53:09.145]     INFO: Expecting 41600 events.
+[12:53:13.183]     INFO: 41600 events read in total (3322ms).
+[12:53:13.184]     INFO: Test took 4415ms.
+[12:53:13.420]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:13.553]     INFO: Expecting 2560 events.
+[12:53:14.516]     INFO: 2560 events read in total (248ms).
+[12:53:14.516]     INFO: Test took 1096ms.
+[12:53:14.519]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:15.026]     INFO: Expecting 2560 events.
+[12:53:15.988]     INFO: 2560 events read in total (247ms).
+[12:53:15.989]     INFO: Test took 1470ms.
+[12:53:15.992]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:16.499]     INFO: Expecting 2560 events.
+[12:53:17.461]     INFO: 2560 events read in total (247ms).
+[12:53:17.461]     INFO: Test took 1469ms.
+[12:53:17.464]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:17.971]     INFO: Expecting 2560 events.
+[12:53:18.934]     INFO: 2560 events read in total (248ms).
+[12:53:18.934]     INFO: Test took 1470ms.
+[12:53:18.937]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:19.444]     INFO: Expecting 2560 events.
+[12:53:20.407]     INFO: 2560 events read in total (248ms).
+[12:53:20.407]     INFO: Test took 1470ms.
+[12:53:20.410]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:20.917]     INFO: Expecting 2560 events.
+[12:53:21.879]     INFO: 2560 events read in total (247ms).
+[12:53:21.880]     INFO: Test took 1470ms.
+[12:53:21.883]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:22.389]     INFO: Expecting 2560 events.
+[12:53:23.352]     INFO: 2560 events read in total (247ms).
+[12:53:23.352]     INFO: Test took 1470ms.
+[12:53:23.355]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:23.862]     INFO: Expecting 2560 events.
+[12:53:24.824]     INFO: 2560 events read in total (247ms).
+[12:53:24.824]     INFO: Test took 1469ms.
+[12:53:24.827]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:25.334]     INFO: Expecting 2560 events.
+[12:53:26.296]     INFO: 2560 events read in total (247ms).
+[12:53:26.297]     INFO: Test took 1470ms.
+[12:53:26.300]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:26.807]     INFO: Expecting 2560 events.
+[12:53:27.769]     INFO: 2560 events read in total (247ms).
+[12:53:27.769]     INFO: Test took 1469ms.
+[12:53:27.773]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:28.279]     INFO: Expecting 2560 events.
+[12:53:29.242]     INFO: 2560 events read in total (248ms).
+[12:53:29.242]     INFO: Test took 1470ms.
+[12:53:29.245]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:29.752]     INFO: Expecting 2560 events.
+[12:53:30.714]     INFO: 2560 events read in total (247ms).
+[12:53:30.714]     INFO: Test took 1469ms.
+[12:53:30.717]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:31.224]     INFO: Expecting 2560 events.
+[12:53:32.186]     INFO: 2560 events read in total (247ms).
+[12:53:32.187]     INFO: Test took 1470ms.
+[12:53:32.190]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:32.696]     INFO: Expecting 2560 events.
+[12:53:33.659]     INFO: 2560 events read in total (247ms).
+[12:53:33.660]     INFO: Test took 1470ms.
+[12:53:33.663]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:34.169]     INFO: Expecting 2560 events.
+[12:53:35.132]     INFO: 2560 events read in total (247ms).
+[12:53:35.133]     INFO: Test took 1470ms.
+[12:53:35.136]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:35.642]     INFO: Expecting 2560 events.
+[12:53:36.605]     INFO: 2560 events read in total (247ms).
+[12:53:36.605]     INFO: Test took 1469ms.
+[12:53:36.608]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:37.115]     INFO: Expecting 2560 events.
+[12:53:38.078]     INFO: 2560 events read in total (248ms).
+[12:53:38.078]     INFO: Test took 1470ms.
+[12:53:38.081]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:38.588]     INFO: Expecting 2560 events.
+[12:53:39.550]     INFO: 2560 events read in total (247ms).
+[12:53:39.550]     INFO: Test took 1469ms.
+[12:53:39.554]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:40.061]     INFO: Expecting 2560 events.
+[12:53:41.024]     INFO: 2560 events read in total (248ms).
+[12:53:41.024]     INFO: Test took 1471ms.
+[12:53:41.027]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:41.534]     INFO: Expecting 2560 events.
+[12:53:42.497]     INFO: 2560 events read in total (248ms).
+[12:53:42.497]     INFO: Test took 1470ms.
+[12:53:42.501]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:43.007]     INFO: Expecting 2560 events.
+[12:53:43.971]     INFO: 2560 events read in total (248ms).
+[12:53:43.971]     INFO: Test took 1471ms.
+[12:53:43.974]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:44.481]     INFO: Expecting 2560 events.
+[12:53:45.444]     INFO: 2560 events read in total (248ms).
+[12:53:45.444]     INFO: Test took 1470ms.
+[12:53:45.448]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:45.954]     INFO: Expecting 2560 events.
+[12:53:46.917]     INFO: 2560 events read in total (247ms).
+[12:53:46.918]     INFO: Test took 1471ms.
+[12:53:46.921]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:47.428]     INFO: Expecting 2560 events.
+[12:53:48.391]     INFO: 2560 events read in total (248ms).
+[12:53:48.391]     INFO: Test took 1470ms.
+[12:53:48.395]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:48.901]     INFO: Expecting 2560 events.
+[12:53:49.863]     INFO: 2560 events read in total (247ms).
+[12:53:49.864]     INFO: Test took 1470ms.
+[12:53:49.867]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:50.373]     INFO: Expecting 2560 events.
+[12:53:51.336]     INFO: 2560 events read in total (247ms).
+[12:53:51.336]     INFO: Test took 1469ms.
+[12:53:51.339]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:51.846]     INFO: Expecting 2560 events.
+[12:53:52.809]     INFO: 2560 events read in total (248ms).
+[12:53:52.809]     INFO: Test took 1470ms.
+[12:53:52.813]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:53.319]     INFO: Expecting 2560 events.
+[12:53:54.282]     INFO: 2560 events read in total (248ms).
+[12:53:54.282]     INFO: Test took 1470ms.
+[12:53:54.285]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:54.792]     INFO: Expecting 2560 events.
+[12:53:55.755]     INFO: 2560 events read in total (248ms).
+[12:53:55.755]     INFO: Test took 1470ms.
+[12:53:55.758]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:56.265]     INFO: Expecting 2560 events.
+[12:53:57.228]     INFO: 2560 events read in total (248ms).
+[12:53:57.228]     INFO: Test took 1470ms.
+[12:53:57.232]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:57.738]     INFO: Expecting 2560 events.
+[12:53:58.703]     INFO: 2560 events read in total (249ms).
+[12:53:58.703]     INFO: Test took 1472ms.
+[12:53:58.706]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:53:59.213]     INFO: Expecting 2560 events.
+[12:54:00.176]     INFO: 2560 events read in total (248ms).
+[12:54:00.176]     INFO: Test took 1470ms.
+[12:54:08.241]     INFO: PixTestPhOptimization::doTest() done, duration: 512 seconds
+[12:54:08.241]     INFO: PH scale (per ROC):    78  79  78  78  79  70  77  77  78  63  77  80  73  75  79  78
+[12:54:08.241]     INFO: PH offset (per ROC):  170 176 185 177 182 178 172 186 173 176 176 179 170 178 159 197
+[13:02:27.538]     INFO: ######################################################################
+[13:02:27.538]     INFO: PixTestGainPedestal::doTest() ntrig = 10
+[13:02:27.538]     INFO: ######################################################################
+[13:02:27.567]     INFO: scanning low vcal = 10
+[13:02:27.943]     INFO: Expecting 41600 events.
+[13:02:31.703]     INFO: 41600 events read in total (3045ms).
+[13:02:31.703]     INFO: Test took 4136ms.
+[13:02:31.706]     INFO: scanning low vcal = 20
+[13:02:32.212]     INFO: Expecting 41600 events.
+[13:02:35.978]     INFO: 41600 events read in total (3051ms).
+[13:02:35.979]     INFO: Test took 4273ms.
+[13:02:35.981]     INFO: scanning low vcal = 30
+[13:02:36.488]     INFO: Expecting 41600 events.
+[13:02:40.265]     INFO: 41600 events read in total (3062ms).
+[13:02:40.266]     INFO: Test took 4285ms.
+[13:02:40.269]     INFO: scanning low vcal = 40
+[13:02:40.769]     INFO: Expecting 41600 events.
+[13:02:45.210]     INFO: 41600 events read in total (3725ms).
+[13:02:45.212]     INFO: Test took 4943ms.
+[13:02:45.216]     INFO: scanning low vcal = 50
+[13:02:45.592]     INFO: Expecting 41600 events.
+[13:02:50.064]     INFO: 41600 events read in total (3756ms).
+[13:02:50.066]     INFO: Test took 4850ms.
+[13:02:50.070]     INFO: scanning low vcal = 60
+[13:02:50.444]     INFO: Expecting 41600 events.
+[13:02:54.914]     INFO: 41600 events read in total (3755ms).
+[13:02:54.915]     INFO: Test took 4844ms.
+[13:02:54.920]     INFO: scanning low vcal = 70
+[13:02:55.294]     INFO: Expecting 41600 events.
+[13:02:59.755]     INFO: 41600 events read in total (3746ms).
+[13:02:59.756]     INFO: Test took 4836ms.
+[13:02:59.761]     INFO: scanning low vcal = 80
+[13:03:00.138]     INFO: Expecting 41600 events.
+[13:03:04.606]     INFO: 41600 events read in total (3752ms).
+[13:03:04.608]     INFO: Test took 4847ms.
+[13:03:04.612]     INFO: scanning low vcal = 90
+[13:03:04.987]     INFO: Expecting 41600 events.
+[13:03:09.451]     INFO: 41600 events read in total (3748ms).
+[13:03:09.453]     INFO: Test took 4841ms.
+[13:03:09.458]     INFO: scanning low vcal = 100
+[13:03:09.833]     INFO: Expecting 41600 events.
+[13:03:14.432]     INFO: 41600 events read in total (3884ms).
+[13:03:14.434]     INFO: Test took 4975ms.
+[13:03:14.438]     INFO: scanning low vcal = 110
+[13:03:14.814]     INFO: Expecting 41600 events.
+[13:03:19.280]     INFO: 41600 events read in total (3751ms).
+[13:03:19.281]     INFO: Test took 4843ms.
+[13:03:19.286]     INFO: scanning low vcal = 120
+[13:03:19.661]     INFO: Expecting 41600 events.
+[13:03:24.139]     INFO: 41600 events read in total (3763ms).
+[13:03:24.140]     INFO: Test took 4854ms.
+[13:03:24.145]     INFO: scanning low vcal = 130
+[13:03:24.520]     INFO: Expecting 41600 events.
+[13:03:28.989]     INFO: 41600 events read in total (3754ms).
+[13:03:28.990]     INFO: Test took 4845ms.
+[13:03:28.995]     INFO: scanning low vcal = 140
+[13:03:29.370]     INFO: Expecting 41600 events.
+[13:03:33.838]     INFO: 41600 events read in total (3753ms).
+[13:03:33.839]     INFO: Test took 4844ms.
+[13:03:33.844]     INFO: scanning low vcal = 150
+[13:03:34.218]     INFO: Expecting 41600 events.
+[13:03:38.681]     INFO: 41600 events read in total (3747ms).
+[13:03:38.683]     INFO: Test took 4839ms.
+[13:03:38.688]     INFO: scanning low vcal = 160
+[13:03:39.062]     INFO: Expecting 41600 events.
+[13:03:43.531]     INFO: 41600 events read in total (3753ms).
+[13:03:43.533]     INFO: Test took 4845ms.
+[13:03:43.537]     INFO: scanning low vcal = 170
+[13:03:43.912]     INFO: Expecting 41600 events.
+[13:03:48.379]     INFO: 41600 events read in total (3752ms).
+[13:03:48.380]     INFO: Test took 4843ms.
+[13:03:48.388]     INFO: scanning low vcal = 180
+[13:03:48.763]     INFO: Expecting 41600 events.
+[13:03:53.225]     INFO: 41600 events read in total (3747ms).
+[13:03:53.226]     INFO: Test took 4838ms.
+[13:03:53.231]     INFO: scanning low vcal = 190
+[13:03:53.604]     INFO: Expecting 41600 events.
+[13:03:58.067]     INFO: 41600 events read in total (3748ms).
+[13:03:58.069]     INFO: Test took 4838ms.
+[13:03:58.073]     INFO: scanning low vcal = 200
+[13:03:58.448]     INFO: Expecting 41600 events.
+[13:04:02.913]     INFO: 41600 events read in total (3749ms).
+[13:04:02.915]     INFO: Test took 4842ms.
+[13:04:02.919]     INFO: scanning low vcal = 210
+[13:04:03.293]     INFO: Expecting 41600 events.
+[13:04:07.764]     INFO: 41600 events read in total (3756ms).
+[13:04:07.766]     INFO: Test took 4847ms.
+[13:04:07.770]     INFO: scanning low vcal = 220
+[13:04:08.144]     INFO: Expecting 41600 events.
+[13:04:12.610]     INFO: 41600 events read in total (3750ms).
+[13:04:12.611]     INFO: Test took 4841ms.
+[13:04:12.616]     INFO: scanning low vcal = 230
+[13:04:12.992]     INFO: Expecting 41600 events.
+[13:04:17.461]     INFO: 41600 events read in total (3754ms).
+[13:04:17.463]     INFO: Test took 4847ms.
+[13:04:17.467]     INFO: scanning low vcal = 240
+[13:04:17.842]     INFO: Expecting 41600 events.
+[13:04:22.315]     INFO: 41600 events read in total (3758ms).
+[13:04:22.316]     INFO: Test took 4849ms.
+[13:04:22.321]     INFO: scanning low vcal = 250
+[13:04:22.695]     INFO: Expecting 41600 events.
+[13:04:27.159]     INFO: 41600 events read in total (3748ms).
+[13:04:27.160]     INFO: Test took 4839ms.
+[13:04:27.167]     INFO: scanning high vcal = 30 (= 210 in low range)
+[13:04:27.544]     INFO: Expecting 41600 events.
+[13:04:32.004]     INFO: 41600 events read in total (3744ms).
+[13:04:32.005]     INFO: Test took 4838ms.
+[13:04:32.009]     INFO: scanning high vcal = 50 (= 350 in low range)
+[13:04:32.383]     INFO: Expecting 41600 events.
+[13:04:36.840]     INFO: 41600 events read in total (3742ms).
+[13:04:36.841]     INFO: Test took 4832ms.
+[13:04:36.846]     INFO: scanning high vcal = 70 (= 490 in low range)
+[13:04:37.220]     INFO: Expecting 41600 events.
+[13:04:41.683]     INFO: 41600 events read in total (3748ms).
+[13:04:41.684]     INFO: Test took 4838ms.
+[13:04:41.689]     INFO: scanning high vcal = 90 (= 630 in low range)
+[13:04:42.063]     INFO: Expecting 41600 events.
+[13:04:46.522]     INFO: 41600 events read in total (3744ms).
+[13:04:46.523]     INFO: Test took 4834ms.
+[13:04:46.528]     INFO: scanning high vcal = 200 (= 1400 in low range)
+[13:04:46.902]     INFO: Expecting 41600 events.
+[13:04:51.369]     INFO: 41600 events read in total (3751ms).
+[13:04:51.370]     INFO: Test took 4842ms.
+[13:04:52.234]     INFO: PixTestGainPedestal::measure() done 
+[13:05:57.838]     INFO: PixTestGainPedestal::fit() done
+[13:05:57.838]     INFO: non-linearity mean:  0.960 0.959 0.957 0.969 0.962 0.957 0.959 0.962 0.965 0.958 0.968 0.964 0.959 0.953 0.955 0.964
+[13:05:57.838]     INFO: non-linearity RMS:   0.007 0.006 0.006 0.004 0.006 0.006 0.006 0.005 0.005 0.007 0.004 0.005 0.005 0.007 0.006 0.005
+[13:05:57.838]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C0.dat
+[13:05:57.870]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C1.dat
+[13:05:57.900]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C2.dat
+[13:05:57.930]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C3.dat
+[13:05:57.960]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C4.dat
+[13:05:57.989]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C5.dat
+[13:05:58.019]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C6.dat
+[13:05:58.049]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C7.dat
+[13:05:58.079]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C8.dat
+[13:05:58.109]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C9.dat
+[13:05:58.139]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C10.dat
+[13:05:58.169]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C11.dat
+[13:05:58.199]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C12.dat
+[13:05:58.229]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C13.dat
+[13:05:58.259]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C14.dat
+[13:05:58.288]     INFO: write gain/ped parameters into data/pa315/phCalibrationFitErr35_C15.dat
+[13:05:58.318]     INFO: PixTestGainPedestal::doTest() done, duration: 210 seconds
+[13:11:33.858]     INFO: ######################################################################
+[13:11:33.859]     INFO: PixTestBB3Map::doTest() Ntrig = 5, VcalS = 250 (high range)
+[13:11:33.859]     INFO: ######################################################################
+[13:11:33.863]     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 (-1/-1) hits flags = 514 (plus default)
+[13:11:33.890]     INFO:   dacScan split into 1 runs with ntrig = 5
+[13:11:33.890]     INFO:     run 1 of 1
+[13:11:34.264]     INFO: Expecting 3120000 events.
+[13:12:32.285]     INFO: 1334845 events read in total (57305ms).
+[13:13:29.785]     INFO: 2675255 events read in total (114805ms).
+[13:13:49.027]     INFO: 3120000 events read in total (134048ms).
+[13:13:49.115]     INFO: Test took 135226ms.
+[13:13:49.226]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:14:33.020]     INFO: PixTestBB3Map::doTest() done, duration: 179 seconds
+[13:14:33.020]     INFO: number of dead bumps (per ROC):     3    6    3    1    0    0    2    1    0    2    0    5    3    1    2    1
+[13:31:58.520]    QUIET: Connection to board 58 closed.

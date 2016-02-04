@@ -1,0 +1,98 @@
+[10:48:44.833]     INFO: *** Welcome to pxar ***
+[10:48:44.833]     INFO: *** Today: 2016/01/27
+[10:48:44.842]     INFO: *** Version: prod-12
+[10:48:44.842]     INFO: readRocDacs: ./pa315/dacParameters35_C0.dat .. ./pa315/dacParameters35_C15.dat
+[10:48:44.843]     INFO: readTbmDacs: ./pa315/tbmParameters_C0a.dat .. ./pa315/tbmParameters_C0b.dat
+[10:48:44.843]     INFO: readMaskFile: ./pa315/defaultMaskFile.dat
+[10:48:44.843]     INFO: MASKED Roc 6 col/row: 32 48
+[10:48:44.843]     INFO: MASKED Roc 9 col/row: 43 67
+[10:48:44.843]     INFO: readTrimFile: ./pa315/trimParameters35_C0.dat .. ./pa315/trimParameters35_C15.dat
+[10:48:44.900]     INFO:   masking Roc 6 col/row: 32 48
+[10:48:44.929]     INFO:   masking Roc 9 col/row: 43 67
+[10:48:44.995]     INFO:         clk: 4
+[10:48:44.995]     INFO:         ctr: 4
+[10:48:44.995]     INFO:         sda: 19
+[10:48:44.995]     INFO:         tin: 9
+[10:48:44.995]     INFO:         level: 15
+[10:48:44.995]     INFO:         triggerdelay: 0
+[10:48:44.995]    QUIET: Instanciating API for pxar prod-12
+[10:48:44.995]     INFO: Log level: INFO
+[10:48:45.008]    QUIET: Connection to board DTB_WRPRHI opened.
+[10:48:45.011]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[10:48:45.014]     INFO: RPC call hashes of host and DTB match: 398089610
+[10:48:46.616]     INFO: DUT info: 
+[10:48:46.616]     INFO: The DUT currently contains the following objects:
+[10:48:46.616]     INFO:  2 TBM Cores tbm08c (2 ON)
+[10:48:46.616]     INFO: 	TBM Core alpha (0): 7 registers set
+[10:48:46.616]     INFO: 	TBM Core beta  (1): 7 registers set
+[10:48:46.616]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[10:48:46.616]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 6: 19 DACs set, Pixels: 1 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 9: 19 DACs set, Pixels: 1 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.616]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:46.617]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:48:47.225]     INFO: PixTestCmd::init()
+[10:48:47.231]     INFO: readGainPedestalParameters ./pa315/phCalibrationFitErr35_C0.dat .. ./pa315/phCalibrationFitErr35_C15.dat
+[10:48:47.543]     INFO: readReadbackCal: ./pa315/readbackCal_C0.dat .. ./pa315/readbackCal_C15.dat
+[10:49:02.262]     INFO: ######################################################################
+[10:49:02.262]     INFO: PixTestXray::doTest()
+[10:49:02.262]     INFO: ######################################################################
+[10:49:02.262]     INFO:    ----------------------------------------------------------------------
+[10:49:02.262]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[10:49:02.262]     INFO:    ----------------------------------------------------------------------
+[10:49:02.265]     INFO: ROC 6 masking pixel 32/48
+[10:49:02.265]     INFO: ROC 9 masking pixel 43/67
+[10:49:03.235]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[10:49:20.340]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[10:49:47.903]     INFO: Resuming triggers.
+[10:50:05.009]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[10:50:32.482]     INFO: Resuming triggers.
+[10:50:49.591]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[10:51:16.984]     INFO: Resuming triggers.
+[10:51:34.091]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[10:52:01.488]     INFO: Resuming triggers.
+[10:52:18.595]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[10:52:45.933]     INFO: Resuming triggers.
+[10:53:03.039]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[10:53:30.594]     INFO: Resuming triggers.
+[10:53:47.700]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[10:54:15.002]     INFO: Resuming triggers.
+[10:54:15.412]     INFO: data taking finished, elapsed time: 120 seconds.
+[10:54:16.635]     INFO: PixTest::       pg_setup set to default.
+[10:54:16.674]     INFO: PixTestXray::doPhRun() done
+[10:54:16.674]     INFO: PixTestXray::doTest() done 
+[10:59:50.430]     INFO: ######################################################################
+[10:59:50.430]     INFO: PixTestXray::doTest()
+[10:59:50.430]     INFO: ######################################################################
+[10:59:50.430]     INFO:    ----------------------------------------------------------------------
+[10:59:50.430]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[10:59:50.430]     INFO:    ----------------------------------------------------------------------
+[10:59:50.470]     INFO: ROC 6 masking pixel 32/48
+[10:59:50.470]     INFO: ROC 9 masking pixel 43/67
+[10:59:51.432]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[11:00:08.561]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[11:00:35.971]     INFO: Resuming triggers.
+[11:00:53.100]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[11:01:20.340]     INFO: Resuming triggers.
+[11:01:37.470]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.

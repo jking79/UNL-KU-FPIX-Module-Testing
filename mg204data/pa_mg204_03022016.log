@@ -1,0 +1,104 @@
+[16:26:51.366]     INFO: *** Welcome to pxar ***
+[16:26:51.366]     INFO: *** Today: 2016/02/03
+[16:26:51.384]     INFO: *** Version: prod-12-105-g46f2
+[16:26:51.384]     INFO: readRocDacs: ./data/mg204/dacParameters35_C0.dat .. ./data/mg204/dacParameters35_C15.dat
+[16:26:51.385]     INFO: readTbmDacs: ./data/mg204/tbmParameters_C0a.dat .. ./data/mg204/tbmParameters_C0b.dat
+[16:26:51.385]     INFO: readMaskFile: ./data/mg204/defaultMaskFile.dat
+[16:26:51.385]     INFO: readTrimFile: ./data/mg204/trimParameters35_C0.dat .. ./data/mg204/trimParameters35_C15.dat
+[16:26:51.538]     INFO:         clk: 4
+[16:26:51.538]     INFO:         ctr: 4
+[16:26:51.538]     INFO:         sda: 19
+[16:26:51.538]     INFO:         tin: 9
+[16:26:51.538]     INFO:         level: 15
+[16:26:51.538]     INFO:         triggerdelay: 0
+[16:26:51.538]    QUIET: Instanciating API for pxar prod-12
+[16:26:51.538]     INFO: Log level: INFO
+[16:26:51.549]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:26:51.553]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:26:51.555]     INFO: RPC call hashes of host and DTB match: 398089610
+[16:26:53.157]     INFO: DUT info: 
+[16:26:53.157]     INFO: The DUT currently contains the following objects:
+[16:26:53.157]     INFO:  2 TBM Cores tbm08c (2 ON)
+[16:26:53.157]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:26:53.157]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:26:53.157]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[16:26:53.157]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.157]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.158]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:26:53.769]     INFO: PixTestCmd::init()
+[16:26:53.784]     INFO: readGainPedestalParameters ./data/mg204/phCalibrationFitErr35_C0.dat .. ./data/mg204/phCalibrationFitErr35_C15.dat
+[16:26:54.085]     INFO: readReadbackCal: ./data/mg204/readbackCal_C0.dat .. ./data/mg204/readbackCal_C15.dat
+[16:26:58.252]     INFO: ######################################################################
+[16:26:58.252]     INFO: PixTestAlive::doTest()
+[16:26:58.252]     INFO: ######################################################################
+[16:26:58.256]     INFO:    ----------------------------------------------------------------------
+[16:26:58.256]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[16:26:58.256]     INFO:    ----------------------------------------------------------------------
+[16:26:58.638]     INFO: Expecting 41600 events.
+[16:27:03.030]     INFO: 41600 events read in total (3674ms).
+[16:27:03.176]     INFO: Test took 4918ms.
+[16:27:03.185]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:27:03.460]     INFO: PixTestAlive::aliveTest() done
+[16:27:03.460]     INFO: number of dead pixels (per ROC):     0    0    0    0    0    0    0    0    1    0    0    0    0    0  157    0
+[16:27:03.484]     INFO:    ----------------------------------------------------------------------
+[16:27:03.484]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[16:27:03.484]     INFO:    ----------------------------------------------------------------------
+[16:27:03.863]     INFO: Expecting 41600 events.
+[16:27:06.985]     INFO: 41600 events read in total (2406ms).
+[16:27:06.985]     INFO: Test took 3499ms.
+[16:27:06.985]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:27:06.986]     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[16:27:07.408]     INFO: PixTestAlive::maskTest() done
+[16:27:07.408]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[16:27:07.431]     INFO:    ----------------------------------------------------------------------
+[16:27:07.431]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[16:27:07.431]     INFO:    ----------------------------------------------------------------------
+[16:27:07.814]     INFO: Expecting 41600 events.
+[16:27:11.719]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (7) != Token Chain Length (8)
+[16:27:11.719]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (7) != Token Chain Length (8)
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a035 80c0 4388 6d8 286c 4388 6d8 2887 4388 6d8 288d 4388 6d8 2887 4388 6d8 2881 4388 6d8 286f 4388 6d8 2883 4388 6d8 288f e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a02f 8040 43ca 6d9 2081 43ca 6d9 208d 43ca 6d9 20a1 43ca 6d9 2089 43c8 6d9 2085 43ca 6d9 2085 43ca 6d9 208c 43ca 6d9 20a5 e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a030 80b1 43c8 6d9 2085 43c8 6d9 208f 43c8 6d9 20a2 43c8 6d9 2089 43c8 6d9 2085 43c8 6d9 2089 43c8 6d9 208d 43c8 6d9 20a4 e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a031 80c0 43c8 6d8 286d 43c8 6d8 2889 43c8 6d8 288d 43c8 6d8 2889 43ca 6d8 2880 43c9 6d8 2880 43c9 6d8 2882 43c9 6d8 288d e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a032 8000 43c8 6d8 286c 43c8 6d8 2889 43c9 6d8 288d 43c9 6d8 2887 43c8 6d8 2880 4388 6d8 286f 4389 5a1 25df ff9 26d8 88d e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a033 8040 4388 6d8 2869 4389 6d8 2887 4388 6d8 288d 4389 6d8 2887 4389 6d8 2881 4389 6d8 2881 4388 6d8 2884 4389 6d8 288d e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a034 80b1 4388 6d8 2869 4388 6d8 2885 4388 6d8 288d 4388 6d8 2885 4388 6d8 2882 4388 6d8 2881 4388 6d8 2884 4388 6d8 28a0 e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a135 80c0 4388 6d8 28a5 4388 6d8 2887 4388 6d8 288d 4388 6d8 2885 4388 6d8 2887 4388 6d8 2889 4388 6d8 2800 4388 6d8 286f e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a12f 8040 43ca 6d9 20ad 43ca 6d9 208f 43ca 6d9 20a1 43ca 6d9 208f 43ca 6d9 208c 43ca 6d9 208d 43ca 6d9 2000 43c9 6d9 2089 e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a130 80b1 43c9 6d9 20ad 43c9 6d9 208f 43c9 6d9 208f 43c9 6d9 20a2 43c9 6d9 2089 43c9 6d9 208c 43c9 6d9 2000 43c9 6d9 208c e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a131 80c0 43c8 6d8 28a5 43c8 6d8 2887 43c8 6d8 2889 43c8 6d8 2887 43c9 6d8 2885 43c9 6d8 2885 43c9 6d8 2800 43c9 6d8 286d e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a132 8000 43c8 6d8 28a4 43c8 6d8 2889 43c9 6d8 288d 43c9 6d8 2885 43c8 6d8 2887 4388 6d8 2889 4389 50a 2a2a ab9 26d8 86d e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a133 8040 4388 6d8 28a2 4389 6d8 2889 4388 6d8 288d 4389 6d8 2885 4388 6d8 2889 4389 6d8 2887 4388 6d8 2800 4388 6d8 2880 e022 c000 
+[16:27:11.719]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a134 80b1 4388 6d8 28a4 4388 6d8 2887 4388 6d8 288d 4388 6d8 2889 4388 6d8 2885 4388 6d8 2889 4388 6d8 2800 4388 6d8 286d e022 c000 
+[16:27:12.205]     INFO: 41600 events read in total (3675ms).
+[16:27:12.207]     INFO: Test took 4774ms.
+[16:27:12.216]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:27:12.586]     INFO: PixTestAlive::addressDecodingTest() done with 5 decoding errors
+[16:27:12.586]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[16:27:12.586]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[16:27:33.802]    QUIET: Connection to board 58 closed.

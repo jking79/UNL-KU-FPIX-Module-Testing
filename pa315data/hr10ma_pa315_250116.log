@@ -1,0 +1,291 @@
+[15:36:41.183]     INFO: *** Welcome to pxar ***
+[15:36:41.183]     INFO: *** Today: 2016/01/27
+[15:36:41.192]     INFO: *** Version: prod-12
+[15:36:41.192]     INFO: readRocDacs: ./pa315/dacParameters35_C0.dat .. ./pa315/dacParameters35_C15.dat
+[15:36:41.194]     INFO: readTbmDacs: ./pa315/tbmParameters_C0a.dat .. ./pa315/tbmParameters_C0b.dat
+[15:36:41.194]     INFO: readMaskFile: ./pa315/defaultMaskFile.dat
+[15:36:41.194]     INFO: MASKED Roc 6 col/row: 32 48
+[15:36:41.194]     INFO: MASKED Roc 9 col/row: 43 67
+[15:36:41.194]     INFO: readTrimFile: ./pa315/trimParameters35_C0.dat .. ./pa315/trimParameters35_C15.dat
+[15:36:41.254]     INFO:   masking Roc 6 col/row: 32 48
+[15:36:41.283]     INFO:   masking Roc 9 col/row: 43 67
+[15:36:41.352]     INFO:         clk: 4
+[15:36:41.352]     INFO:         ctr: 4
+[15:36:41.352]     INFO:         sda: 19
+[15:36:41.352]     INFO:         tin: 9
+[15:36:41.352]     INFO:         level: 15
+[15:36:41.352]     INFO:         triggerdelay: 0
+[15:36:41.352]    QUIET: Instanciating API for pxar prod-12
+[15:36:41.352]     INFO: Log level: INFO
+[15:36:41.363]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:36:41.366]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:36:41.369]     INFO: RPC call hashes of host and DTB match: 398089610
+[15:36:42.972]     INFO: DUT info: 
+[15:36:42.972]     INFO: The DUT currently contains the following objects:
+[15:36:42.972]     INFO:  2 TBM Cores tbm08c (2 ON)
+[15:36:42.972]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:36:42.972]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:36:42.972]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:36:42.972]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 6: 19 DACs set, Pixels: 1 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.972]     INFO: 	ROC 9: 19 DACs set, Pixels: 1 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:42.973]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:36:43.580]     INFO: PixTestCmd::init()
+[15:36:43.587]     INFO: readGainPedestalParameters ./pa315/phCalibrationFitErr35_C0.dat .. ./pa315/phCalibrationFitErr35_C15.dat
+[15:36:43.910]     INFO: readReadbackCal: ./pa315/readbackCal_C0.dat .. ./pa315/readbackCal_C15.dat
+[15:36:49.861]     INFO:    ----------------------------------------------------------------------
+[15:36:49.861]     INFO:    PixTestDaq::doDaqRun() start.
+[15:36:49.861]     INFO:    ----------------------------------------------------------------------
+[15:36:49.866]     INFO: ROC 6 masking pixel 32/48
+[15:36:49.866]     INFO: ROC 9 masking pixel 43/67
+[15:36:49.866]     INFO: PixTestDaq:: Number of masked pixels:
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 0
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 1
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 2
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 3
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 4
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 5
+[15:36:49.866]     INFO: PixTestDaq::    1 - ROC 6
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 7
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 8
+[15:36:49.866]     INFO: PixTestDaq::    1 - ROC 9
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 10
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 11
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 12
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 13
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 14
+[15:36:49.866]     INFO: PixTestDaq::    0 - ROC 15
+[15:36:49.867]     INFO: PG set to have trigger frequency = 100 kHz
+[15:36:50.827]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 5 seconds
+[15:36:55.827]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[15:37:08.751]     INFO: events read:492640, pixels seen:1975986, hist entries: 70674
+[15:37:08.847]     INFO: PixTest::       pg_setup set to default.
+[15:37:08.847]     INFO: PixTestDaq::doDaqRun() done
+[15:37:45.437]     INFO: ######################################################################
+[15:37:45.437]     INFO: PixTestAlive::doTest()
+[15:37:45.437]     INFO: ######################################################################
+[15:37:45.441]     INFO:    ----------------------------------------------------------------------
+[15:37:45.441]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:37:45.441]     INFO:    ----------------------------------------------------------------------
+[15:37:45.443]     INFO: ROC 6 masking pixel 32/48
+[15:37:45.443]     INFO: ROC 9 masking pixel 43/67
+[15:37:45.822]     INFO: Expecting 41600 events.
+[15:37:50.179]     INFO: 41600 events read in total (3642ms).
+[15:37:50.180]     INFO: Test took 4737ms.
+[15:37:50.190]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:37:50.570]     INFO: PixTestAlive::aliveTest() done
+[15:37:50.570]     INFO: number of dead pixels (per ROC):   135   53   56   56   59   54   56  136  135   60   55   56   57   55   57  135
+[15:37:50.570]     INFO: ROC 6 masking pixel 32/48
+[15:37:50.570]     INFO: ROC 9 masking pixel 43/67
+[15:37:50.618]     INFO:    ----------------------------------------------------------------------
+[15:37:50.618]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:37:50.618]     INFO:    ----------------------------------------------------------------------
+[15:37:51.002]     INFO: Expecting 41600 events.
+[15:37:54.113]     INFO: 41600 events read in total (2396ms).
+[15:37:54.113]     INFO: Test took 3493ms.
+[15:37:54.113]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:37:54.114]     INFO: ROC 6 masking pixel 32/48
+[15:37:54.114]     INFO: ROC 9 masking pixel 43/67
+[15:37:54.114]     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[15:37:54.536]     INFO: PixTestAlive::maskTest() done
+[15:37:54.536]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[15:37:54.536]     INFO: ROC 6 masking pixel 32/48
+[15:37:54.536]     INFO: ROC 9 masking pixel 43/67
+[15:37:54.556]     INFO:    ----------------------------------------------------------------------
+[15:37:54.556]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:37:54.556]     INFO:    ----------------------------------------------------------------------
+[15:37:54.558]     INFO: ROC 6 masking pixel 32/48
+[15:37:54.558]     INFO: ROC 9 masking pixel 43/67
+[15:37:54.934]     INFO: Expecting 41600 events.
+[15:37:59.291]     INFO: 41600 events read in total (3641ms).
+[15:37:59.293]     INFO: Test took 4735ms.
+[15:37:59.302]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:37:59.675]     INFO: PixTestAlive::addressDecodingTest() done
+[15:37:59.675]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[15:37:59.675]     INFO: ROC 6 masking pixel 32/48
+[15:37:59.675]     INFO: ROC 9 masking pixel 43/67
+[15:37:59.675]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[15:38:53.517]     INFO: ######################################################################
+[15:38:53.517]     INFO: PixTestAlive::doTest()
+[15:38:53.517]     INFO: ######################################################################
+[15:38:53.607]     INFO:    ----------------------------------------------------------------------
+[15:38:53.607]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:38:53.607]     INFO:    ----------------------------------------------------------------------
+[15:38:53.610]     INFO: ROC 6 masking pixel 32/48
+[15:38:53.610]     INFO: ROC 9 masking pixel 43/67
+[15:38:53.990]     INFO: Expecting 41600 events.
+[15:38:58.374]     INFO: 41600 events read in total (3669ms).
+[15:38:58.376]     INFO: Test took 4766ms.
+[15:38:58.385]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:38:58.758]     INFO: PixTestAlive::aliveTest() done
+[15:38:58.758]     INFO: number of dead pixels (per ROC):     0    0    0    0    2    0    1    0    0    2    0    0    0    0    0    0
+[15:38:58.758]     INFO: ROC 6 masking pixel 32/48
+[15:38:58.758]     INFO: ROC 9 masking pixel 43/67
+[15:38:58.787]     INFO:    ----------------------------------------------------------------------
+[15:38:58.787]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:38:58.787]     INFO:    ----------------------------------------------------------------------
+[15:38:59.168]     INFO: Expecting 41600 events.
+[15:39:02.290]     INFO: 41600 events read in total (2407ms).
+[15:39:02.291]     INFO: Test took 3502ms.
+[15:39:02.291]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:39:02.291]     INFO: ROC 6 masking pixel 32/48
+[15:39:02.291]     INFO: ROC 9 masking pixel 43/67
+[15:39:02.291]     INFO: mask vs. old pixelAlive PixelAlive_mod_V1 ..  PixelAlive_C15_V1
+[15:39:02.713]     INFO: PixTestAlive::maskTest() done
+[15:39:02.713]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[15:39:02.713]     INFO: ROC 6 masking pixel 32/48
+[15:39:02.713]     INFO: ROC 9 masking pixel 43/67
+[15:39:02.735]     INFO:    ----------------------------------------------------------------------
+[15:39:02.735]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[15:39:02.735]     INFO:    ----------------------------------------------------------------------
+[15:39:02.738]     INFO: ROC 6 masking pixel 32/48
+[15:39:02.738]     INFO: ROC 9 masking pixel 43/67
+[15:39:03.114]     INFO: Expecting 41600 events.
+[15:39:07.494]     INFO: 41600 events read in total (3665ms).
+[15:39:07.495]     INFO: Test took 4757ms.
+[15:39:07.505]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:39:07.877]     INFO: PixTestAlive::addressDecodingTest() done
+[15:39:07.877]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[15:39:07.877]     INFO: ROC 6 masking pixel 32/48
+[15:39:07.877]     INFO: ROC 9 masking pixel 43/67
+[15:39:07.877]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[15:40:15.138]     INFO:    ----------------------------------------------------------------------
+[15:40:15.138]     INFO:    PixTestHighRate::calDelScan() ntrig = 10, vcal = 200
+[15:40:15.138]     INFO:    ----------------------------------------------------------------------
+[15:40:15.277]     INFO: Expecting 768 events.
+[15:40:16.411]     INFO: 768 events read in total (418ms).
+[15:40:16.412]     INFO: Test took 1268ms.
+[15:40:16.415]     INFO: ROC 6 masking pixel 32/48
+[15:40:16.415]     INFO: ROC 9 masking pixel 43/67
+[15:40:17.215]     INFO: Expecting 41600 events.
+[15:40:20.304]     INFO: 41600 events read in total (2563ms).
+[15:40:20.308]     INFO: Test took 3890ms.
+[15:40:20.361]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:21.055]     INFO: Expecting 41600 events.
+[15:40:24.223]     INFO: 41600 events read in total (2642ms).
+[15:40:24.226]     INFO: Test took 3837ms.
+[15:40:24.275]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:24.968]     INFO: Expecting 41600 events.
+[15:40:28.191]     INFO: 41600 events read in total (2696ms).
+[15:40:28.193]     INFO: Test took 3890ms.
+[15:40:28.240]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:28.932]     INFO: Expecting 41600 events.
+[15:40:32.163]     INFO: 41600 events read in total (2704ms).
+[15:40:32.166]     INFO: Test took 3899ms.
+[15:40:32.211]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:32.905]     INFO: Expecting 41600 events.
+[15:40:36.159]     INFO: 41600 events read in total (2728ms).
+[15:40:36.162]     INFO: Test took 3923ms.
+[15:40:36.205]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:36.907]     INFO: Expecting 41600 events.
+[15:40:40.178]     INFO: 41600 events read in total (2745ms).
+[15:40:40.180]     INFO: Test took 3949ms.
+[15:40:40.225]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:40.918]     INFO: Expecting 41600 events.
+[15:40:44.129]     INFO: 41600 events read in total (2684ms).
+[15:40:44.131]     INFO: Test took 3880ms.
+[15:40:44.176]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:44.868]     INFO: Expecting 41600 events.
+[15:40:48.110]     INFO: 41600 events read in total (2715ms).
+[15:40:48.112]     INFO: Test took 3909ms.
+[15:40:48.155]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:48.846]     INFO: Expecting 41600 events.
+[15:40:52.092]     INFO: 41600 events read in total (2720ms).
+[15:40:52.094]     INFO: Test took 3913ms.
+[15:40:52.138]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:52.829]     INFO: Expecting 41600 events.
+[15:40:56.089]     INFO: 41600 events read in total (2734ms).
+[15:40:56.091]     INFO: Test took 3927ms.
+[15:40:56.136]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:40:56.828]     INFO: Expecting 41600 events.
+[15:41:00.086]     INFO: 41600 events read in total (2731ms).
+[15:41:00.089]     INFO: Test took 3926ms.
+[15:41:00.134]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:00.825]     INFO: Expecting 41600 events.
+[15:41:04.076]     INFO: 41600 events read in total (2724ms).
+[15:41:04.078]     INFO: Test took 3918ms.
+[15:41:04.124]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:04.816]     INFO: Expecting 41600 events.
+[15:41:08.068]     INFO: 41600 events read in total (2725ms).
+[15:41:08.070]     INFO: Test took 3919ms.
+[15:41:08.116]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:08.809]     INFO: Expecting 41600 events.
+[15:41:12.062]     INFO: 41600 events read in total (2727ms).
+[15:41:12.064]     INFO: Test took 3920ms.
+[15:41:12.110]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:12.803]     INFO: Expecting 41600 events.
+[15:41:16.058]     INFO: 41600 events read in total (2729ms).
+[15:41:16.061]     INFO: Test took 3923ms.
+[15:41:16.105]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:16.797]     INFO: Expecting 41600 events.
+[15:41:20.052]     INFO: 41600 events read in total (2728ms).
+[15:41:20.055]     INFO: Test took 3924ms.
+[15:41:20.100]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:20.792]     INFO: Expecting 41600 events.
+[15:41:24.062]     INFO: 41600 events read in total (2743ms).
+[15:41:24.065]     INFO: Test took 3939ms.
+[15:41:24.111]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:24.805]     INFO: Expecting 41600 events.
+[15:41:28.048]     INFO: 41600 events read in total (2716ms).
+[15:41:28.051]     INFO: Test took 3912ms.
+[15:41:28.096]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:28.788]     INFO: Expecting 41600 events.
+[15:41:32.033]     INFO: 41600 events read in total (2718ms).
+[15:41:32.035]     INFO: Test took 3912ms.
+[15:41:32.081]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:41:32.773]     INFO: Expecting 41600 events.
+[15:41:35.863]     INFO: 41600 events read in total (2564ms).
+[15:41:35.866]     INFO: Test took 3759ms.
+[15:41:35.910]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:42:16.698]     INFO:    ----------------------------------------------------------------------
+[15:42:16.698]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 50, vcal = 200
+[15:42:16.698]     INFO:    ----------------------------------------------------------------------
+[15:42:16.716]     INFO: ROC 6 masking pixel 32/48
+[15:42:16.716]     INFO: ROC 9 masking pixel 43/67
+[15:42:17.388]     INFO: Expecting 208000 events.
+[15:42:29.301]     INFO: 208000 events read in total (11386ms).
+[15:42:29.308]     INFO: Test took 12591ms.
+[15:42:29.494]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:42:29.801]     INFO: number of dead pixels (per ROC):   135   55   56   56   58   54   58  136  137   60   55   57   57   56   60  135
+[15:42:29.801]     INFO: number of red-efficiency pixels:   197   89  136  296  290  215  223  256  260  490  284  206  171  134  117  167
+[15:42:29.801]     INFO: number of X-ray hits detected:    38164 22873 50833 88725 93297 83954 73695 55448 67043 136517 101055 75140 61109 50995 33615 19813
+[15:42:29.801]     INFO: number of triggers sent (total per ROC):  208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000
+[15:42:29.801]     INFO: number of Vcal hits detected:  201188 205215 205116 204910 204810 205127 204925 201043 200722 204355 204890 204941 204857 205117 204800 201190
+[15:42:29.801]     INFO: Vcal hit fiducial efficiency (%):  100.0 100.0 100.0 99.9 99.9 99.9 99.9 99.9 99.8 99.8 99.9 99.9 99.9 100.0 99.9 100.0
+[15:42:29.801]     INFO: Vcal hit overall efficiency (%):  96.7 98.7 98.6 98.5 98.5 98.6 98.5 96.7 96.5 98.2 98.5 98.5 98.5 98.6 98.5 96.7
+[15:42:29.801]     INFO: X-ray hit rate [MHz/cm2]:  11.2 6.7 14.9 26.0 27.3 24.6 21.6 16.3 19.7 40.0 29.6 22.0 17.9 14.9 9.9 5.8
+[15:42:29.801]     INFO: PixTestHighRate::doXPixelAlive() done
+[15:42:29.846]     INFO: PixTest::       pg_setup set to default.
+[15:43:30.195]     INFO:    ----------------------------------------------------------------------
+[15:43:30.195]     INFO:    PixTestHighRate::runDaq() running for 5 seconds
+[15:43:30.195]     INFO:    ----------------------------------------------------------------------
+[15:43:30.221]     INFO: ROC 6 masking pixel 32/48
+[15:43:30.221]     INFO: ROC 9 masking pixel 43/67
+[15:43:31.177]     INFO: PixTestHighRate::doHitMap start TriggerLoop with trigger frequency 20 kHz, period 2011 and duration 5 seconds
+[15:43:36.184]     INFO: data taking finished, elapsed time: 5 seconds.
+[15:43:38.829]     INFO: PixTest::       pg_setup set to default.
+[15:43:38.946]     INFO: Pixels without X-ray hits (per ROC):   664  1157   705   257   285   253   298   463   425   233   251   399   406   733   951  1156 
+[15:43:38.946]     INFO: PixTestHighRate::doRunDaq() done
+[15:44:34.698]    QUIET: Connection to board 58 closed.

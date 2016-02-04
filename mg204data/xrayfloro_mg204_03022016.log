@@ -1,0 +1,277 @@
+[15:24:27.165]     INFO: *** Welcome to pxar ***
+[15:24:27.165]     INFO: *** Today: 2016/02/03
+[15:24:27.182]     INFO: *** Version: prod-12-105-g46f2
+[15:24:27.182]     INFO: readRocDacs: ./data/mg204/dacParameters35_C0.dat .. ./data/mg204/dacParameters35_C15.dat
+[15:24:27.183]     INFO: readTbmDacs: ./data/mg204/tbmParameters_C0a.dat .. ./data/mg204/tbmParameters_C0b.dat
+[15:24:27.183]     INFO: readMaskFile: ./data/mg204/defaultMaskFile.dat
+[15:24:27.183]     INFO: readTrimFile: ./data/mg204/trimParameters35_C0.dat .. ./data/mg204/trimParameters35_C15.dat
+[15:24:27.340]     INFO:         clk: 4
+[15:24:27.340]     INFO:         ctr: 4
+[15:24:27.340]     INFO:         sda: 19
+[15:24:27.340]     INFO:         tin: 9
+[15:24:27.340]     INFO:         level: 15
+[15:24:27.340]     INFO:         triggerdelay: 0
+[15:24:27.340]    QUIET: Instanciating API for pxar prod-12
+[15:24:27.340]     INFO: Log level: INFO
+[15:24:27.351]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:24:27.354]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:24:27.357]     INFO: RPC call hashes of host and DTB match: 398089610
+[15:24:28.961]     INFO: DUT info: 
+[15:24:28.961]     INFO: The DUT currently contains the following objects:
+[15:24:28.961]     INFO:  2 TBM Cores tbm08c (2 ON)
+[15:24:28.961]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:24:28.961]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:24:28.961]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:24:28.961]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:28.961]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:24:29.584]     INFO: PixTestCmd::init()
+[15:24:29.605]     INFO: readGainPedestalParameters ./data/mg204/phCalibrationFitErr35_C0.dat .. ./data/mg204/phCalibrationFitErr35_C15.dat
+[15:24:29.909]     INFO: readReadbackCal: ./data/mg204/readbackCal_C0.dat .. ./data/mg204/readbackCal_C15.dat
+[15:24:44.968]     INFO:    ----------------------------------------------------------------------
+[15:24:44.968]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 60
+[15:24:44.968]     INFO:    ----------------------------------------------------------------------
+[15:24:45.942]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 60 seconds,  fEventsMax = 6000000
+[15:24:54.694]     INFO: run duration 8 seconds, buffer almost full (81%), pausing triggers.
+[15:25:00.186]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:25:00.186]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a066 8000 47c8 47c8 47c8 47c8 47c9 dc 224f 47c8 47c8 201 2225 47c8 4c0 244f e000 c000 
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a060 80b1 43c8 43c8 43c8 809 2649 43c8 43c8 43c8 2cd 2261 30d 244d 43c8 cd 204f 43c8 10a 2047 552 2680 610 2265 e000 c000 
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a061 80c0 43c8 43c8 21a 2049 43c9 43c9 43c8 43c9 100 2629 85a 246d 43c9 215 2645 31c 244d 43c9 e000 c000 
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a062 8000 43c8 43c9 a1 224d a1 2669 43c8 43c9 444 2849 818 286c 43c8 488 2065 43c8 43c9 6c8 2044 43c9 e000 c000 
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a063 8040 43c8 360 2649 43c8 43c8 c3 264c 4cd 2447 43c8 47c8 47c9 4d 2447 5ff 2d01 578 2092 24b 47c9 e000 c000 
+[15:25:00.186]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a064 80b1 47c8 15c 262d 47c8 20b 2263 47c8 51b 224d 47c8 444 2a27 862 2a6d 47ca 47c8 60a 2449 47c8 47c8 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a065 80c0 47c8 47c8 47c8 47c8 8 2848 5a 2269 4e0 2245 47c8 259 2868 362 2685 490 204a 84c 282f 47c8 47c8 47c8 14 2a4d e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a166 8000 47c8 244 2642 4d8 2249 47c8 2d4 2a44 47c8 47c8 201 2447 201 2649 47c8 40 2a2d 6d0 284d 47c8 4e2 2269 47c8 47c8 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a160 80b1 43c9 6cc 2842 43c9 43c9 2c1 2a45 43c9 43c9 855 2a42 43c9 43c9 43c9 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a161 80c0 43c8 114 226d 43c8 43c8 43c8 6d2 2627 43c9 43c9 43c9 43c9 59 2249 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a162 8000 43c8 43c8 29b 2664 43c9 43c9 43c8 43c8 84b 284f 43c9 65b 2800 43c9 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a163 8040 43c8 43c9 43c8 34d 2464 841 2a4f 43c9 814 2265 47c8 a 284c 159 25a8 66 2aa0 64d 47c8 47c8 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a164 80b1 47c8 47c8 2 2449 47c8 47c8 47c8 310 2443 47c8 47c8 47c8 e000 c000 
+[15:25:00.187]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a165 80c0 47c8 47c8 2cc 2a2f 61b 2260 47c8 753 2049 47c8 710 2a69 47c8 312 2247 47c8 159 2a4f 47c8 47c8 85c 224d e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:25:04.737]    ERROR: <datapipe.cc/CheckEventValidity:L480> Channel 1 has NoTokenPass but 4 ROCs were found
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b8 80b1 47c8 47c8 47c8 449 2444 47c8 81d 2a4d 47c8 12 2445 47c8 47c8 47c8 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b2 8000 43c8 43c9 43c8 2a1 284f 43c9 55 244c 43c8 51d 284d 751 264d 43c8 43c9 4 2245 43c9 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b3 8040 43c8 6cd 2027 43c8 43c8 452 224d 43c8 742 2845 43c8 6cb 2045 43c9 43c8 a 284d 64c 2662 683 204f 43c9 211 2263 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b4 80b1 43c8 43c8 43c8 43c8 714 284d 43ca 8c 222d 8c 2647 551 284f 43c8 35d 2065 55b 204f 43c8 252 2840 43c8 2cb 2463 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b5 80c0 43c8 43c8 622 2065 43c8 a1 2088 149d 2841 47c8 715 57ca 843 2555 5fa 2901 403 2d01 1400 2c0d 495 2510 691 2867 47c8 11a 2a2d 47c8 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b6 8000 47c8 47c8 10 2482 c1 2085 740 280d 47c8 47c8 47c9 47c8 47c8 451 282f 47c8 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b7 8040 47c8 47c8 47c8 44c 2649 455 268d 612 2062 47c8 47c8 10 2446 47c8 47c8 70c 2241 753 2a4c 47c8 ca 2245 e000 c000 
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:04.737]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b8 80b1 47c8 a 2062 47c8 47c8 404 2264 47c8 60 2a4d 47c8 4d1 2461 47c8 21b 266c 47c8 47c8 851 204d e000 c000 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b2 8000 43c8 43c8 43c9 344 2065 482 286d 43c9 818 2845 43c8 552 264c 43c8 309 2061 43c9 43c9 e000 c000 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b3 8040 43c8 43c9 45c 204d 43c8 dc 2a65 43c9 45c 2442 6d0 2a2f 43c8 49 204f 40a 284f 6d0 2261 43c9 43c8 43c8 4cb 2245 e000 c000 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b4 80b1 43c8 852 2264 43c8 81c 2464 43c8 43c8 43c8 61a 2463 43c8 9a 262d 43c8 43c8 e000 c000 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 2 ====== a1b5 80c0 43c8 543 2647 43c8 ca 222d 47c8 114c 2463 47c8 7d5 3ea1 622 2aaa aa0 2056 a66 285a 1a65 2bf2 b40 2045 fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b6 8000 47c8 47c8 47c8 2d3 224c 47c8 5d 2a4d 822 2a4d 47c8 311 2845 47c8 c4 242c 47c8 754 2600 47c8 e000 c000 
+[15:25:04.738]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b7 8040 47c8 71c 2228 803 2869 47c8 59 202d 59 2249 47c8 683 2a65 47c8 34a 204d 515 284d 47c8 20 2461 47c8 49b 284d 47c8 354 2000 362 2a00 47c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a07e 8000 43c8 221 2240 2e1 2a41 43ca 43ca 43ca 18 202d 220 204f 659 204d 43c8 244 222d 43c8 250 242d 43c8 11 2061 409 2425 651 2069 850 2245 43c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a078 80b1 47c8 47c8 47c8 47c8 90 2a45 47c8 344 244c 495 2065 47c8 4b 224c 15c 2a2c 28a 226c 47c8 47c8 52 2a4f e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a079 80c0 47c8 47c8 47c8 47c8 47c8 82 2667 82 2a44 751 2265 47c8 15 2a4f 64b 2469 693 2064 47c8 d2 284d 47c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a07a 8000 47c8 29a 2a45 47c8 47c8 47c8 305 2867 47c8 47c8 240 2625 47c8 293 2861 28c 2062 288 2229 47c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a07b 8040 47c8 60 2a26 61 2240 43c8 53c8 43c8 43c9 fff 264e 43c8 81b 2864 43c8 20b 202d 43c8 2d2 2242 642 224f e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a07c 80b1 43c8 43c8 43c8 355 2829 43c8 43c8 655 226c 43c8 43c8 305 204f 43c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a07d 80c0 43c8 702 202f 43c8 43c8 43c8 43c8 43c8 750 2a4c 43c8 43c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a17e 8000 43c8 43c8 43c8 43c8 43c8 84 264d 208 2440 683 2a84 43c8 413 2a49 43c8 43ca e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a178 80b1 47c8 47c8 645 2a41 47c8 47c8 47c8 70c 2449 705 2263 748 262c 47c8 47c8 47c8 6dc 2240 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a179 80c0 47c8 47c8 47c8 61b 2a6b 47c8 75c 206d 47c8 47c8 47c8 47c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a17a 8000 47c8 47c8 47c8 2c0 2645 40a 2a4f 47c8 50 2245 47c8 47c8 47c8 47c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a17b 8040 47c8 47c8 11a 2081 47c8 43c8 1081 2245 40f 22aa 705 204f 43c8 144 242f 144 204f 609 266f 60a 2a49 43c8 412 2a61 440 244c 43c8 43c8 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a17c 80b1 43c8 43c8 450 28a2 43c8 43c8 484 262c 43c8 21c 2247 43c8 43c8 98 2800 43c8 4d8 22a5 e000 c000 
+[15:25:06.228]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a17d 80c0 43c8 6d9 2084 43c8 742 2468 43c8 28a 244c 43c8 1c 242c 849 206f 43c8 43c8 43c8 43c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (4) != Token Chain Length (8)
+[15:25:09.198]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a00a 8000 47c8 47c8 520 2461 47c8 619 2665 47c8 47c8 5b 2a69 47c8 85c 224d 47c8 559 2a63 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a004 80b1 43c8 81a 2449 43c8 6e1 226d 43c8 43c8 43ca 411 284f 755 2245 43c8 4cd 242f 43c8 40a 222d 43c8 18 2444 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a005 80c0 43c8 74a 2a45 43c8 51d 2685 43c8 43c8 754 2483 43c8 252 244f 858 2664 43c8 43c8 209 204d 81c 204f 43c8 59 222d e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a006 8000 43c8 281 2047 43c8 688 2645 43c8 43c8 85c 246d 43c9 43c8 289 2247 659 2245 659 2649 43c8 509 2a45 43c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a007 8040 43c8 98 282d 47c8 57c8 47c8 615 288f c97 e004 c011 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a008 80b1 47c8 47c8 47c8 47c8 47c8 47c8 47c8 8d 2845 8d 242d 841 2a61 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a009 80c0 47c8 47c8 47c8 511 284d 47c8 11b 2a49 160 2065 47c8 215 224d 4a2 2280 47c8 110 2a8f 70a 2a65 47c8 cb 224f 743 2244 743 2643 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a10a 8000 47c8 47c8 47c8 47c8 47c8 47c8 47c8 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a104 80b1 43c8 819 204f 43c8 759 2861 43c8 43c8 43c8 43c8 43c8 43c8 25b 2a4f e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a105 80c0 43c8 2d1 2265 43c8 859 2a65 43c8 43c8 43c8 49 2245 43c8 359 2269 43c8 340 2800 43c8 653 2a47 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a106 8000 43c8 84c 2a24 43c8 4d 2465 812 246c 43c8 59 2a45 5a 224d 43c8 43c8 551 244d 622 2880 711 2a4d 43c8 285 2a4c 43c8 700 2600 43c8 658 2a45 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a107 8040 43c8 43c8 47c8 47c8 1254 264d 6d7 2730 26a 2bab ab8 47c8 47c8 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a108 80b1 47c8 47c8 410 2029 410 2241 483 26a2 47c8 47c8 47c8 1d 244c 50 204a 9a 264d 9a 2a4a 14d 2669 47c8 47c8 47c8 e000 c000 
+[15:25:09.198]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a109 80c0 47c8 47c8 47c8 47c8 10 202d 54 2840 80c 2845 47c8 c8 2827 c8 242c 65a 282d 47c8 47c8 47c8 e000 c000 
+[15:25:15.322]  WARNING: Channel 0 ROC 4: Readback start marker after 11 readouts!
+[15:25:15.322]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (5) != Token Chain Length (8)
+[15:25:15.322]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (4) != Token Chain Length (8)
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a022 8000 47c8 47c9 47c8 47c9 47c8 47c8 499 226f 47c9 47c9 e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a01c 80b1 43c8 43c8 43c8 43c8 43c8 43c8 43c8 14a 2664 308 2645 43c8 e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a01d 80c0 43c8 43c8 43c8 43c8 310 2261 4d1 2a4f 43c8 558 2080 43c8 41c 2a4c 71c 2665 43c8 12 2665 43c8 48a 2a62 48d 224c 640 260d e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a01e 8000 43c8 43ca 43ca 43ca 109 2444 43c8 43c8 44c 286b 43c8 20d 2225 2c0 2445 615 2a4b 43c8 e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a01f 8040 57ca d50 3d12 e95 2641 2001 578 47c8 8 2445 47ca 47ca 47ca e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a020 80b1 47c8 47c8 a 2a4d 47c8 514 264c 47c8 1 284f 262 2a85 85a 2861 47c8 44d 2261 47c8 47c8 47c8 41c 206c e000 c000 
+[15:25:15.322]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a021 80c0 47c8 94 262d 412 2a4d 47c8 47c9 648 282d 47c9 47c8 641 2449 47c9 58 2a47 310 2645 47c9 91 264f 159 2a49 47c9 cd 2247 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a122 8000 47c8 25a 246d 47c8 47c9 58 2863 47c9 85 2a41 47c8 47c8 50 202c 35b 224d 47c9 718 2200 47c9 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a11c 80b1 43c8 43c8 505 244e 43c8 43c8 43c8 43c8 43c8 14b 2a00 43c8 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a11d 80c0 43c8 25a 2862 2dc 2462 43c8 2c9 2629 43c8 43c8 43c8 51b 2a48 602 2240 660 224f 43c8 43c8 43c8 5d 2081 40 2422 40 262f 154 2425 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a11e 8000 43c8 61c 2680 43c8 50a 2640 43c8 819 284f 43c8 43c8 43c8 51 264d 20a 2664 43c8 43ca e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a11f 8040 57ca 80a 3849 815 2d9f 200 27c2 aba 47ca 47ca d9 246d 47ca 462 2600 47c9 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a120 80b1 47c9 714 262d 47c9 47c9 47c9 47c9 47c9 2d3 2269 47c9 47c9 e000 c000 
+[15:25:15.323]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a121 80c0 47c8 849 266f 47c8 360 2881 47c8 4dc 2a69 812 2485 47c8 2d9 2a41 47c9 47c9 51c 2a25 47c9 47c9 e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/CheckEventValidity:L480> Channel 0 has NoTokenPass but 8 ROCs were found
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a08d 80c0 47c8 4a0 2045 47c8 47c8 18 2065 749 2269 47c8 47c8 47c8 47c8 c0 282d 4c9 2a4c 47c8 e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a087 8040 43c8 43c8 43c8 43c8 813 224d 43c8 10b 2a6c 43c8 65d 2265 43c8 43c8 e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a088 80b1 43c8 43c8 43c8 43c8 43c8 43c8 43c8 2d5 2645 43c8 e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a089 80c0 43c8 43c8 43c8 43c8 43c8 43c8 111 204d 2c0 2647 43c8 9c 2629 dc 244c 43c8 e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 2 ====== a08a 8000 43c8 43c8 43c8 43c8 50 2a65 d0 2661 749 2445 749 204d 43c8 200 2449 498 2669 43c8 85c 224d 43c8 654 266d 698 2669 47c8 2e3 2510 3e 2000 ff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 2fff fff 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a08b 8040 47c8 47c8 47c8 47c8 489 2441 47c8 47c8 10d 2649 47c8 159 2268 47c8 14c 264f e000 c000 
+[15:25:16.513]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a08c 80b1 47c8 47c8 47c8 40a 2065 451 2844 47c8 47c8 612 2463 47c8 47c8 47c8 e000 c000 
+[15:25:16.809]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:25:16.809]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:25:16.809]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e8 80b1 43c8 43c8 292 2067 43c8 43c8 43c8 43c8 43c8 553 2a4d 43c8 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e2 8000 47c8 47c9 295 246d 47c8 84a 2645 47c9 1d 2a4f 20 2285 64d 204f 47c8 55 2869 47c8 b 2a63 53 264f 2c9 2047 47c9 4d5 2861 47c9 4c2 226c e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e3 8040 47c8 47c8 47c8 47c8 1c 242f 91 2a6d 47c8 47c9 84a 2a4d 47c8 515 2061 47c9 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e4 80b1 47c8 47c8 47c8 618 2467 613 204d 612 2845 47c8 31d 2447 31d 2067 40a 266f 47ca 51b 2062 65d 2a4f 47c8 10 2a6d 47c8 47c8 11d 264f 11d 2a4d e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e5 80ff ff8 43c8 43c8 24a 2847 24d 2a4c 721 2a4f 43c8 85d 2282 43c8 421 2668 860 264c 43c8 43c8 43c8 90 284f e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e6 8000 43c8 43c8 43c8 43c8 43c9 85c 2662 43c8 15c 2444 2d1 2265 43c8 43c8 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0e7 8040 43c8 499 2649 43c8 43c8 43c8 9a 284c 43c8 43c8 43c8 411 2645 43c8 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e8 80b1 43c8 2cc 204c 43c8 2d2 264c 43c8 43c8 21b 286d 310 2244 44d 2282 43c8 43c8 43c8 43c8 293 2241 51a 224f e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e2 8000 47c8 47c8 47c9 47c9 47c8 47c8 108 224c 47c9 85a 2400 47c9 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e3 8040 47c8 47c9 511 284d 47c8 11 204d 242 202c 510 224f 47c9 9a 244d 550 2849 47c8 61d 244d 47c9 47c8 755 2600 47c8 84 2622 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e4 80b1 47c8 684 284c 47c8 461 2461 47c8 45d 284c 81c 2069 47c8 47c8 b 2845 2e2 2aa1 47c8 5 2a47 47c8 47c8 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e5 80ff 38 43c8 40b 2467 43c8 55d 264f 760 2042 801 2461 43c8 40a 2649 43c8 43c8 43c8 43c8 495 204d e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e6 8000 43c8 43c8 24d 204f 43c8 615 286f 6cd 2a65 43c8 2c3 2666 43c8 43c8 514 2a4f 43c8 43c8 722 2085 e000 c000 
+[15:25:16.810]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1e7 8040 43c8 692 204c 43c8 43c8 1d 288c 4b 2865 43c8 43c8 683 2261 43c8 848 264c 43c8 43c8 e000 c000 
+[15:25:31.084]     INFO: Resuming triggers.
+[15:25:39.842]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[15:25:40.087]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:25:40.087]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 1 Event ID mismatch:  local ID (99) !=  TBM ID (97)
+[15:25:40.087]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:25:40.087]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 1 Event ID mismatch:  local ID (98) !=  TBM ID (100)
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a066 8000 43c8 70b 2245 43c8 43c8 352 262d 711 2629 43c8 43c9 60 2666 4d1 2249 6d5 2442 6d5 204d 43c8 419 2646 70d 264f 43c8 43c8 31a 2849 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a060 80b1 4388 4388 120 2a4f 4388 4388 4388 408 284f 48a 2269 4388 4388 4388 491 2a65 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a061 80c0 4388 4388 4389 29b 284d 709 2842 750 224d 4389 4388 140 2427 4389 34a 242d 84b 2a6d 4389 210 2a45 761 2240 821 204f 852 2a6c 4389 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a062 8000 4388 4389 4388 68b 2a2c 4389 715 2482 4388 4388 99 244b db 284f 80c 2264 4389 251 2a49 294 2642 4e2 2685 4389 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a063 80ff ff8 43c8 43c8 6d2 2469 43c8 14d 2669 43c8 54 286c 658 244d 43c9 43c8 43c9 413 2889 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a064 80b1 43c8 43c8 455 2647 43c8 485 2644 43c8 848 2264 43ca 54 2245 d8 2847 43c8 143 284d 30a 204f 60c 264f 84b 2287 43c8 252 2a29 43c8 298 204c e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a065 80c0 43c8 43c8 43c8 411 2249 451 202f 611 2a4f 43c8 43c8 85 2249 43c8 43c8 43c8 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a167 8040 43c8 14a 2663 662 2a81 43c8 121 2487 43c8 54b 224d 43c8 43c8 43c8 43c8 43c8 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a161 80c0 4388 759 224f 4388 4388 112 2067 4388 308 2645 348 2a65 619 2647 4389 15c 2249 4389 4389 358 2200 4389 755 222d e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a162 8000 4388 4388 9b 2a48 4e0 284d 4389 4389 b 284c 75d 204d 75c 2845 4388 40c 2646 4388 104 2860 4389 4389 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a161 807f 38 224a 44d 2643 6d 2750 246 43c9 110 284d 43c8 553 2a4f 43c9 43c8 d1 2869 43c9 614 2a2c 43c8 43c8 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a164 80b1 43c8 43c8 401 2242 43c8 4c 262d 43c8 43c8 252 2a40 43c8 151 2a61 211 2661 43c8 43c8 851 224d e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a165 80c0 43c8 6d1 226d 43c8 4c0 2840 714 2665 43c8 43c8 43c8 db 2664 155 2668 43c8 43c8 43c8 e000 c000 
+[15:25:40.087]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a166 8000 43c8 494 2244 559 2627 619 2460 43c8 28a 2065 43c8 153 264d 43c8 43c8 a 2a47 43c8 43c8 43c8 e000 c000 
+[15:26:16.231]     INFO: Resuming triggers.
+[15:26:24.987]     INFO: run duration 26 seconds, buffer almost full (81%), pausing triggers.
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 0 Event ID mismatch:  local ID (185) !=  TBM ID (171)
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (6) != Token Chain Length (8)
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 1 Event ID mismatch:  local ID (185) !=  TBM ID (168)
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 0 Event ID mismatch:  local ID (172) !=  TBM ID (186)
+[15:26:25.110]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 1 Event ID mismatch:  local ID (169) !=  TBM ID (186)
+[15:26:25.110]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:26:25.110]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0bd 80c0 43c8 43c8 43c8 513 264c 43c8 43c8 43c8 da 204d 43c8 43c8 53 2041 52 282d e000 c000 
+[15:26:25.110]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b7 8040 4388 602 2440 602 2647 4388 4388 4d5 2845 4d5 2425 611 2869 698 202d 84b 202d 4388 505 224f 4388 48d 2661 48d 2a4f 4388 4388 10c 2241 4388 4c3 242c 4c3 2041 e000 c000 
+[15:26:25.110]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0b8 80b1 4388 4388 4388 4388 4388 4388 4d0 2849 688 2829 760 264f 4388 4388 212 2449 e000 c000 
+[15:26:25.110]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0ab 80ff ff8 43c8 515 2640 43c8 43c8 43c8 43c8 2cb 2461 43c8 35b 284d 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0ba 8000 43c8 43c8 43c8 43c8 28a 204c 342 2a2c 43c8 613 2281 43c8 43c8 491 2880 550 222d 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0bb 8040 43c8 43c8 43c8 71c 2a2d 43c8 1d 242c d 2249 43c8 43c8 714 2441 859 2645 43c8 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a0bc 80b1 43c8 60 2840 60 2445 43c8 255 204d 43c8 43c8 43c8 2d3 2046 43c8 140 2625 43c8 2cb 2045 853 2461 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bd 80c0 43c8 43c8 28b 2865 2d2 2263 309 2464 75a 2866 43c8 510 2a47 84c 2a42 43c8 2a2 246d 4d3 2a49 43c8 43c8 43c8 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b7 8040 4388 29a 2048 299 2844 320 2069 84b 2a45 4388 24a 286c 4388 4388 292 228c 4388 4388 4388 814 2800 4388 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1b8 80b1 4388 4388 244 2a41 295 264d 4388 30d 2265 4388 4388 4388 4388 4388 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1a8 803f 38 2858 44f 43c8 43c8 43c8 54d 2a6d 43c8 11a 2661 43c8 284 224d 758 2461 43c8 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1ba 8000 43c8 43c8 349 2465 809 2063 853 2662 43c8 43c8 5d 2a67 151 2643 21d 2869 4d3 2a4d 43c8 28d 2069 319 2467 43c8 43c8 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bb 8040 43c8 43c8 310 284f 749 244c 43c8 a0 2845 54c 2060 43c8 43c8 43c8 4e1 2a6c 848 2a61 43c8 43c8 e000 c000 
+[15:26:25.111]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a1bc 80b1 43c8 6d3 204f 43c8 43c8 152 2a2b 43c8 750 244d 43c8 213 2845 43c8 43c8 43c8 518 262d 69b 266c e000 c000 
+[15:27:01.531]     INFO: Resuming triggers.
+[15:27:10.291]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[15:27:46.766]     INFO: Resuming triggers.
+[15:27:55.533]     INFO: run duration 43 seconds, buffer almost full (81%), pausing triggers.
+[15:28:31.991]     INFO: Resuming triggers.
+[15:28:40.753]     INFO: run duration 52 seconds, buffer almost full (81%), pausing triggers.
+[15:29:17.291]     INFO: Resuming triggers.
+[15:29:24.818]     INFO: data taking finished, elapsed time: 60 seconds.
+[15:29:25.135]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 0 Number of ROCs (0) != Token Chain Length (8)
+[15:29:25.135]    ERROR: <datapipe.cc/CheckEventValidity:L491> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:29:25.135]    ERROR: <datapipe.cc/CheckEventID:L463> Channel 0 Event ID mismatch:  local ID (106) !=  TBM ID (107)
+[15:29:25.135]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:29:25.135]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a16d 80c0 47c8 47c8 47c8 60d 2268 47c8 47c8 344 268d 47c8 450 2866 47c8 47c8 e000 c000 
+[15:29:25.135]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a167 8040 4188 30a 2064 315 2a45 6d3 206f 4188 1d 2063 113 2664 4188 4188 844 2064 4188 4188 30d 2862 6a2 2880 4188 4188 e000 c000 
+[15:29:25.135]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a168 80b1 4188 4188 4188 709 2863 4188 15c 244f 4188 4188 4188 753 2a00 4188 161 244d 31a 2665 e000 c000 
+[15:29:25.135]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a169 80c0 4188 4188 4188 509 224d 64a 264d 4188 30d 2a49 349 204f 513 2065 4188 13 204d 4188 4188 4188 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a16a 800a aa8 47c8 47c8 220 2a47 47c8 47c8 47c8 95 282d 47c8 45b 2600 47c8 841 2629 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a16b 8040 47c8 47c8 47c8 21c 2465 47c8 698 264f 758 204d 47c8 803 2a61 47c8 1c 2661 47c8 35d 2400 47c8 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a16c 80b1 47c8 47c8 47c8 d 2049 47c8 140 2649 47c8 47c8 47c8 47c8 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L164> Dumping the flawed event +- 3 events:
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a06e 8000 47c8 47ca 47ca 4d0 2027 47ca 2db 2661 47c8 47c8 47c8 15 286d 47c8 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a068 80b1 4188 4188 4188 4188 418 2a65 4188 213 26a9 34d 2846 34d 2442 4188 202 2265 4188 6a2 2484 4188 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a069 80c0 4188 6c8 224d 4188 4188 4188 41b 2a6f 4188 4188 55a 2a40 4188 9c 2669 4188 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a06a c005 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a06b 8040 47c8 47c8 47c8 15c 2841 47c8 47c8 408 246c 409 2a48 47c8 d 224d 47c8 47c8 b 2a4d 14 2664 18 2a49 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a06c 80b1 47c8 47c8 47c8 47c8 150 2429 212 2061 693 2661 47c8 41 2867 47c8 65a 2a40 47c8 855 2629 47c8 541 2a43 e000 c000 
+[15:29:25.136]    ERROR: <datapipe.cc/Read:L166> ====== 0 ====== a06d 80c0 47c8 47c8 47c8 448 2041 450 2225 450 264d 47c8 47c8 20a 2868 255 204d 254 2845 47c8 35d 284d 47c8 47c8 362 2260 548 244d e000 c000 
+[15:29:56.200]     INFO: PixTest::       pg_setup set to default.
+[15:29:56.253]     INFO: PixTestXray::doPhRun() done
+[15:31:11.104]     INFO:    ----------------------------------------------------------------------
+[15:31:11.104]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 60
+[15:31:11.104]     INFO:    ----------------------------------------------------------------------
+[15:31:12.119]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 60 seconds,  fEventsMax = 6000000
+[15:31:18.037]     INFO: run duration 5 seconds, buffer almost full (81%), pausing triggers.
+[15:31:56.547]     INFO: Resuming triggers.
+[15:32:02.475]     INFO: run duration 11 seconds, buffer almost full (81%), pausing triggers.
+[15:32:40.920]     INFO: Resuming triggers.
+[15:32:46.852]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[15:33:24.885]     INFO: Resuming triggers.
+[15:33:30.817]     INFO: run duration 23 seconds, buffer almost full (81%), pausing triggers.
+[15:34:09.128]     INFO: Resuming triggers.
+[15:34:15.064]     INFO: run duration 29 seconds, buffer almost full (81%), pausing triggers.
+[15:34:53.284]     INFO: Resuming triggers.
+[15:34:59.217]     INFO: run duration 35 seconds, buffer almost full (81%), pausing triggers.
+[15:35:37.454]     INFO: Resuming triggers.
+[15:35:43.387]     INFO: run duration 41 seconds, buffer almost full (81%), pausing triggers.
+[15:36:21.589]     INFO: Resuming triggers.
+[15:36:27.527]     INFO: run duration 47 seconds, buffer almost full (81%), pausing triggers.
+[15:37:05.844]     INFO: Resuming triggers.
+[15:37:11.782]     INFO: run duration 53 seconds, buffer almost full (81%), pausing triggers.
+[15:37:49.984]     INFO: Resuming triggers.
+[15:37:55.918]     INFO: run duration 59 seconds, buffer almost full (81%), pausing triggers.
+[15:38:34.202]     INFO: Resuming triggers.
+[15:38:34.960]     INFO: data taking finished, elapsed time: 60 seconds.
+[15:38:40.229]     INFO: PixTest::       pg_setup set to default.
+[15:38:40.273]     INFO: PixTestXray::doPhRun() done
+[15:39:43.246]    QUIET: Connection to board 58 closed.
