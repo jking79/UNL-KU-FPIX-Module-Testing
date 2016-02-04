@@ -1,0 +1,84 @@
+[10:42:37.786]     INFO: *** Welcome to pxar ***
+[10:42:37.786]     INFO: *** Today: 2016/01/25
+[10:42:37.795]     INFO: *** Version: prod-12
+[10:42:37.795]     INFO: readRocDacs: ./pa315/dacParameters35_C0.dat .. ./pa315/dacParameters35_C15.dat
+[10:42:37.796]     INFO: readTbmDacs: ./pa315/tbmParameters_C0a.dat .. ./pa315/tbmParameters_C0b.dat
+[10:42:37.797]     INFO: readMaskFile: ./pa315/defaultMaskFile.dat
+[10:42:37.797]     INFO: readTrimFile: ./pa315/trimParameters35_C0.dat .. ./pa315/trimParameters35_C15.dat
+[10:42:37.948]     INFO:         clk: 4
+[10:42:37.948]     INFO:         ctr: 4
+[10:42:37.948]     INFO:         sda: 19
+[10:42:37.948]     INFO:         tin: 9
+[10:42:37.948]     INFO:         level: 15
+[10:42:37.948]     INFO:         triggerdelay: 0
+[10:42:37.948]    QUIET: Instanciating API for pxar prod-12
+[10:42:37.948]     INFO: Log level: INFO
+[10:42:37.960]    QUIET: Connection to board DTB_WRPRHI opened.
+[10:42:37.963]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[10:42:37.966]     INFO: RPC call hashes of host and DTB match: 398089610
+[10:42:39.570]     INFO: DUT info: 
+[10:42:39.570]     INFO: The DUT currently contains the following objects:
+[10:42:39.570]     INFO:  2 TBM Cores tbm08c (2 ON)
+[10:42:39.570]     INFO: 	TBM Core alpha (0): 7 registers set
+[10:42:39.570]     INFO: 	TBM Core beta  (1): 7 registers set
+[10:42:39.570]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[10:42:39.570]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:39.570]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:42:40.173]     INFO: PixTestCmd::init()
+[10:42:40.179]     INFO: readGainPedestalParameters ./pa315/phCalibrationFitErr35_C0.dat .. ./pa315/phCalibrationFitErr35_C15.dat
+[10:42:40.487]     INFO: readReadbackCal: ./pa315/readbackCal_C0.dat .. ./pa315/readbackCal_C15.dat
+[10:42:54.860]     INFO: ######################################################################
+[10:42:54.860]     INFO: PixTestScurves::doTest() ntrig = 50
+[10:42:54.860]     INFO: ######################################################################
+[10:42:54.860]     INFO:    ----------------------------------------------------------------------
+[10:42:54.860]     INFO:    PixTestScurves::scurves(Vcal), ntrig = 50, dacs/step = -1, ntrig/step = -1
+[10:42:54.860]     INFO:    ----------------------------------------------------------------------
+[10:42:54.860]     INFO: ---> dac: Vcal name: scurveVcal ntrig: 50 dacrange: 5 .. 75 (-1/-1) hits flags = 528 (plus default)
+[10:42:55.012]     INFO:   dacScan split into 1 runs with ntrig = 50
+[10:42:55.012]     INFO:     run 1 of 1
+[10:42:55.390]     INFO: Expecting 14768000 events.
+[10:43:30.994]     INFO: 1018300 events read in total (34886ms).
+[10:44:05.793]     INFO: 2036900 events read in total (69685ms).
+[10:44:40.631]     INFO: 3055350 events read in total (104523ms).
+[10:45:15.504]     INFO: 4074050 events read in total (139396ms).
+[10:45:50.339]     INFO: 5092850 events read in total (174231ms).
+[10:46:25.114]     INFO: 6111450 events read in total (209006ms).
+[10:46:59.779]     INFO: 7130250 events read in total (243671ms).
+[10:47:34.493]     INFO: 8149000 events read in total (278385ms).
+[10:48:09.239]     INFO: 9166600 events read in total (313131ms).
+[10:48:43.968]     INFO: 10184950 events read in total (347860ms).
+[10:49:18.716]     INFO: 11203550 events read in total (382608ms).
+[10:49:53.428]     INFO: 12221700 events read in total (417320ms).
+[10:50:28.154]     INFO: 13240000 events read in total (452046ms).
+[10:51:02.851]     INFO: 14258500 events read in total (486743ms).
+[10:51:20.409]     INFO: 14768000 events read in total (504301ms).
+[10:51:20.474]     INFO: Test took 505461ms.
+[10:51:20.578]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:51:50.336]     INFO: PixTestScurves::scurves() done 
+[10:51:50.336]     INFO: Vcal mean:  35.75  35.76  35.69  35.68  35.63  35.40  35.58  35.39  35.84  35.70  35.67  35.80  35.64  35.68  35.67  35.41 
+[10:51:50.336]     INFO: Vcal RMS:    0.75   0.77   0.78   0.77   0.97   0.80   0.95   0.72   0.74   1.25   0.82   0.76   0.77   0.72   0.81   0.70 
+[10:56:18.257]    QUIET: Connection to board 58 closed.
