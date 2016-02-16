@@ -1,0 +1,61 @@
+[11:30:35.448]     INFO: *** Welcome to pxar ***
+[11:30:35.448]     INFO: *** Today: 2016/02/05
+[11:30:35.463]     INFO: *** Version: prod-12-105-g46f2
+[11:30:35.463]     INFO: readRocDacs: ./data/mh143/dacParameters35_C0.dat .. ./data/mh143/dacParameters35_C15.dat
+[11:30:35.464]     INFO: readTbmDacs: ./data/mh143/tbmParameters_C0a.dat .. ./data/mh143/tbmParameters_C0b.dat
+[11:30:35.464]     INFO: readMaskFile: ./data/mh143/defaultMaskFile.dat
+[11:30:35.464]     INFO: readTrimFile: ./data/mh143/trimParameters35_C0.dat .. ./data/mh143/trimParameters35_C15.dat
+[11:30:35.616]     INFO:         clk: 4
+[11:30:35.616]     INFO:         ctr: 4
+[11:30:35.616]     INFO:         sda: 19
+[11:30:35.616]     INFO:         tin: 9
+[11:30:35.616]     INFO:         level: 15
+[11:30:35.616]     INFO:         triggerdelay: 0
+[11:30:35.616]    QUIET: Instanciating API for pxar prod-12
+[11:30:35.616]     INFO: Log level: INFO
+[11:30:35.627]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:30:35.630]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:30:35.633]     INFO: RPC call hashes of host and DTB match: 398089610
+[11:30:37.235]     INFO: DUT info: 
+[11:30:37.235]     INFO: The DUT currently contains the following objects:
+[11:30:37.235]     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:30:37.235]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:30:37.235]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:30:37.235]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:30:37.235]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.235]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.235]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.236]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:30:37.834]     INFO: PixTestCmd::init()
+[11:30:37.845]     INFO: readGainPedestalParameters ./data/mh143/phCalibrationFitErr35_C0.dat .. ./data/mh143/phCalibrationFitErr35_C15.dat
+[11:30:38.148]     INFO: readReadbackCal: ./data/mh143/readbackCal_C0.dat .. ./data/mh143/readbackCal_C15.dat
+[11:31:20.001]     INFO: ######################################################################
+[11:31:20.001]     INFO: PixTestXray::doTest()
+[11:31:20.001]     INFO: ######################################################################
+[11:31:20.001]     INFO:    ----------------------------------------------------------------------
+[11:31:20.001]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 150
+[11:31:20.001]     INFO:    ----------------------------------------------------------------------
+[11:31:20.975]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 150 seconds,  fEventsMax = 15000000
+[11:31:37.357]     INFO: run duration 16 seconds, buffer almost full (81%), pausing triggers.

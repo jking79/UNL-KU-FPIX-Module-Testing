@@ -1,0 +1,79 @@
+[11:53:10.113]     INFO: *** Welcome to pxar ***
+[11:53:10.113]     INFO: *** Today: 2016/02/12
+[11:53:10.129]     INFO: *** Version: prod-12-105-g46f2
+[11:53:10.129]     INFO: readRocDacs: data/mg124/dacParameters_C0.dat .. data/mg124/dacParameters_C15.dat
+[11:53:10.130]     INFO: readTbmDacs: data/mg124/tbmParameters_C0a.dat .. data/mg124/tbmParameters_C0b.dat
+[11:53:10.130]     INFO: readMaskFile: data/mg124/defaultMaskFile.dat
+[11:53:10.130]     INFO: readTrimFile: data/mg124/trimParameters_C0.dat .. data/mg124/trimParameters_C15.dat
+[11:53:10.280]     INFO:         clk: 4
+[11:53:10.280]     INFO:         ctr: 4
+[11:53:10.280]     INFO:         sda: 19
+[11:53:10.280]     INFO:         tin: 9
+[11:53:10.280]     INFO:         level: 15
+[11:53:10.280]     INFO:         triggerdelay: 0
+[11:53:10.280]    QUIET: Instanciating API for pxar prod-12
+[11:53:10.280]     INFO: Log level: INFO
+[11:53:10.291]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:53:10.294]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:53:10.297]     INFO: RPC call hashes of host and DTB match: 398089610
+[11:53:11.901]     INFO: DUT info: 
+[11:53:11.901]     INFO: The DUT currently contains the following objects:
+[11:53:11.901]     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:53:11.901]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:53:11.901]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:53:11.901]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:53:11.901]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:11.901]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:53:12.497]     INFO: PixTestCmd::init()
+[11:53:12.505]     INFO: readGainPedestalParameters data/mg124/phCalibrationFitErr_C0.dat .. data/mg124/phCalibrationFitErr_C15.dat
+[11:53:12.505]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/mg124/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:53:12.554]     INFO: readGainPedestalParameters data/mg124/phCalibrationFitErr_C0.dat .. data/mg124/phCalibrationFitErr_C15.dat
+[11:53:12.554]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/mg124/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:53:12.599]     INFO: readReadbackCal: data/mg124/readbackCal_C0.dat .. data/mg124/readbackCal_C15.dat
+[11:53:12.600]     INFO: readGainPedestalParameters data/mg124/phCalibrationFitErr_C0.dat .. data/mg124/phCalibrationFitErr_C15.dat
+[11:53:12.600]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/mg124/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:53:12.626]     INFO: readGainPedestalParameters data/mg124/phCalibrationFitErr_C0.dat .. data/mg124/phCalibrationFitErr_C15.dat
+[11:53:12.626]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open data/mg124/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[11:53:16.675]     INFO:    ----------------------------------------------------------------------
+[11:53:16.675]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[11:53:16.675]     INFO:    ----------------------------------------------------------------------
+[11:53:17.056]     INFO: Expecting 41600 events.
+[11:53:21.468]     INFO: 41600 events read in total (3694ms).
+[11:53:21.613]     INFO: Test took 4935ms.
+[11:53:21.623]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:53:21.901]     INFO: PixTestAlive::aliveTest() done
+[11:53:21.902]     INFO: number of dead pixels (per ROC):     5    0    7    2    0    0    3    2    0    0    0    2    0    0    0    0
+[11:54:19.099]     INFO:    ----------------------------------------------------------------------
+[11:54:19.099]     INFO:    PixTest::maskHotPixels() running for 10 seconds with 100 kHz trigger rate
+[11:54:19.099]     INFO:    ----------------------------------------------------------------------
+[11:54:20.058]     INFO: PixTestHighRate::maskHotPixels start TriggerLoop with period 404 and duration 10 seconds and trigger rate 100 kHz
+[11:54:29.115]     INFO: Done with hot pixel readout
+[11:54:43.927]     INFO: PixTest::       pg_setup set to default.
+[11:54:43.929]     INFO: no hot pixel found!
+[11:54:43.929]     INFO: PixTest::maskHotPixels() done
+[11:54:43.935]     INFO: write masked pixels into data/mg124/defaultMaskFile.dat
+[11:55:20.203]    QUIET: Connection to board 58 closed.

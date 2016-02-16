@@ -1,0 +1,361 @@
+[09:54:15.547]     INFO: *** Welcome to pxar ***
+[09:54:15.547]     INFO: *** Today: 2016/02/09
+[09:54:15.562]     INFO: *** Version: prod-12-105-g46f2
+[09:54:15.562]     INFO: readRocDacs: /home/CMS_pixel/Testing/pxar_prod12/data/mg246/dacParameters_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/dacParameters_C15.dat
+[09:54:15.563]     INFO: readTbmDacs: /home/CMS_pixel/Testing/pxar_prod12/data/mg246/tbmParameters_C0a.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/tbmParameters_C0b.dat
+[09:54:15.563]     INFO: readMaskFile: /home/CMS_pixel/Testing/pxar_prod12/data/mg246/defaultMaskFile.dat
+[09:54:15.563]     INFO: readTrimFile: /home/CMS_pixel/Testing/pxar_prod12/data/mg246/trimParameters_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/trimParameters_C15.dat
+[09:54:15.713]     INFO:         clk: 4
+[09:54:15.713]     INFO:         ctr: 4
+[09:54:15.713]     INFO:         sda: 19
+[09:54:15.713]     INFO:         tin: 9
+[09:54:15.713]     INFO:         level: 15
+[09:54:15.713]     INFO:         triggerdelay: 0
+[09:54:15.713]    QUIET: Instanciating API for pxar prod-12
+[09:54:15.713]     INFO: Log level: INFO
+[09:54:15.724]    QUIET: Connection to board DTB_WRPRHI opened.
+[09:54:15.728]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[09:54:15.730]     INFO: RPC call hashes of host and DTB match: 398089610
+[09:54:17.333]     INFO: DUT info: 
+[09:54:17.333]     INFO: The DUT currently contains the following objects:
+[09:54:17.333]     INFO:  2 TBM Cores tbm08c (2 ON)
+[09:54:17.333]     INFO: 	TBM Core alpha (0): 7 registers set
+[09:54:17.333]     INFO: 	TBM Core beta  (1): 7 registers set
+[09:54:17.333]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[09:54:17.333]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.333]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[09:54:17.936]     INFO: PixTestCmd::init()
+[09:54:17.943]     INFO: readGainPedestalParameters /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C15.dat
+[09:54:17.943]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[09:54:17.975]     INFO: readGainPedestalParameters /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C15.dat
+[09:54:17.975]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[09:54:18.023]     INFO: readReadbackCal: /home/CMS_pixel/Testing/pxar_prod12/data/mg246/readbackCal_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/readbackCal_C15.dat
+[09:54:18.024]     INFO: readGainPedestalParameters /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C15.dat
+[09:54:18.024]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[09:54:18.055]     INFO: readGainPedestalParameters /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat .. /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C15.dat
+[09:54:18.055]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open /home/CMS_pixel/Testing/pxar_prod12/data/mg246/phCalibrationFitErr_C0.dat for reading PH calibration constants
+[09:54:26.605]     INFO: ######################################################################
+[09:54:26.605]     INFO: PixTestAlive::doTest()
+[09:54:26.605]     INFO: ######################################################################
+[09:54:26.609]     INFO:    ----------------------------------------------------------------------
+[09:54:26.609]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[09:54:26.609]     INFO:    ----------------------------------------------------------------------
+[09:54:26.991]     INFO: Expecting 41600 events.
+[09:54:31.398]     INFO: 41600 events read in total (3689ms).
+[09:54:31.544]     INFO: Test took 4933ms.
+[09:54:31.557]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[09:54:31.831]     INFO: PixTestAlive::aliveTest() done
+[09:54:31.831]     INFO: number of dead pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[09:54:31.857]     INFO:    ----------------------------------------------------------------------
+[09:54:31.857]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[09:54:31.857]     INFO:    ----------------------------------------------------------------------
+[09:54:32.235]     INFO: Expecting 41600 events.
+[09:54:35.337]     INFO: 41600 events read in total (2388ms).
+[09:54:35.338]     INFO: Test took 3477ms.
+[09:54:35.338]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[09:54:35.338]     INFO: mask vs. old pixelAlive PixelAlive_C0_V0 ..  PixelAlive_C15_V0
+[09:54:35.761]     INFO: PixTestAlive::maskTest() done
+[09:54:35.761]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[09:54:35.782]     INFO:    ----------------------------------------------------------------------
+[09:54:35.782]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[09:54:35.782]     INFO:    ----------------------------------------------------------------------
+[09:54:36.162]     INFO: Expecting 41600 events.
+[09:54:40.554]     INFO: 41600 events read in total (3677ms).
+[09:54:40.556]     INFO: Test took 4771ms.
+[09:54:40.565]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[09:54:40.936]     INFO: PixTestAlive::addressDecodingTest() done
+[09:54:40.936]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[09:54:40.937]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[09:55:45.714]     INFO: PixTestDaq::doTest() start.
+[09:55:45.717]     INFO:    ----------------------------------------------------------------------
+[09:55:45.717]     INFO:    PixTestDaq::doDaqRun() start.
+[09:55:45.717]     INFO:    ----------------------------------------------------------------------
+[09:55:45.721]     INFO: PixTestDaq:: Number of masked pixels:
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 0
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 1
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 2
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 3
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 4
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 5
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 6
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 7
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 8
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 9
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 10
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 11
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 12
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 13
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 14
+[09:55:45.721]     INFO: PixTestDaq::    0 - ROC 15
+[09:55:45.722]     INFO: PG set to have trigger frequency = 100 kHz
+[09:55:46.679]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[09:55:56.679]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[09:56:22.010]     INFO: events read:985216, pixels seen:5737447, hist entries: 682333
+[09:56:22.182]     INFO: PixTest::       pg_setup set to default.
+[09:56:22.182]     INFO: PixTestDaq::doDaqRun() done
+[09:56:22.182]     INFO: PixTestDaq::doTest() done
+[09:58:15.746]     INFO: PixTestDaq::doTest() start.
+[09:58:15.875]     INFO:    ----------------------------------------------------------------------
+[09:58:15.875]     INFO:    PixTestDaq::doDaqRun() start.
+[09:58:15.875]     INFO:    ----------------------------------------------------------------------
+[09:58:15.876]     INFO: PixTestDaq:: Number of masked pixels:
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 0
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 1
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 2
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 3
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 4
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 5
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 6
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 7
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 8
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 9
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 10
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 11
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 12
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 13
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 14
+[09:58:15.876]     INFO: PixTestDaq::    0 - ROC 15
+[09:58:15.877]     INFO: PG set to have trigger frequency = 100 kHz
+[09:58:16.832]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[09:58:26.832]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[09:58:53.956]     INFO: events read:985204, pixels seen:6896805, hist entries: 1366290
+[09:58:54.167]     INFO: PixTest::       pg_setup set to default.
+[09:58:54.167]     INFO: PixTestDaq::doDaqRun() done
+[09:58:54.167]     INFO: PixTestDaq::doTest() done
+[10:00:12.554]     INFO: PixTestDaq::doTest() start.
+[10:00:12.695]     INFO:    ----------------------------------------------------------------------
+[10:00:12.695]     INFO:    PixTestDaq::doDaqRun() start.
+[10:00:12.695]     INFO:    ----------------------------------------------------------------------
+[10:00:12.695]     INFO: PixTestDaq:: Number of masked pixels:
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 0
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 1
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 2
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 3
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 4
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 5
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 6
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 7
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 8
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 9
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 10
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 11
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 12
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 13
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 14
+[10:00:12.695]     INFO: PixTestDaq::    0 - ROC 15
+[10:00:12.696]     INFO: PG set to have trigger frequency = 100 kHz
+[10:00:13.651]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[10:00:23.394]     INFO: Elapsed time: 9 seconds.
+[10:00:23.394]     INFO: Buffer almost full, pausing triggers.
+[10:00:52.366]     INFO: events read:959897, pixels seen:8482388, hist entries: 2027124
+[10:00:52.522]     INFO: Resuming triggers for 1 seconds.
+[10:00:52.779]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[10:00:54.011]     INFO: events read:25250, pixels seen:223470, hist entries: 2044326
+[10:00:54.101]     INFO: PixTest::       pg_setup set to default.
+[10:00:54.101]     INFO: PixTestDaq::doDaqRun() done
+[10:00:54.101]     INFO: PixTestDaq::doTest() done
+[10:02:37.778]     INFO: PixTestDaq::doTest() start.
+[10:02:37.924]     INFO:    ----------------------------------------------------------------------
+[10:02:37.924]     INFO:    PixTestDaq::doDaqRun() start.
+[10:02:37.925]     INFO:    ----------------------------------------------------------------------
+[10:02:37.925]     INFO: PixTestDaq:: Number of masked pixels:
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 0
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 1
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 2
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 3
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 4
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 5
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 6
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 7
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 8
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 9
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 10
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 11
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 12
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 13
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 14
+[10:02:37.925]     INFO: PixTestDaq::    0 - ROC 15
+[10:02:37.926]     INFO: PG set to have trigger frequency = 100 kHz
+[10:02:38.881]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[10:02:46.896]     INFO: Elapsed time: 8 seconds.
+[10:02:46.896]     INFO: Buffer almost full, pausing triggers.
+[10:03:16.583]     INFO: events read:789701, pixels seen:10524995, hist entries: 2560200
+[10:03:16.723]     INFO: Resuming triggers for 2 seconds.
+[10:03:18.707]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[10:03:26.399]     INFO: events read:195446, pixels seen:2606469, hist entries: 2686933
+[10:03:26.532]     INFO: PixTest::       pg_setup set to default.
+[10:03:26.532]     INFO: PixTestDaq::doDaqRun() done
+[10:03:26.533]     INFO: PixTestDaq::doTest() done
+[10:04:47.394]     INFO: PixTestDaq::doTest() start.
+[10:04:47.550]     INFO:    ----------------------------------------------------------------------
+[10:04:47.550]     INFO:    PixTestDaq::doDaqRun() start.
+[10:04:47.550]     INFO:    ----------------------------------------------------------------------
+[10:04:47.551]     INFO: PixTestDaq:: Number of masked pixels:
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 0
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 1
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 2
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 3
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 4
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 5
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 6
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 7
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 8
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 9
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 10
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 11
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 12
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 13
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 14
+[10:04:47.551]     INFO: PixTestDaq::    0 - ROC 15
+[10:04:47.551]     INFO: PG set to have trigger frequency = 100 kHz
+[10:04:48.507]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[10:04:56.298]     INFO: Elapsed time: 7 seconds.
+[10:04:56.298]     INFO: Buffer almost full, pausing triggers.
+[10:05:25.977]     INFO: events read:767647, pixels seen:10789672, hist entries: 3171014
+[10:05:26.113]     INFO: Resuming triggers for 3 seconds.
+[10:05:28.321]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[10:05:37.064]     INFO: events read:217516, pixels seen:3053610, hist entries: 3307900
+[10:05:37.215]     INFO: PixTest::       pg_setup set to default.
+[10:05:37.216]     INFO: PixTestDaq::doDaqRun() done
+[10:05:37.216]     INFO: PixTestDaq::doTest() done
+[10:07:03.762]     INFO: PixTestDaq::doTest() start.
+[10:07:03.927]     INFO:    ----------------------------------------------------------------------
+[10:07:03.927]     INFO:    PixTestDaq::doDaqRun() start.
+[10:07:03.927]     INFO:    ----------------------------------------------------------------------
+[10:07:03.927]     INFO: PixTestDaq:: Number of masked pixels:
+[10:07:03.927]     INFO: PixTestDaq::    0 - ROC 0
+[10:07:03.927]     INFO: PixTestDaq::    0 - ROC 1
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 2
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 3
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 4
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 5
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 6
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 7
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 8
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 9
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 10
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 11
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 12
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 13
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 14
+[10:07:03.928]     INFO: PixTestDaq::    0 - ROC 15
+[10:07:03.928]     INFO: PG set to have trigger frequency = 100 kHz
+[10:07:04.884]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 10 seconds
+[10:07:12.627]     INFO: Elapsed time: 7 seconds.
+[10:07:12.627]     INFO: Buffer almost full, pausing triggers.
+[10:07:42.403]     INFO: events read:762866, pixels seen:10848033, hist entries: 3685187
+[10:07:42.538]     INFO: Resuming triggers for 3 seconds.
+[10:07:44.795]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[10:07:53.781]     INFO: events read:222270, pixels seen:3160717, hist entries: 3794896
+[10:07:53.951]     INFO: PixTest::       pg_setup set to default.
+[10:07:53.951]     INFO: PixTestDaq::doDaqRun() done
+[10:07:53.951]     INFO: PixTestDaq::doTest() done
+[10:09:39.378]     INFO:    ----------------------------------------------------------------------
+[10:09:39.378]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 100
+[10:09:39.378]     INFO:    ----------------------------------------------------------------------
+[10:09:40.343]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 100 seconds,  fEventsMax = 10000000
+[10:09:49.110]     INFO: run duration 8 seconds, buffer almost full (81%), pausing triggers.
+[10:10:21.294]     INFO: Resuming triggers.
+[10:10:30.061]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[10:11:02.224]     INFO: Resuming triggers.
+[10:11:10.989]     INFO: run duration 26 seconds, buffer almost full (81%), pausing triggers.
+[10:11:43.139]     INFO: Resuming triggers.
+[10:11:51.906]     INFO: run duration 35 seconds, buffer almost full (81%), pausing triggers.
+[10:12:24.010]     INFO: Resuming triggers.
+[10:12:32.777]     INFO: run duration 43 seconds, buffer almost full (81%), pausing triggers.
+[10:13:05.047]     INFO: Resuming triggers.
+[10:13:13.814]     INFO: run duration 52 seconds, buffer almost full (81%), pausing triggers.
+[10:13:45.983]     INFO: Resuming triggers.
+[10:13:54.750]     INFO: run duration 61 seconds, buffer almost full (81%), pausing triggers.
+[10:14:26.957]     INFO: Resuming triggers.
+[10:14:35.723]     INFO: run duration 70 seconds, buffer almost full (81%), pausing triggers.
+[10:15:07.856]     INFO: Resuming triggers.
+[10:15:16.624]     INFO: run duration 78 seconds, buffer almost full (81%), pausing triggers.
+[10:15:48.761]     INFO: Resuming triggers.
+[10:15:57.531]     INFO: run duration 87 seconds, buffer almost full (81%), pausing triggers.
+[10:16:29.737]     INFO: Resuming triggers.
+[10:16:38.509]     INFO: run duration 96 seconds, buffer almost full (81%), pausing triggers.
+[10:17:10.751]     INFO: Resuming triggers.
+[10:17:14.451]     INFO: data taking finished, elapsed time: 100 seconds.
+[10:17:28.366]     INFO: PixTest::       pg_setup set to default.
+[10:17:28.387]     INFO: PixTestXray::doPhRun() done
+[10:20:37.986]     INFO:    ----------------------------------------------------------------------
+[10:20:37.986]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 100
+[10:20:37.986]     INFO:    ----------------------------------------------------------------------
+[10:20:38.979]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 100 seconds,  fEventsMax = 10000000
+[10:20:50.651]     INFO: run duration 11 seconds, buffer almost full (81%), pausing triggers.
+[10:21:21.957]     INFO: Resuming triggers.
+[10:21:33.634]     INFO: run duration 23 seconds, buffer almost full (81%), pausing triggers.
+[10:22:04.972]     INFO: Resuming triggers.
+[10:22:16.650]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[10:22:47.896]     INFO: Resuming triggers.
+[10:22:59.571]     INFO: run duration 46 seconds, buffer almost full (81%), pausing triggers.
+[10:23:30.787]     INFO: Resuming triggers.
+[10:23:42.464]     INFO: run duration 58 seconds, buffer almost full (81%), pausing triggers.
+[10:24:13.656]     INFO: Resuming triggers.
+[10:24:25.329]     INFO: run duration 69 seconds, buffer almost full (81%), pausing triggers.
+[10:24:56.540]     INFO: Resuming triggers.
+[10:25:08.215]     INFO: run duration 81 seconds, buffer almost full (81%), pausing triggers.
+[10:25:39.521]     INFO: Resuming triggers.
+[10:25:51.199]     INFO: run duration 93 seconds, buffer almost full (81%), pausing triggers.
+[10:26:22.382]     INFO: Resuming triggers.
+[10:26:29.115]     INFO: data taking finished, elapsed time: 100 seconds.
+[10:26:47.396]     INFO: PixTest::       pg_setup set to default.
+[10:26:47.417]     INFO: PixTestXray::doPhRun() done
+[10:28:10.610]     INFO: ######################################################################
+[10:28:10.610]     INFO: PixTestAlive::doTest()
+[10:28:10.610]     INFO: ######################################################################
+[10:28:10.702]     INFO:    ----------------------------------------------------------------------
+[10:28:10.702]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:28:10.702]     INFO:    ----------------------------------------------------------------------
+[10:28:11.081]     INFO: Expecting 41600 events.
+[10:28:15.473]     INFO: 41600 events read in total (3676ms).
+[10:28:15.475]     INFO: Test took 4771ms.
+[10:28:15.484]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:28:15.858]     INFO: PixTestAlive::aliveTest() done
+[10:28:15.858]     INFO: number of dead pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[10:28:15.884]     INFO:    ----------------------------------------------------------------------
+[10:28:15.884]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:28:15.884]     INFO:    ----------------------------------------------------------------------
+[10:28:16.263]     INFO: Expecting 41600 events.
+[10:28:19.392]     INFO: 41600 events read in total (2414ms).
+[10:28:19.393]     INFO: Test took 3507ms.
+[10:28:19.393]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:28:19.393]     INFO: mask vs. old pixelAlive PixelAlive_C0_V1 ..  PixelAlive_C15_V1
+[10:28:19.815]     INFO: PixTestAlive::maskTest() done
+[10:28:19.815]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[10:28:19.837]     INFO:    ----------------------------------------------------------------------
+[10:28:19.837]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:28:19.837]     INFO:    ----------------------------------------------------------------------
+[10:28:20.218]     INFO: Expecting 41600 events.
+[10:28:24.609]     INFO: 41600 events read in total (3676ms).
+[10:28:24.611]     INFO: Test took 4771ms.
+[10:28:24.620]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:28:24.993]     INFO: PixTestAlive::addressDecodingTest() done
+[10:28:24.993]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[10:28:24.993]     INFO: PixTestAlive::doTest() done, duration: 14 seconds
+[10:29:01.850]    QUIET: Connection to board 58 closed.
