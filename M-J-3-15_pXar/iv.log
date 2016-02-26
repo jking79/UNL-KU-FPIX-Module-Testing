@@ -1,0 +1,142 @@
+[13:26:31.625]     INFO: *** Welcome to pxar ***
+[13:26:31.625]     INFO: *** Today: 2016/02/26
+[13:26:31.627]     INFO: *** Version: 
+[13:26:31.627]     INFO: readRocDacs: ./dacParameters_C0.dat .. ./dacParameters_C15.dat
+[13:26:31.628]     INFO: readTbmDacs: ./tbmParameters_C0a.dat .. ./tbmParameters_C0b.dat
+[13:26:31.628]     INFO: readMaskFile: ./defaultMaskFile.dat
+[13:26:31.628]     INFO: readTrimFile: ./trimParameters_C0.dat .. ./trimParameters_C15.dat
+[13:26:31.707]     INFO:         clk: 4
+[13:26:31.707]     INFO:         ctr: 4
+[13:26:31.707]     INFO:         sda: 19
+[13:26:31.707]     INFO:         tin: 9
+[13:26:31.707]     INFO:         level: 15
+[13:26:31.707]     INFO:         triggerdelay: 0
+[13:26:31.707]    QUIET: Instanciating API for pxar v2.6.1+43~g6e62df2
+[13:26:31.707]     INFO: Log level: INFO
+[13:26:31.722]    QUIET: Connection to board DTB_WRE7QJ opened.
+[13:26:31.725]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    24
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.5
+USB id:      DTB_WRE7QJ
+MAC address: 40D855118018
+Hostname:    pixelDTB024
+Comment:     
+------------------------------------------------------
+[13:26:31.728]     INFO: RPC call hashes of host and DTB match: 398089610
+[13:26:33.279]     INFO: DUT info: 
+[13:26:33.279]     INFO: The DUT currently contains the following objects:
+[13:26:33.279]     INFO:  2 TBM Cores tbm08c (2 ON)
+[13:26:33.279]     INFO: 	TBM Core alpha (0): 7 registers set
+[13:26:33.279]     INFO: 	TBM Core beta  (1): 7 registers set
+[13:26:33.279]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[13:26:33.279]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.279]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.280]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:26:33.837]     INFO: PixTestCmd::init()
+[13:26:33.855]     INFO: readGainPedestalParameters ./phCalibrationFitErr_C0.dat .. ./phCalibrationFitErr_C15.dat
+[13:26:33.855]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:26:33.884]     INFO: readReadbackCal: ./readbackCal_C0.dat .. ./readbackCal_C15.dat
+[13:26:33.884]     INFO: readGainPedestalParameters ./phCalibrationFitErr_C0.dat .. ./phCalibrationFitErr_C15.dat
+[13:26:33.884]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:26:33.907]     INFO: readGainPedestalParameters ./phCalibrationFitErr_C0.dat .. ./phCalibrationFitErr_C15.dat
+[13:26:33.907]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./phCalibrationFitErr_C0.dat for reading PH calibration constants
+[13:32:08.938]     INFO: Starting IV curve measurement...
+[13:32:08.938]     INFO: Make sure the Keithley2410 is using the following RS232 settings:
+[13:32:08.938]     INFO: 	|Baud Rate: 57600
+[13:32:08.938]     INFO: 	|Bits: 8
+[13:32:08.938]     INFO: 	|Parity: ODD
+[13:32:08.938]     INFO: 	|Terminator: <CR>+<LF>
+[13:32:08.938]     INFO: 	|Control Flow: XON-XOFF
+[13:32:08.938]     INFO: [RS232] Opening com port: /dev/ttyUSB0 with baud: 57600
+[13:32:12.586]     INFO: V = -0.000000 (meas:   +0.00) I = -2.00e-03 uA 2016-02-26 19:32:12.586173000Z
+[13:32:14.186]     INFO: V = -5.000000 (meas:   -5.00) I = -4.19e-03 uA 2016-02-26 19:32:14.186102001Z
+[13:32:15.782]     INFO: V = -10.000000 (meas:  -10.00) I = -6.14e-03 uA 2016-02-26 19:32:15.782104001Z
+[13:32:17.378]     INFO: V = -15.000000 (meas:  -15.00) I = -7.95e-03 uA 2016-02-26 19:32:17.378447000Z
+[13:32:18.973]     INFO: V = -20.000000 (meas:  -20.00) I = -9.80e-03 uA 2016-02-26 19:32:18.973119000Z
+[13:32:20.571]     INFO: V = -25.000000 (meas:  -25.00) I = -1.11e-02 uA 2016-02-26 19:32:20.571065000Z
+[13:32:22.165]     INFO: V = -30.000000 (meas:  -30.00) I = -1.24e-02 uA 2016-02-26 19:32:22.165087000Z
+[13:32:23.763]     INFO: V = -35.000000 (meas:  -35.00) I = -1.36e-02 uA 2016-02-26 19:32:23.763078000Z
+[13:32:25.357]     INFO: V = -40.000000 (meas:  -40.00) I = -1.49e-02 uA 2016-02-26 19:32:25.357078000Z
+[13:32:26.952]     INFO: V = -45.000000 (meas:  -45.00) I = -1.59e-02 uA 2016-02-26 19:32:26.952057000Z
+[13:32:28.546]     INFO: V = -50.000000 (meas:  -50.00) I = -1.66e-02 uA 2016-02-26 19:32:28.546012000Z
+[13:32:30.141]     INFO: V = -55.000000 (meas:  -55.00) I = -1.75e-02 uA 2016-02-26 19:32:30.141034000Z
+[13:32:31.739]     INFO: V = -60.000000 (meas:  -60.00) I = -1.92e-02 uA 2016-02-26 19:32:31.739024000Z
+[13:32:33.334]     INFO: V = -65.000000 (meas:  -65.00) I = -2.38e-02 uA 2016-02-26 19:32:33.333987000Z
+[13:32:34.929]     INFO: V = -70.000000 (meas:  -70.00) I = -3.00e-02 uA 2016-02-26 19:32:34.928969000Z
+[13:32:36.524]     INFO: V = -75.000000 (meas:  -75.00) I = -3.72e-02 uA 2016-02-26 19:32:36.523993000Z
+[13:32:38.117]     INFO: V = -80.000000 (meas:  -80.00) I = -4.20e-02 uA 2016-02-26 19:32:38.117945001Z
+[13:32:39.714]     INFO: V = -85.000000 (meas:  -85.00) I = -4.79e-02 uA 2016-02-26 19:32:39.713953000Z
+[13:32:41.308]     INFO: V = -90.000000 (meas:  -90.00) I = -5.25e-02 uA 2016-02-26 19:32:41.307963000Z
+[13:32:42.903]     INFO: V = -95.000000 (meas:  -95.00) I = -5.67e-02 uA 2016-02-26 19:32:42.903918000Z
+[13:32:44.502]     INFO: V = -100.000000 (meas: -100.00) I = -6.03e-02 uA 2016-02-26 19:32:44.502907000Z
+[13:32:46.097]     INFO: V = -105.000000 (meas: -105.00) I = -6.60e-02 uA 2016-02-26 19:32:46.097930000Z
+[13:32:47.691]     INFO: V = -110.000000 (meas: -110.00) I = -6.35e-02 uA 2016-02-26 19:32:47.691919000Z
+[13:32:49.286]     INFO: V = -115.000000 (meas: -115.00) I = -6.39e-02 uA 2016-02-26 19:32:49.286909001Z
+[13:32:50.885]     INFO: V = -120.000000 (meas: -120.00) I = -6.70e-02 uA 2016-02-26 19:32:50.885902000Z
+[13:32:52.480]     INFO: V = -125.000000 (meas: -125.00) I = -7.09e-02 uA 2016-02-26 19:32:52.480890000Z
+[13:32:54.078]     INFO: V = -130.000000 (meas: -130.00) I = -7.07e-02 uA 2016-02-26 19:32:54.078843000Z
+[13:32:55.677]     INFO: V = -135.000000 (meas: -135.00) I = -7.08e-02 uA 2016-02-26 19:32:55.677865000Z
+[13:32:57.275]     INFO: V = -140.000000 (meas: -140.00) I = -7.30e-02 uA 2016-02-26 19:32:57.275856000Z
+[13:32:58.875]     INFO: V = -145.000000 (meas: -145.00) I = -7.65e-02 uA 2016-02-26 19:32:58.875813000Z
+[13:33:00.472]     INFO: V = -150.000000 (meas: -150.00) I = -7.65e-02 uA 2016-02-26 19:33:00.472821000Z
+[13:33:02.071]     INFO: V = -155.000000 (meas: -155.00) I = -7.90e-02 uA 2016-02-26 19:33:02.071825000Z
+[13:33:03.666]     INFO: V = -160.000000 (meas: -160.00) I = -8.01e-02 uA 2016-02-26 19:33:03.666793000Z
+[13:33:05.265]     INFO: V = -165.000000 (meas: -165.00) I = -8.35e-02 uA 2016-02-26 19:33:05.265781000Z
+[13:33:06.867]     INFO: V = -170.000000 (meas: -170.00) I = -8.06e-02 uA 2016-02-26 19:33:06.867794001Z
+[13:33:08.462]     INFO: V = -175.000000 (meas: -175.00) I = -8.56e-02 uA 2016-02-26 19:33:08.462790001Z
+[13:33:10.060]     INFO: V = -180.000000 (meas: -180.00) I = -8.39e-02 uA 2016-02-26 19:33:10.060771000Z
+[13:33:11.655]     INFO: V = -185.000000 (meas: -185.00) I = -8.48e-02 uA 2016-02-26 19:33:11.655762000Z
+[13:33:13.256]     INFO: V = -190.000000 (meas: -190.00) I = -8.66e-02 uA 2016-02-26 19:33:13.256717001Z
+[13:33:14.854]     INFO: V = -195.000000 (meas: -195.00) I = -8.84e-02 uA 2016-02-26 19:33:14.854741000Z
+[13:33:16.449]     INFO: V = -200.000000 (meas: -200.00) I = -9.04e-02 uA 2016-02-26 19:33:16.449684001Z
+[13:33:18.045]     INFO: V = -205.000000 (meas: -205.00) I = -9.41e-02 uA 2016-02-26 19:33:18.045695001Z
+[13:33:19.639]     INFO: V = -210.000000 (meas: -210.00) I = -9.38e-02 uA 2016-02-26 19:33:19.639676000Z
+[13:33:21.235]     INFO: V = -215.000000 (meas: -215.00) I = -9.51e-02 uA 2016-02-26 19:33:21.235663001Z
+[13:33:22.837]     INFO: V = -220.000000 (meas: -220.00) I = -9.73e-02 uA 2016-02-26 19:33:22.837653001Z
+[13:33:24.434]     INFO: V = -225.000000 (meas: -225.00) I = -9.54e-02 uA 2016-02-26 19:33:24.434686000Z
+[13:33:26.028]     INFO: V = -230.000000 (meas: -230.00) I = -9.55e-02 uA 2016-02-26 19:33:26.028633000Z
+[13:33:27.623]     INFO: V = -235.000000 (meas: -235.00) I = -1.00e-01 uA 2016-02-26 19:33:27.623632001Z
+[13:33:29.223]     INFO: V = -240.000000 (meas: -240.00) I = -1.00e-01 uA 2016-02-26 19:33:29.223612000Z
+[13:33:30.818]     INFO: V = -245.000000 (meas: -245.00) I = -1.01e-01 uA 2016-02-26 19:33:30.818618001Z
+[13:33:32.418]     INFO: V = -250.000000 (meas: -250.00) I = -1.00e-01 uA 2016-02-26 19:33:32.418617000Z
+[13:33:34.012]     INFO: V = -255.000000 (meas: -255.00) I = -1.01e-01 uA 2016-02-26 19:33:34.012612000Z
+[13:33:35.609]     INFO: V = -260.000000 (meas: -260.00) I = -1.02e-01 uA 2016-02-26 19:33:35.609603000Z
+[13:33:37.203]     INFO: V = -265.000000 (meas: -265.00) I = -1.02e-01 uA 2016-02-26 19:33:37.203592000Z
+[13:33:38.799]     INFO: V = -270.000000 (meas: -270.00) I = -1.07e-01 uA 2016-02-26 19:33:38.799585000Z
+[13:33:40.398]     INFO: V = -275.000000 (meas: -275.00) I = -1.11e-01 uA 2016-02-26 19:33:40.398549000Z
+[13:33:41.993]     INFO: V = -280.000000 (meas: -280.00) I = -1.16e-01 uA 2016-02-26 19:33:41.993548000Z
+[13:33:43.591]     INFO: V = -285.000000 (meas: -285.00) I = -1.14e-01 uA 2016-02-26 19:33:43.591517000Z
+[13:33:45.186]     INFO: V = -290.000000 (meas: -290.00) I = -1.45e-01 uA 2016-02-26 19:33:45.186554000Z
+[13:33:46.782]     INFO: V = -295.000000 (meas: -295.00) I = -2.59e-01 uA 2016-02-26 19:33:46.782496000Z
+[13:33:48.380]     INFO: V = -300.000000 (meas: -300.00) I = -6.68e-01 uA 2016-02-26 19:33:48.380518000Z
+[13:33:52.987]     INFO: V = -305.000000 (meas: -305.00) I = -1.91e+00 uA 2016-02-26 19:33:52.987487000Z
+[13:33:54.581]     INFO: V = -310.000000 (meas: -310.00) I = -5.68e+00 uA 2016-02-26 19:33:54.581478001Z
+[13:33:57.681]     INFO: V = -315.000000 (meas: -315.00) I = -1.32e+01 uA 2016-02-26 19:33:57.681456000Z
+[13:33:59.280]     INFO: V = -320.000000 (meas: -320.00) I = -2.00e+01 uA 2016-02-26 19:33:59.280461000Z
+[13:34:00.875]     INFO: V = -325.000000 (meas: -325.00) I = -2.56e+01 uA 2016-02-26 19:34:00.875403000Z
+[13:34:02.476]     INFO: V = -330.000000 (meas: -330.00) I = -3.19e+01 uA 2016-02-26 19:34:02.476426000Z
+[13:34:04.071]     INFO: V = -335.000000 (meas: -335.00) I = -4.39e+01 uA 2016-02-26 19:34:04.071390000Z
+[13:34:05.669]     INFO: V = -340.000000 (meas: -340.00) I = -5.33e+01 uA 2016-02-26 19:34:05.669404001Z
+[13:34:07.265]     INFO: V = -345.000000 (meas: -345.00) I = -6.27e+01 uA 2016-02-26 19:34:07.265392000Z
+[13:34:08.867]     INFO: V = -350.000000 (meas: -350.00) I = -8.35e+01 uA 2016-02-26 19:34:08.867365001Z
+[13:34:10.461]     INFO: V = -355.000000 (meas: -355.00) I = -9.64e+01 uA 2016-02-26 19:34:10.461374000Z
+[13:34:12.098]     INFO: V = -360.000000 (meas: -360.00) I = -1.00e+02 uA 2016-02-26 19:34:12.098361000Z
+[13:34:12.243]  WARNING: Sweep Aborted on Compliance!
+[13:34:12.253]     INFO: PixTestIV::doTest() done 
+[13:35:48.526]    QUIET: Connection to board 24 closed.
