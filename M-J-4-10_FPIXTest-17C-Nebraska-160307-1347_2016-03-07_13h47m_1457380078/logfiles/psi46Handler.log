@@ -1,0 +1,39 @@
+#
+#--------LOG from Mon 07 Mar 2016 at 13h:47m:59s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB2  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB2
+>>> Aquire Testboard 2 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB3  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB3
+>>> Aquire Testboard 3 <<<
+>>> Release Testboard 2 <<<
+:Test 000_FPIXTest_p17 finished in TB2
+>>> Release Testboard 3 <<<
+WARNING: :Test 000_FPIXTest_p17 failed in TB3
+open TB2
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-J-4-10_FPIXTest-17C-Nebraska-160307-1347_2016-03-07_13h47m_1457380078//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 2 <<<
+trying to close TB...
+>>> Release Testboard 2 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB2
+CLOSE TB 2 HERE
+open TB3
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-H-2-32_FPIXTest-17C-Nebraska-160307-1347_2016-03-07_13h47m_1457380078//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 3 <<<
+:Test 001_IV_p17 finished in TB2
+trying to close TB...
+>>> Release Testboard 3 <<<
+done, failed = True
+WARNING: :Test 001_IV_p17 failed in TB3
+CLOSE TB 3 HERE
+WARNING: :Test 001_IV_p17 failed in TB3
+exit
+:Test  finished in TB0
+:Test  finished in TB1
+:Test 001_IV_p17 finished in TB2
+WARNING: :Test 001_IV_p17 failed in TB3
+waiting for client to be closed...
+done
