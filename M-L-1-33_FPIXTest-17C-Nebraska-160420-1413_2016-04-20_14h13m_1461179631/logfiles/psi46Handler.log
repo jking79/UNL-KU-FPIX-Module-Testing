@@ -1,0 +1,27 @@
+#
+#--------LOG from Wed 20 Apr 2016 at 14h:13m:52s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB3  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB3
+>>> Aquire Testboard 3 <<<
+psi46@TB3 >> Detached kernel driver from selected testboard.
+>>> Release Testboard 3 <<<
+:Test 000_FPIXTest_p17 finished in TB3
+:Test 000_FPIXTest_p17 finished in TB3
+open TB3
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-L-1-33_FPIXTest-17C-Nebraska-160420-1413_2016-04-20_14h13m_1461179631//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 3 <<<
+trying to close TB...
+>>> Release Testboard 3 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB3
+CLOSE TB 3 HERE
+:Test 001_IV_p17 finished in TB3
+exit
+:Test  finished in TB0
+:Test  finished in TB1
+:Test  finished in TB2
+:Test 001_IV_p17 finished in TB3
+waiting for client to be closed...
+done
