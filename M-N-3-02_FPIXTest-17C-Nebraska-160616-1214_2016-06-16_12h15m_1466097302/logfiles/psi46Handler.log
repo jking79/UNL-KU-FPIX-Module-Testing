@@ -1,0 +1,69 @@
+#
+#--------LOG from Thu 16 Jun 2016 at 12h:15m:02s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB0  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB0
+>>> Aquire Testboard 0 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB1  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB1
+>>> Aquire Testboard 1 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB2  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB2
+>>> Aquire Testboard 2 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB3  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB3
+>>> Aquire Testboard 3 <<<
+>>> Release Testboard 2 <<<
+:Test 000_FPIXTest_p17 finished in TB2
+:Test 000_FPIXTest_p17 finished in TB2
+>>> Release Testboard 0 <<<
+:Test 000_FPIXTest_p17 finished in TB0
+>>> Release Testboard 1 <<<
+:Test 000_FPIXTest_p17 finished in TB1
+:Test 000_FPIXTest_p17 finished in TB1
+>>> Release Testboard 3 <<<
+:Test 000_FPIXTest_p17 finished in TB3
+open TB0
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-P-3-48_FPIXTest-17C-Nebraska-160616-1214_2016-06-16_12h15m_1466097302//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 0 <<<
+trying to close TB...
+>>> Release Testboard 0 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB0
+CLOSE TB 0 HERE
+open TB1
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-N-3-02_FPIXTest-17C-Nebraska-160616-1214_2016-06-16_12h15m_1466097302//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 1 <<<
+:Test 001_IV_p17 finished in TB0
+trying to close TB...
+>>> Release Testboard 1 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB1
+CLOSE TB 1 HERE
+open TB2
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-P-4-08_FPIXTest-17C-Nebraska-160616-1214_2016-06-16_12h15m_1466097302//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 2 <<<
+:Test 001_IV_p17 finished in TB1
+trying to close TB...
+>>> Release Testboard 2 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB2
+CLOSE TB 2 HERE
+open TB3
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-P-4-44_FPIXTest-17C-Nebraska-160616-1214_2016-06-16_12h15m_1466097302//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 3 <<<
+:Test 001_IV_p17 finished in TB2
+trying to close TB...
+>>> Release Testboard 3 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB3
+CLOSE TB 3 HERE
+:Test 001_IV_p17 finished in TB3
+exit
+:Test 001_IV_p17 finished in TB0
+:Test 001_IV_p17 finished in TB1
+:Test 001_IV_p17 finished in TB2
+:Test 001_IV_p17 finished in TB3
+waiting for client to be closed...
+done
