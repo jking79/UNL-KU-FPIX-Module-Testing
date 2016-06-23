@@ -1,0 +1,160 @@
+#
+#--------LOG from Thu 23 Jun 2016 at 12h:21m:36s ---------
+#
+WARNING: cannot upload data since no all needed options are defined: section 'Transfer', options: 'host,'port','user','destination'
+Subserver is running.
+
+Setting up agente psiAgente ...
+	- Testboard 0 at address DTB_WWXGRB with Module M-N-2-24 reading configuration from Module_Production 
+	- Testboard 1 at address DTB_WRECOM with Module M-P-5-38 reading configuration from Module_Production 
+	- Testboard 2 at address DTB_WWXLHF with Module M-N-2-36 reading configuration from Module_Production 
+	- Testboard 3 at address DTB_WRE7QJ with Module M-P-4-05 reading configuration from Module_Production 
+Setting up agente highVoltageAgente ...
+Setting up agente watchDogAgente ...
+Setting up agente analysisAgente ...
+Setting up agente coolingBoxAgente ...
+
+Checking whether clients are runnning ...
+using default xterm config parameters
+Starting psiClient ...
+highVoltageAgente: Starting keithleyClient..."xterm  -T 'HighVoltage' +sb -geometry 80x25+1200+1300 -fs 10 -fa 'Mono' -e ../..//elComandante/keithleyClient//keithleyClient.py -d /dev/ttyUSB0 -dir ../..//allTestResults//logfiles/ -ts 1466702496 -iV -150.0" 
+Starting coolingBoxClient ...
+Command: 'xterm -T 'CoolingBox' +sb -geometry 120x25+1200+0 -fs 10 -fa 'Mono' -e '../..//elComandante/coolingBox//coolingBoxClient.py -d /dev/ttyUSB2  -dir ../..//allTestResults/logfiles''
+
+Checking subscriptions of the clients ...
+	/jumo is answering.
+	/psi is answering.
+	/keithley is answering.
+	/el_agente is answering.
+	/analysis is answering.
+	/jumo is answering.
+----------------
+
+The following testboards with modules were found:
+
+	- Testboard 0 at address DTB_WWXGRB with module M-N-2-24
+	- Testboard 1 at address DTB_WRECOM with module M-P-5-38
+	- Testboard 2 at address DTB_WWXLHF with module M-N-2-36
+	- Testboard 3 at address DTB_WRE7QJ with module M-P-4-05
+
+The following tests will be executed:
+
+	- FPIXTest@17
+	- IV_0@17
+	- IV_1@17
+	- IV_2@17
+	- IV_3@17
+----------------
+
+Test 1/5: FPIXTest@17
+
+Preparing test FPIXTest@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-N-2-24_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+Setting up the directory: /home/silpix5/allTestResults/M-P-5-38_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+Setting up the directory: /home/silpix5/allTestResults/M-N-2-36_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+Setting up the directory: /home/silpix5/allTestResults/M-P-4-05_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1466702612
+Preparation took 108 seconds (1 min 48 sec)
+
+Executing test FPIXTest@17 ...
+
+Test took 5336 seconds (88 min 56 sec)
+Cleaning up after test FPIXTest@17 ...
+----------------
+
+Test 2/5: IV_0@17
+
+Preparing test IV_0@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-N-2-24_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 0 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1466707952
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_0@17 ...
+	--> IV-Curve FINISHED
+
+Test took 236 seconds (3 min 56 sec)
+Cleaning up after test IV_0@17 ...
+psiAgente: Closing Testboard 0 ...
+----------------
+
+Test 3/5: IV_1@17
+
+Preparing test IV_1@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-P-5-38_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 1 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1466708192
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_1@17 ...
+	--> IV-Curve FINISHED
+
+Test took 342 seconds (5 min 42 sec)
+Cleaning up after test IV_1@17 ...
+psiAgente: Closing Testboard 1 ...
+----------------
+
+Test 4/5: IV_2@17
+
+Preparing test IV_2@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-N-2-36_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 2 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1466708537
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_2@17 ...
+	--> IV-Curve FINISHED
+
+Test took 252 seconds (4 min 12 sec)
+Cleaning up after test IV_2@17 ...
+psiAgente: Closing Testboard 2 ...
+----------------
+
+Test 5/5: IV_3@17
+
+Preparing test IV_3@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-P-4-05_FPIXTest-17C-Nebraska-160623-1221_2016-06-23_12h21m_1466702496//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 3 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1466708792
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_3@17 ...
+	--> IV-Curve FINISHED
+
+Test took 285 seconds (4 min 45 sec)
+Cleaning up after test IV_3@17 ...
+psiAgente: Closing Testboard 3 ...
+----------------
+
+Final cleanup after all tests ...
+coolingBoxAgente: Temperature stable at 1466709186
+Press ENTER when instructed to do so by the twiki
+----------------
+
+Finished all tests. Summary of test durations:
+    FPIXTest@17                      90 min 45 sec
+    IV_0@17                           3 min 59 sec
+    IV_1@17                           5 min 45 sec
+    IV_2@17                           4 min 15 sec
+    IV_3@17                           4 min 48 sec
+  --------------------------------------------------
+    total                           109 min 34 sec
+Press ENTER to terminate the clients. 
+Asking clients to quit ...
+Subsystem connection closed.
+... ...
+----------------
+
