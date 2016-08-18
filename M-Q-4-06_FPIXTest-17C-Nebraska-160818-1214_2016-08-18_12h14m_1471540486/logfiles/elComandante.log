@@ -1,0 +1,138 @@
+#
+#--------LOG from Thu 18 Aug 2016 at 12h:14m:46s ---------
+#
+WARNING: cannot upload data since no all needed options are defined: section 'Transfer', options: 'host,'port','user','destination'
+Subserver is running.
+
+Setting up agente psiAgente ...
+	- Testboard 1 at address DTB_WRECOM with Module M-Q-4-48 reading configuration from Module_Production 
+	- Testboard 2 at address DTB_WWXLHF with Module M-Q-4-06 reading configuration from Module_Production 
+	- Testboard 3 at address DTB_WRE7QJ with Module M-Q-6-47 reading configuration from Module_Production 
+Setting up agente highVoltageAgente ...
+Setting up agente watchDogAgente ...
+Setting up agente analysisAgente ...
+Setting up agente coolingBoxAgente ...
+
+Checking whether clients are runnning ...
+using default xterm config parameters
+Starting psiClient ...
+highVoltageAgente: Starting keithleyClient..."xterm  -T 'HighVoltage' +sb -geometry 80x25+1200+1300 -fs 10 -fa 'Mono' -e ../..//elComandante/keithleyClient//keithleyClient.py -d /dev/ttyUSB0 -dir ../..//allTestResults//logfiles/ -ts 1471540486 -iV -150.0" 
+Starting coolingBoxClient ...
+Command: 'xterm -T 'CoolingBox' +sb -geometry 120x25+1200+0 -fs 10 -fa 'Mono' -e '../..//elComandante/coolingBox//coolingBoxClient.py -d /dev/ttyUSB2  -dir ../..//allTestResults/logfiles''
+
+Checking subscriptions of the clients ...
+	/jumo is answering.
+	/psi is answering.
+	/keithley is answering.
+	/el_agente is answering.
+	/analysis is answering.
+	/jumo is answering.
+----------------
+
+The following testboards with modules were found:
+
+	- Testboard 1 at address DTB_WRECOM with module M-Q-4-48
+	- Testboard 2 at address DTB_WWXLHF with module M-Q-4-06
+	- Testboard 3 at address DTB_WRE7QJ with module M-Q-6-47
+
+The following tests will be executed:
+
+	- FPIXTest@17
+	- IV_1@17
+	- IV_2@17
+	- IV_3@17
+----------------
+
+Test 1/4: FPIXTest@17
+
+Preparing test FPIXTest@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-Q-4-48_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+Setting up the directory: /home/silpix5/allTestResults/M-Q-4-06_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+Setting up the directory: /home/silpix5/allTestResults/M-Q-6-47_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1471540595
+Preparation took 102 seconds (1 min 42 sec)
+
+Executing test FPIXTest@17 ...
+
+psiAgente:  self.Testboards[2] failed- the following boards are busy: True: [1, 2, 3]-[False, False, False]
+
+Test took 8441 seconds (140 min 41 sec)
+Cleaning up after test FPIXTest@17 ...
+----------------
+
+Test 2/4: IV_1@17
+
+Preparing test IV_1@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-Q-4-48_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 1 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1471549042
+Preparation took 4 seconds (0 min 4 sec)
+
+Executing test IV_1@17 ...
+	--> IV-Curve FINISHED
+
+Test took 210 seconds (3 min 30 sec)
+Cleaning up after test IV_1@17 ...
+psiAgente: Closing Testboard 1 ...
+----------------
+
+Test 3/4: IV_2@17
+
+Preparing test IV_2@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-Q-4-06_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 2 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1471549255
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_2@17 ...
+	--> IV-Curve FINISHED
+
+Test took 268 seconds (4 min 28 sec)
+Cleaning up after test IV_2@17 ...
+psiAgente: Closing Testboard 2 ...
+----------------
+
+Test 4/4: IV_3@17
+
+Preparing test IV_3@17 ...
+Setting up the directory: /home/silpix5/allTestResults/M-Q-6-47_FPIXTest-17C-Nebraska-160818-1214_2016-08-18_12h14m_1471540486//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/Module_Production
+psiAgente: Opening Testboard 3 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1471549527
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_3@17 ...
+	--> IV-Curve FINISHED
+
+Test took 284 seconds (4 min 44 sec)
+Cleaning up after test IV_3@17 ...
+psiAgente: Closing Testboard 3 ...
+----------------
+
+Final cleanup after all tests ...
+coolingBoxAgente: Temperature stable at 1471549918
+Press ENTER when instructed to do so by the twiki
+----------------
+
+Finished all tests. Summary of test durations:
+    FPIXTest@17                     142 min 24 sec
+    IV_1@17                           3 min 35 sec
+    IV_2@17                           4 min 31 sec
+    IV_3@17                           4 min 47 sec
+  --------------------------------------------------
+    total                           155 min 18 sec
+Press ENTER to terminate the clients. 
+Asking clients to quit ...
+Subsystem connection closed.
+... ...
+----------------
+
