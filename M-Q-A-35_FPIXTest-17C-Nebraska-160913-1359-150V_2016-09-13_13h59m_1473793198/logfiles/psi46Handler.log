@@ -1,0 +1,40 @@
+#
+#--------LOG from Tue 13 Sep 2016 at 14h:00m:00s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB0  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB0
+>>> Aquire Testboard 0 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB1  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB1
+>>> Aquire Testboard 1 <<<
+>>> Release Testboard 0 <<<
+:Test 000_FPIXTest_p17 finished in TB0
+:Test 000_FPIXTest_p17 finished in TB0
+>>> Release Testboard 1 <<<
+:Test 000_FPIXTest_p17 finished in TB1
+open TB0
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-Q-A-29_FPIXTest-17C-Nebraska-160913-1359-150V_2016-09-13_13h59m_1473793198//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 0 <<<
+trying to close TB...
+>>> Release Testboard 0 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB0
+CLOSE TB 0 HERE
+open TB1
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-Q-A-35_FPIXTest-17C-Nebraska-160913-1359-150V_2016-09-13_13h59m_1473793198//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 1 <<<
+:Test 001_IV_p17 finished in TB0
+trying to close TB...
+>>> Release Testboard 1 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB1
+CLOSE TB 1 HERE
+:Test 001_IV_p17 finished in TB1
+exit
+:Test 001_IV_p17 finished in TB0
+:Test 001_IV_p17 finished in TB1
+:Test  finished in TB2
+:Test  finished in TB3
+waiting for client to be closed...
+done
