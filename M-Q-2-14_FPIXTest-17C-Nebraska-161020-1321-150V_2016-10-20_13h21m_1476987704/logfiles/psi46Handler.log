@@ -1,0 +1,54 @@
+#
+#--------LOG from Thu 20 Oct 2016 at 13h:21m:45s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB1  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB1
+>>> Aquire Testboard 1 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB2  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB2
+>>> Aquire Testboard 2 <<<
+got command to execute /home/silpix5/elComandante/config/tests/FPIXTest in TB3  -- 0:FPIXTest
+executing psi46 /home/silpix5/elComandante/config/tests/FPIXTest in TB3
+>>> Aquire Testboard 3 <<<
+>>> Release Testboard 1 <<<
+WARNING: :Test 000_FPIXTest_p17 failed in TB1
+WARNING: :Test 000_FPIXTest_p17 failed in TB1
+>>> Release Testboard 2 <<<
+:Test 000_FPIXTest_p17 finished in TB2
+>>> Release Testboard 3 <<<
+:Test 000_FPIXTest_p17 finished in TB3
+open TB1
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-Q-1-32_FPIXTest-17C-Nebraska-161020-1321-150V_2016-10-20_13h21m_1476987704//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 1 <<<
+trying to close TB...
+>>> Release Testboard 1 <<<
+done, failed = True
+WARNING: :Test 001_IV_p17 failed in TB1
+CLOSE TB 1 HERE
+open TB2
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-Q-2-14_FPIXTest-17C-Nebraska-161020-1321-150V_2016-10-20_13h21m_1476987704//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 2 <<<
+WARNING: :Test 001_IV_p17 failed in TB1
+trying to close TB...
+>>> Release Testboard 2 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB2
+CLOSE TB 2 HERE
+open TB3
+exec string  = ../..//pxar/bin/pXar -d /home/silpix5/allTestResults/M-Q-2-20_FPIXTest-17C-Nebraska-161020-1321-150V_2016-10-20_13h21m_1476987704//001_IV_p17/  -r  IV.root
+>>> Aquire Testboard 3 <<<
+:Test 001_IV_p17 finished in TB2
+trying to close TB...
+>>> Release Testboard 3 <<<
+done, failed = False
+:Test 001_IV_p17 finished in TB3
+CLOSE TB 3 HERE
+:Test 001_IV_p17 finished in TB3
+exit
+:Test  finished in TB0
+WARNING: :Test 001_IV_p17 failed in TB1
+:Test 001_IV_p17 finished in TB2
+:Test 001_IV_p17 finished in TB3
+waiting for client to be closed...
+done
